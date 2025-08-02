@@ -1,0 +1,587 @@
+{
+  "Sun-Moon": {
+    "Conjunction": "Güneş ve Ay'ın kavuşumu (Yeni Ay fazı), bilinçli kimlik ile duygusal ihtiyaçların birleştiğini gösterir. Kişinin iradesi ve duyguları aynı yönde hareket eder. Bu, büyük bir içsel bütünlük ve kararlılık verse de, olaylara objektif bakmakta zorlanmaya ve aşırı sübjektifliğe yol açabilir.",
+    "Sextile": "Güneş ve Ay arasındaki sekstil açı, bilinçli amaçlar ile duygusal ihtiyaçlar arasında uyumlu bir diyalog ve fırsat yaratır. Kişi, ne istediğini ve neye ihtiyacı olduğunu kolayca anlar ve bu ikisini dengelemek için doğal bir yeteneğe sahiptir. Sosyal ilişkilerde ve kendini ifadede rahatlık verir.",
+    "Square": "Güneş ve Ay arasındaki kare açı, bilinçli irade ile duygusal ihtiyaçlar arasında temel bir içsel çatışmayı gösterir. Kişi, istedikleri ile ihtiyaç duydukları arasında bölünmüş hissedebilir. Bu gerilim, büyümeyi ve duygusal olgunluğu tetikleyen en önemli dinamiklerden biridir.",
+    "Trine": "Güneş ve Ay arasındaki üçgen açı, bilinçli kimlik ile duygusal doğa arasında zahmetsiz bir uyum ve akış sağlar. Kişi, doğuştan gelen bir iç huzura ve kendine güvene sahiptir. Hayatın zorluklarıyla daha kolay başa çıkar ve genellikle popüler ve sevilen biridir.",
+    "Opposition": "Güneş ve Ay'ın karşıtlığı (Dolunay fazı), bilinçli kimlik ile duygusal ihtiyaçlar arasında bir kutuplaşma ve denge arayışı yaratır. Kişi, kendi içindeki bu çekişmeyi anlamak için ilişkileri bir ayna olarak kullanır. Objektiflik ve farkındalık kazanmak bu açının ana dersidir.",
+    "Parallel": "Güneş ve Ay Paralel açısı, bilinçli kimlik ile duygusal ihtiyaçlar arasında güçlü ve doğal bir sinerji yaratır. Tıpkı bir kavuşum gibi, kişinin iradesi ve duyguları aynı yönde hareket eder. Bu, hayatta ne istediğini bilme ve bunu hissetme konusunda büyük bir tutarlılık verir.",
+    "Contra-Parallel": "Güneş ve Ay Kontra-Paralel açısı, bilinçli kimlik ile duygusal ihtiyaçlar arasında bir denge ve farkındalık arayışını gösterir. Tıpkı bir karşıt açı gibi, kişi bu iki enerjiyi bütünleştirmek için çaba göstermelidir. İlişkiler, bu içsel dengeyi bulmada önemli bir rol oynar."
+  },
+  "Sun-Mercury": {
+    "Conjunction": "Güneş ve Merkür'ün kavuşumu, zihin ile kimliği birleştirir. Düşünceler son derece kişisel ve sübjektiftir. Kişi kendini büyük bir özgüvenle ifade eder ancak başkalarının bakış açılarını anlamakta zorlanabilir. Fikirleri, egosunun bir uzantısıdır.",
+    "Sextile": "Güneş ve Merkür arasındaki sekstil açı, zihin ile irade arasında akıcı bir iletişim sağlar. Fikirleri ifade etme, plan yapma ve öğrenme konusunda doğal bir yetenek vardır. Zihinsel olarak meraklı ve esnektir.",
+    "Square": "Güneş ve Merkür arasındaki kare açı, irade ile zihin arasında bir gerilim yaratır. Kişi, düşündüklerini ifade ederken yanlış anlaşılabilir veya egosu nedeniyle iletişim sorunları yaşayabilir. Sinirsel gerginlik ve zihinsel kibir görülebilir.",
+    "Trine": "Güneş ve Merkür arasındaki üçgen açı, zihin ile kimlik arasında doğal bir uyum sağlar. Kendini ifade etme yeteneği güçlü ve akıcıdır. Mantıklı düşünür ve fikirleri genellikle çevresi tarafından kolayca kabul edilir.",
+    "Opposition": "Güneş ve Merkür'ün karşıtlığı, kişinin kendi fikirleri ile başkalarının fikirleri arasında bir denge kurma ihtiyacını gösterir. Tartışmalara ve zihinsel düellolara çekilebilir. Objektif bir bakış açısı geliştirmek için başkalarını dinlemesi gerekir.",
+    "Parallel": "Güneş ve Merkür Paralel açısı, zihin ve irade arasında güçlü bir birliktelik yaratır. Düşünceler ve kimlik o kadar iç içedir ki, kişi fikirlerini büyük bir otorite ile ifade eder. Tıpkı bir kavuşum gibi, sübjektif düşünmeye eğilim verir.",
+    "Contra-Parallel": "Güneş ve Merkür Kontra-Paralel açısı, kişinin kendi fikirleri ile başkalarının bakış açıları arasında bir denge kurma zorunluluğunu gösterir. Tıpkı bir karşıt açı gibi, iletişimde objektiflik ve diplomasi geliştirmeyi gerektirir."
+  },
+  "Sun-Venus": {
+    "Conjunction": "Güneş ve Venüs'ün kavuşumu, kimlik ile sevgi ve değerleri birleştirir. Kişiye doğal bir çekicilik, zarafet ve sosyallik verir. Sanata ve güzelliğe düşkündür. Bazen narsist veya kendini beğenmiş olabilir.",
+    "Sextile": "Güneş ve Venüs arasındaki sekstil açı, kimlik ile sosyal beceriler arasında uyumlu bir fırsat yaratır. Kişi diplomatik, sevimli ve ilişkilerde başarılıdır. Sosyal ortamlarda kolayca popülerlik kazanır.",
+    "Square": "Güneş ve Venüs arasındaki kare açı, kişisel kimlik ile ilişkiler ve değerler arasında bir sürtüşme yaratır. Sevgi ve onaylanma ihtiyacı ile benlik saygısı arasında çatışma yaşayabilir. İlişkilerde ve finansta zorluklar görülebilir.",
+    "Trine": "Güneş ve Venüs arasındaki üçgen açı, kimlik ile sevgi doğası arasında zahmetsiz bir uyum sağlar. Kişi doğuştan çekici, sanatsal ve sevecendir. Hayattan zevk alma ve mutlu ilişkiler kurma potansiyeli yüksektir.",
+    "Opposition": "Güneş ve Venüs'ün karşıtlığı, kişinin kendi ihtiyaçları ile partnerinin ihtiyaçları arasında bir denge kurma gerekliliğini gösterir. İlişkiler kimliğin merkezindedir ve kişi kendini bir ortak aracılığıyla tanımlama eğilimindedir.",
+    "Parallel": "Güneş ve Venüs Paralel açısı, kimlik ve sevgi doğası arasında güçlü bir sinerji yaratır. Tıpkı bir kavuşum gibi, bu açı da kişiye doğal bir karizma, popülerlik ve sanatsal bir yetenek verir. Kendini sevme ve değer verme kapasitesi yüksektir.",
+    "Contra-Parallel": "Güneş ve Venüs Kontra-Paralel açısı, kişisel kimlik ile ilişki kurma ihtiyacı arasında bir denge bulma temasını vurgular. Tıpkı bir karşıt açı gibi, kişi kendi değerleri ile başkalarının değerlerini uzlaştırmayı öğrenmelidir."
+  },
+  "Sun-Mars": {
+    "Conjunction": "Güneş ve Mars'ın kavuşumu, irade ile eylemi birleştirir. Muazzam bir enerji, cesaret ve iddia gücü verir. Liderlik yeteneği güçlüdür ancak aceleci, bencil ve kavgacı olabilir.",
+    "Sextile": "Güneş ve Mars arasındaki sekstil açı, irade ile eylem arasında dinamik bir fırsat yaratır. Enerjisini yapıcı bir şekilde kullanma ve hedeflerine ulaşma konusunda yeteneklidir. Cesur ve kendine güvenlidir.",
+    "Square": "Güneş ve Mars arasındaki kare açı, irade ile arzu arasında bir çatışma yaratır. Kişi öfkeli, sabırsız ve kaza yapmaya meyilli olabilir. Egosu ve arzuları sürekli bir savaş halindedir. Bu enerji, büyük başarılar için kullanılabilir.",
+    "Trine": "Güneş ve Mars arasındaki üçgen açı, irade ile eylem arasında doğal bir uyum sağlar. Kişi enerjik, cesur ve hedeflerine kolayca ulaşır. Doğuştan liderdir ve fiziksel aktivitelerde başarılıdır.",
+    "Opposition": "Güneş ve Mars'ın karşıtlığı, kişinin kendi iradesi ile başkalarının iradesi arasında bir çatışma ve rekabet ortamı yaratır. Güç savaşlarına eğilimlidir. İşbirliği yapmayı ve enerjisini başkalarıyla dengelemeyi öğrenmelidir.",
+    "Parallel": "Güneş ve Mars Paralel açısı, irade gücü ile fiziksel enerjiyi birleştirir. Tıpkı bir kavuşum gibi, bu açı kişiye muazzam bir cesaret, dayanıklılık ve liderlik kapasitesi verir. Enerjisini odaklama konusunda çok başarılıdır.",
+    "Contra-Parallel": "Güneş ve Mars Kontra-Paralel açısı, kişisel irade ile doğrudan eylem arasında bir denge kurma zorunluluğunu gösterir. Tıpkı bir karşıt açı gibi, rekabet ve çatışma yoluyla uzlaşmayı ve işbirliğini öğrenme temasını vurgular."
+  },
+  "Sun-Jupiter": {
+    "Conjunction": "Güneş ve Jüpiter'in kavuşumu, kimlik ile büyümeyi ve iyimserliği birleştirir. Kişiye büyük bir özgüven, cömertlik ve şans verir. Hayata karşı coşkulu bir yaklaşımı vardır ancak abartıya ve aşırı güvene kapılabilir.",
+    "Sextile": "Güneş ve Jüpiter arasındaki sekstil açı, kimlik ile büyüme fırsatları arasında uyumlu bir bağ kurar. Kişi eğitim, seyahat ve felsefi arayışlar yoluyla kendini geliştirme potansiyeline sahiptir. İyimser ve vizyonerdir.",
+    "Square": "Güneş ve Jüpiter arasındaki kare açı, ego ile abartı arasında bir gerilim yaratır. Kişi aşırı özgüvenli, sorumsuz ve vaatlerini tutmakta zorlanan biri olabilir. İnançları ve ahlaki değerleri konusunda içsel çatışmalar yaşayabilir.",
+    "Trine": "Güneş ve Jüpiter arasındaki üçgen açı, kimlik ile şans arasında doğal bir uyum sağlar. Kişi doğuştan iyimser, cömert ve şanslıdır. Hayat ona genellikle cömert davranır ve büyük bir vizyona sahiptir.",
+    "Opposition": "Güneş ve Jüpiter'in karşıtlığı, kişinin kendi inançları ile başkalarının inançları arasında bir denge kurma ihtiyacını gösterir. Abartıya ve aşırıya kaçma eğilimi vardır. Felsefi ve ahlaki konularda başkalarından çok şey öğrenebilir.",
+    "Parallel": "Güneş ve Jüpiter Paralel açısı, kimlik ve genişleme prensibini birleştirir. Tıpkı bir kavuşum gibi, bu açı da kişiye büyük bir iyimserlik, kendine güven ve doğal bir şans verir. Hayata 'büyük' bakma eğilimindedir.",
+    "Contra-Parallel": "Güneş ve Jüpiter Kontra-Paralel açısı, kişisel büyüme ile toplumsal normlar veya başkalarının inançları arasında bir denge kurma ihtiyacını vurgular. Tıpkı bir karşıt açı gibi, abartıdan kaçınmayı ve gerçekçi bir iyimserlik geliştirmeyi öğretir."
+  },
+  "Sun-Saturn": {
+    "Conjunction": "Güneş ve Satürn'ün kavuşumu, kimlik ile yapıyı ve disiplini birleştirir. Kişiye büyük bir sorumluluk duygusu, ciddiyet ve dayanıklılık verir. Ancak özgüven eksikliği, karamsarlık ve kendini eleştirme eğilimi de görülebilir.",
+    "Sextile": "Güneş ve Satürn arasındaki sekstil açı, irade ile disiplin arasında pratik bir işbirliği sağlar. Kişi hedeflerine ulaşmak için sabırla ve metodik bir şekilde çalışır. Olgun ve güvenilir bir yapıya sahiptir.",
+    "Square": "Güneş ve Satürn arasındaki kare açı, kimlik ile kısıtlamalar arasında temel bir çatışma yaratır. Kişi kendini ifade etme konusunda engellenmiş veya yetersiz hissedebilir. Otorite figürleriyle (özellikle baba) sorunlar yaşanabilir. Bu, karakteri güçlendiren bir açıdır.",
+    "Trine": "Güneş ve Satürn arasındaki üçgen açı, kimlik ile sorumluluk arasında doğal bir uyum sağlar. Kişi doğuştan disiplinli, sabırlı ve güvenilirdir. Hayatta sağlam yapılar kurma ve hedeflerine istikrarlı bir şekilde ulaşma yeteneği vardır.",
+    "Opposition": "Güneş ve Satürn'ün karşıtlığı, kişinin kendi iradesi ile toplumun veya başkalarının beklentileri arasında bir denge kurma zorunluluğunu gösterir. Sorumluluklar altında ezilmiş hissedebilir. İlişkilerde ve ortaklıklarda ciddiyet ve yapı arar.",
+    "Parallel": "Güneş ve Satürn Paralel açısı, irade ve disiplini bir araya getirir. Tıpkı bir kavuşum gibi, bu açı kişiye büyük bir ciddiyet, sorumluluk duygusu ve organizasyon yeteneği verir. Hayata karşı temkinli ve yapılandırılmış bir yaklaşım sergiler.",
+    "Contra-Parallel": "Güneş ve Satürn Kontra-Paralel açısı, kişisel ifade arzusu ile sorumluluklar veya korkular arasında bir denge kurma temasını işler. Tıpkı bir karşıt açı gibi, kişi kendi otoritesini kurmak için dış engellerle yüzleşmek zorunda kalır."
+  },
+  "Sun-Uranus": {
+    "Conjunction": "Güneş ve Uranüs'ün kavuşumu, kimlik ile özgünlüğü ve isyanı birleştirir. Kişi son derece bağımsız, orijinal ve geleneklere karşıdır. Ani ve beklenmedik davranışlar sergileyebilir. Özgürlük en büyük ihtiyacıdır.",
+    "Sextile": "Güneş ve Uranüs arasındaki sekstil açı, kimlik ile yenilik arasında heyecan verici fırsatlar yaratır. Kişi özgün fikirlerini ifade etme ve hayatına heyecan katma konusunda yeteneklidir. Gruplar ve arkadaşlar aracılığıyla kendini geliştirir.",
+    "Square": "Güneş ve Uranüs arasındaki kare açı, kişisel irade ile özgürlük arzusu arasında bir gerilim yaratır. Kişi isyankar, istikrarsız ve otoriteye karşı gelen bir yapıya sahip olabilir. Ani kopuşlar ve beklenmedik olaylar hayatının bir parçasıdır.",
+    "Trine": "Güneş ve Uranüs arasındaki üçgen açı, kimlik ile özgünlük arasında doğal bir uyum sağlar. Kişi doğuştan yenilikçi, ilerici ve bağımsızdır. Değişimi kucaklar ve kendi eşsiz yolunu kolayca bulur.",
+    "Opposition": "Güneş ve Uranüs'ün karşıtlığı, kişinin kendi özgürlük ihtiyacı ile başkalarının veya toplumun beklentileri arasında bir çatışma yaratır. İlişkilerde ani başlangıçlar ve bitişler yaşayabilir. İşbirliği içinde özgür olmayı öğrenmelidir.",
+    "Parallel": "Güneş ve Uranüs Paralel açısı, irade ve özgürlük arzusunu güçlü bir şekilde birleştirir. Tıpkı bir kavuşum gibi, bu açı kişiye güçlü bir bireysellik, icat yeteneği ve reformist bir ruh verir. Beklenmedik ve orijinaldir.",
+    "Contra-Parallel": "Güneş ve Uranüs Kontra-Paralel açısı, kişisel özgürlük ihtiyacı ile sosyal uyum veya ilişkiler arasında bir denge kurma zorunluluğunu gösterir. Tıpkı bir karşıt açı gibi, kişi isyan etmekle işbirliği yapmak arasında gidip gelir."
+  },
+  "Sun-Neptune": {
+    "Conjunction": "Güneş ve Neptün'ün kavuşumu, kimlik ile hayalleri ve maneviyatı birleştirir. Kişiye büyük bir hayal gücü, sezgi ve merhamet verir. Sanatsal ve ruhsal potansiyeli yüksektir. Ancak kimlik karmaşası, gerçeklerden kaçma ve aldanmaya açıklık görülebilir.",
+    "Sextile": "Güneş ve Neptün arasındaki sekstil açı, irade ile ilham arasında uyumlu bir akış sağlar. Yaratıcılık, sezgi ve manevi arayışlar için fırsatlar sunar. Empati yeteneği güçlüdür.",
+    "Square": "Güneş ve Neptün arasındaki kare açı, kimlik ile yanılsamalar arasında bir gerilim yaratır. Kişi kendini kandırma, hayal kırıklığı ve enerji düşüklüğü yaşayabilir. Kim olduğu konusunda belirsizlikler ve karmaşa hissedebilir.",
+    "Trine": "Güneş ve Neptün arasındaki üçgen açı, kimlik ile maneviyat arasında doğal bir uyum sağlar. Kişi doğuştan sezgisel, sanatsal ve merhametlidir. Evrenle bir bütünlük hissi ve güçlü bir ilham kaynağı vardır.",
+    "Opposition": "Güneş ve Neptün'ün karşıtlığı, kişinin kendi kimliği ile başkalarını idealleştirme arasında bir denge kurma ihtiyacını gösterir. İlişkilerde kurtarıcı veya kurban rolüne bürünebilir. Gerçeklik ile hayali ayırt etmeyi öğrenmelidir.",
+    "Parallel": "Güneş ve Neptün Paralel açısı, irade ve hayal gücünü bir araya getirir. Tıpkı bir kavuşum gibi, bu açı kişiye yüksek bir duyarlılık, sanatsal ilham ve sezgisel bir doğa verir. Ancak, kimlikte belirsizlik ve gerçeklerden kaçma potansiyeli de taşır.",
+    "Contra-Parallel": "Güneş ve Neptün Kontra-Paralel açısı, kişisel kimlik ile fedakarlık veya ruhsal idealler arasında bir denge kurma temasını işler. Tıpkı bir karşıt açı gibi, kişi hayal kırıklıkları yoluyla gerçekliği ve sınırları öğrenir."
+  },
+  "Sun-Pluto": {
+    "Conjunction": "Güneş ve Plüton'un kavuşumu, kimlik ile gücü ve dönüşümü birleştirir. Kişiye muazzam bir irade gücü, karizma ve derinlik verir. Hayatında büyük krizler ve dönüşümler yaşayarak kendini yeniden yaratır. Güç takıntısı ve manipülasyon potansiyeli vardır.",
+    "Sextile": "Güneş ve Plüton arasındaki sekstil açı, irade ile kişisel güç arasında yapıcı bir fırsat sunar. Kişi kendini ve koşulları dönüştürme konusunda doğal bir yeteneğe sahiptir. Sezgisel ve araştırmacıdır.",
+    "Square": "Güneş ve Plüton arasındaki kare açı, kimlik ile güç savaşları arasında yoğun bir gerilim yaratır. Kişi otoriteyle çatışabilir, hayatında yıkıcı olaylar yaşayabilir ve kontrol takıntısı geliştirebilir. Bu, en dönüştürücü açılardan biridir.",
+    "Trine": "Güneş ve Plüton arasındaki üçgen açı, irade ile kişisel güç arasında doğal bir uyum sağlar. Kişi doğuştan karizmatik, iradeli ve kendini dönüştürme gücüne sahiptir. Liderlik ve derin analiz yeteneği vardır.",
+    "Opposition": "Güneş ve Plüton'un karşıtlığı, kişinin kendi gücü ile başkalarının gücü arasında bir çatışma ve denge arayışı yaratır. Güç savaşlarına ve manipülatif ilişkilere çekilebilir. Gücünü yapıcı bir şekilde kullanmayı öğrenmelidir.",
+    "Parallel": "Güneş ve Plüton Paralel açısı, irade ve dönüşümsel gücü birleştirir. Tıpkı bir kavuşum gibi, bu açı kişiye yoğun bir odaklanma, karizma ve kendini yeniden yaratma kapasitesi verir. Hayatın gizemlerine karşı derin bir çekim duyar.",
+    "Contra-Parallel": "Güneş ve Plüton Kontra-Paralel açısı, kişisel irade ile dış güçler veya kontrol dinamikleri arasında bir denge kurma zorunluluğunu gösterir. Tıpkı bir karşıt açı gibi, güç savaşları ve krizler yoluyla kişisel gücünü sahiplenmeyi öğrenir."
+  },
+  "Moon-Mercury": {
+    "Conjunction": "Ay ve Merkür'ün kavuşumu, duygular ile zihni birleştirir. Düşünceler duygulardan güçlü bir şekilde etkilenir. Kişi hissettiklerini kolayca ifade eder ancak mantığı sübjektif olabilir. Güçlü bir hafızaya sahiptir.",
+    "Sextile": "Ay ve Merkür arasındaki sekstil açı, duygular ile zihin arasında akıcı bir diyalog sağlar. Kişi hislerini rasyonel bir şekilde anlama ve ifade etme yeteneğine sahiptir. Başkalarını anlama ve onlarla iletişim kurma konusunda başarılıdır.",
+    "Square": "Ay ve Merkür arasındaki kare açı, duygular ile mantık arasında bir çatışma yaratır. Kişi ya duygularıyla mantığını bastırır ya da mantığıyla duygularını görmezden gelir. Sinirsel gerginlik ve endişeli düşünceler görülebilir.",
+    "Trine": "Ay ve Merkür arasındaki üçgen açı, duygular ile zihin arasında doğal bir uyum sağlar. Kişi ne hissettiğini bilir ve bunu kolayca kelimelere dökebilir. Güçlü bir sağduyuya ve pratik bir zekaya sahiptir.",
+    "Opposition": "Ay ve Merkür'ün karşıtlığı, kişinin kendi duygusal ihtiyaçları ile başkalarının fikirleri arasında bir denge kurma ihtiyacını gösterir. Başkalarının düşüncelerinden kolayca etkilenebilir. Duygusal konularda objektif bir bakış açısı geliştirmelidir.",
+    "Parallel": "Ay ve Merkür Paralel açısı, duygular ve zihin arasında güçlü bir birliktelik yaratır. Tıpkı bir kavuşum gibi, kişinin düşünceleri duygusal tonlarla renklidir ve duygularını kolayca dile getirebilir. Hafızası genellikle çok güçlüdür.",
+    "Contra-Parallel": "Ay ve Merkür Kontra-Paralel açısı, duygusal ihtiyaçlar ile mantıksal düşünce arasında bir denge kurma zorunluluğunu gösterir. Tıpkı bir karşıt açı gibi, kişi kalbi ile aklı arasında bir seçim yapma durumunda kalabilir."
+  },
+  "Moon-Venus": {
+    "Conjunction": "Ay ve Venüs'ün kavuşumu, duygusal ihtiyaçlar ile sevgi ve değerleri birleştirir. Kişiye büyük bir şefkat, zarafet ve sevgi dolu bir doğa verir. Güzelliğe, sanata ve uyuma düşkündür. Popüler ve sevilen biridir.",
+    "Sextile": "Ay ve Venüs arasındaki sekstil açı, duygusal tatmin ile sosyal uyum arasında bir fırsat yaratır. Kişi ilişkilerde mutlu olma ve sevgisini gösterme konusunda yeteneklidir. Evini güzelleştirmeyi ve sevdiklerine bakmayı sever.",
+    "Square": "Ay ve Venüs arasındaki kare açı, duygusal ihtiyaçlar ile sevgi ve para konularında bir sürtüşme yaratır. Sevgiyi ve onayı aşırı arzulayabilir, bu da ilişkilerde hayal kırıklığına yol açabilir. Duygusal yeme veya aşırı harcama eğilimi görülebilir.",
+    "Trine": "Ay ve Venüs arasındaki üçgen açı, duygusal doğa ile sevgi prensibi arasında zahmetsiz bir uyum sağlar. Kişi doğuştan sevecen, nazik ve barışçıldır. Hayattan zevk alır ve genellikle mutlu bir aile hayatına sahiptir.",
+    "Opposition": "Ay ve Venüs'ün karşıtlığı, kişinin kendi duygusal ihtiyaçları ile partnerinin sevgi ve değerleri arasında bir denge kurma ihtiyacını gösterir. İlişkilerde aşırı hassas olabilir ve başkalarını memnun etmek için kendi ihtiyaçlarını göz ardı edebilir.",
+    "Parallel": "Ay ve Venüs Paralel açısı, duygusal doğa ile sevgi prensibini bir araya getirir. Tıpkı bir kavuşum gibi, bu açı kişiye büyük bir nezaket, çekicilik ve şefkat verir. Sevilmeye ve sevgi göstermeye yönelik güçlü bir ihtiyacı vardır.",
+    "Contra-Parallel": "Ay ve Venüs Kontra-Paralel açısı, kişisel duygusal ihtiyaçlar ile ilişkilerdeki denge ve uyum arasında bir farkındalık yaratır. Tıpkı bir karşıt açı gibi, kişi sevgi almak ve vermek arasında sağlıklı bir denge kurmayı öğrenmelidir."
+  },
+  "Moon-Mars": {
+    "Conjunction": "Ay ve Mars'ın kavuşumu, duygular ile eylemi birleştirir. Duygular anında ve tutkulu bir şekilde ifade edilir. Kişi cesur ve koruyucudur. Ancak aynı zamanda çabuk öfkelenen, sabırsız ve dürtüsel olabilir.",
+    "Sextile": "Ay ve Mars arasındaki sekstil açı, duygular ile eylem arasında dinamik bir işbirliği sağlar. Kişi hislerine göre hareket etme ve içgüdülerine güvenme konusunda yeteneklidir. Enerjik ve kararlıdır.",
+    "Square": "Ay ve Mars arasındaki kare açı, duygular ile arzular arasında yoğun bir çatışma yaratır. Kişi huysuz, kavgacı ve duygusal olarak patlamaya hazır olabilir. Aile içi çatışmalar ve içsel huzursuzluk yaygındır.",
+    "Trine": "Ay ve Mars arasındaki üçgen açı, duygular ile eylem arasında doğal bir uyum sağlar. Kişi duygusal olarak cesur, tutkulu ve içten biridir. Duygularını yapıcı bir şekilde eyleme dökme yeteneği vardır.",
+    "Opposition": "Ay ve Mars'ın karşıtlığı, kişinin kendi duygusal ihtiyaçları ile başkalarının arzuları arasında bir çatışma yaratır. İlişkilerde tartışmacı olabilir. Duygusal olgunluk kazanarak, bu enerjiyi işbirliği için kullanmayı öğrenmelidir.",
+    "Parallel": "Ay ve Mars Paralel açısı, duygular ve arzuları bir araya getirir. Tıpkı bir kavuşum gibi, bu açı kişiye güçlü duygusal tepkiler, cesaret ve tutku verir. Duygularını doğrudan eyleme dökmekten çekinmez.",
+    "Contra-Parallel": "Ay ve Mars Kontra-Paralel açısı, duygusal güvenlik ihtiyacı ile kişisel arzular arasında bir denge kurma zorunluluğunu gösterir. Tıpkı bir karşıt açı gibi, ilişkilerde veya ev hayatında çatışmalar yoluyla duygusal farkındalık kazanır."
+  },
+  "Moon-Jupiter": {
+    "Conjunction": "Ay ve Jüpiter'in kavuşumu, duygular ile büyümeyi ve iyimserliği birleştirir. Kişiye cömert, neşeli ve koruyucu bir doğa verir. Güçlü bir inanç ve iyimserlik duygusuna sahiptir. Başkalarına yardım etmekten hoşlanır.",
+    "Sextile": "Ay ve Jüpiter arasındaki sekstil açı, duygusal tatmin ile büyüme fırsatları arasında uyumlu bir bağ kurar. Kişi başkalarına karşı cömert ve anlayışlıdır. Felsefi ve ruhsal konulara ilgi duyar.",
+    "Square": "Ay ve Jüpiter arasındaki kare açı, duygular ile abartı arasında bir gerilim yaratır. Kişi duygusal olarak aşırıya kaçabilir, sorumsuz olabilir ve fanatik inançlara kapılabilir. Duygusal yeme veya aşırı harcama eğilimi vardır.",
+    "Trine": "Ay ve Jüpiter arasındaki üçgen açı, duygusal doğa ile şans arasında doğal bir uyum sağlar. Kişi doğuştan iyimser, cömert ve popülerdir. Genellikle hayat ona iyi davranır ve güçlü bir koruma altındadır.",
+    "Opposition": "Ay ve Jüpiter'in karşıtlığı, kişinin kendi duygusal ihtiyaçları ile başkalarının inançları veya felsefeleri arasında bir denge kurma ihtiyacını gösterir. Cömertliğini başkaları tarafından sömürülebilir. Duygusal ve ruhsal dengeyi bulmalıdır.",
+    "Parallel": "Ay ve Jüpiter Paralel açısı, duygusal doğa ve genişleme prensibini bir araya getirir. Tıpkı bir kavuşum gibi, bu açı da kişiye büyük bir iyimserlik, cömertlik ve koruyucu bir ruh verir. Güçlü bir inanç sistemine sahiptir.",
+    "Contra-Parallel": "Ay ve Jüpiter Kontra-Paralel açısı, kişisel duygusal ihtiyaçlar ile ahlaki veya felsefi inançlar arasında bir denge kurma temasını işler. Tıpkı bir karşıt açı gibi, kişi duygusal abartıdan kaçınmayı ve cömertliğinde ölçülü olmayı öğrenir."
+  },
+  "Moon-Saturn": {
+    "Conjunction": "Ay ve Satürn'ün kavuşumu, duygular ile yapıyı ve kısıtlamaları birleştirir. Kişi duygusal olarak olgun, sorumlu ve kendine hakimdir. Ancak aynı zamanda duygusal olarak engellenmiş, karamsar ve yalnız hissedebilir. Güvenlik ihtiyacı çok güçlüdür.",
+    "Sextile": "Ay ve Satürn arasındaki sekstil açı, duygusal güvenlik ile disiplin arasında pratik bir işbirliği sağlar. Kişi duygusal olarak dayanıklı ve sabırlıdır. Sorumluluklarını yerine getirerek duygusal tatmin bulur.",
+    "Square": "Ay ve Satürn arasındaki kare açı, duygusal ihtiyaçlar ile korkular ve engeller arasında temel bir çatışma yaratır. Kişi sevilmediğini veya reddedildiğini hissedebilir. Çocukluktan gelen duygusal zorluklar ve güvensizlikler görülebilir.",
+    "Trine": "Ay ve Satürn arasındaki üçgen açı, duygusal doğa ile sorumluluk arasında doğal bir uyum sağlar. Kişi duygusal olarak istikrarlı, sadık ve güvenilirdir. Pratik konularda başarılıdır ve duygularını kontrol etme yeteneği vardır.",
+    "Opposition": "Ay ve Satürn'ün karşıtlığı, kişinin kendi duygusal ihtiyaçları ile başkalarının sorumlulukları veya beklentileri arasında bir denge kurma zorunluluğunu gösterir. İlişkilerde soğuk ve mesafeli olabilir. Duygusal ifade ile kontrol arasında bir denge bulmalıdır.",
+    "Parallel": "Ay ve Satürn Paralel açısı, duygusal doğa ve disiplin prensibini birleştirir. Tıpkı bir kavuşum gibi, bu açı kişiye duygusal bir ciddiyet, sorumluluk duygusu ve temkinli bir yaklaşım verir. Duygularını kontrol altında tutar.",
+    "Contra-Parallel": "Ay ve Satürn Kontra-Paralel açısı, duygusal güvenlik ihtiyacı ile dış dünyanın katı gerçekleri veya sorumlulukları arasında bir denge kurma temasını işler. Tıpkı bir karşıt açı gibi, kişi duygusal duvarlarını yıkmayı ve güvenmeyi öğrenir."
+  },
+  "Moon-Uranus": {
+    "Conjunction": "Ay ve Uranüs'ün kavuşumu, duygular ile özgünlüğü ve ani değişimleri birleştirir. Duygusal tepkiler ani, beklenmedik ve isyankardır. Kişi özgürlüğüne son derece düşkündür ve geleneksel aile yapılarından hoşlanmaz.",
+    "Sextile": "Ay ve Uranüs arasındaki sekstil açı, duygusal ihtiyaçlar ile yenilik arasında heyecan verici fırsatlar yaratır. Kişi yeni deneyimlere açıktır ve duygusal olarak kendini kolayca yenileyebilir. Sezgileri güçlü ve orijinaldir.",
+    "Square": "Ay ve Uranüs arasındaki kare açı, duygusal güvenlik ihtiyacı ile özgürlük arzusu arasında bir çatışma yaratır. Kişi duygusal olarak istikrarsız, huzursuz ve isyankardır. Aile hayatında ve evde ani ve yıkıcı değişimler yaşayabilir.",
+    "Trine": "Ay ve Uranüs arasındaki üçgen açı, duygusal doğa ile özgünlük arasında doğal bir uyum sağlar. Kişi duygusal olarak bağımsız, ilerici ve sezgiseldir. Değişimi kolayca kucaklar ve hayatına heyecan katmaktan hoşlanır.",
+    "Opposition": "Ay ve Uranüs'ün karşıtlığı, kişinin kendi duygusal güvenlik ihtiyacı ile partnerinin özgürlük arzusu arasında bir denge kurma ihtiyacını gösterir. İlişkilerde ani kopuşlar ve duygusal mesafe yaşanabilir. Bağlılık ile bağımsızlık arasında bir denge bulmalıdır.",
+    "Parallel": "Ay ve Uranüs Paralel açısı, duygusal doğa ve özgürlük arzusunu birleştirir. Tıpkı bir kavuşum gibi, bu açı kişiye ani duygusal tepkiler, güçlü sezgiler ve bağımsız bir ruh verir. Geleneksel olan her şeye karşı bir tepkisi vardır.",
+    "Contra-Parallel": "Ay ve Uranüs Kontra-Paralel açısı, duygusal güvenlik ihtiyacı ile ani değişimler veya özgürlük arzusu arasında bir denge kurma temasını işler. Tıpkı bir karşıt açı gibi, kişi ilişkilerde hem yakınlık hem de mesafe ihtiyacını dengelemeyi öğrenir."
+  },
+  "Moon-Neptune": {
+    "Conjunction": "Ay ve Neptün'ün kavuşumu, duygular ile hayalleri ve maneviyatı birleştirir. Kişiye muazzam bir hassasiyet, empati ve hayal gücü verir. Sanatsal ve ruhsal potansiyeli çok yüksektir. Ancak gerçeklerden kaçma, aldanma ve duygusal karmaşa potansiyeli de taşır.",
+    "Sextile": "Ay ve Neptün arasındaki sekstil açı, duygular ile ilham arasında uyumlu bir akış sağlar. Sezgileri güçlüdür ve sanatsal yaratıcılık için büyük bir potansiyel sunar. Başkalarına karşı şefkatli ve anlayışlıdır.",
+    "Square": "Ay ve Neptün arasındaki kare açı, duygusal ihtiyaçlar ile yanılsamalar arasında bir gerilim yaratır. Kişi duygusal olarak kafa karışıklığı yaşayabilir, kendini kandırabilir ve hayal kırıklığına uğrayabilir. Sınır koymakta zorlanır ve kurban rolüne bürünebilir.",
+    "Trine": "Ay ve Neptün arasındaki üçgen açı, duygusal doğa ile maneviyat arasında doğal bir uyum sağlar. Kişi doğuştan sezgisel, merhametli ve sanatsaldır. Evrenle derin bir bağ hisseder ve güçlü bir ilham kaynağına sahiptir.",
+    "Opposition": "Ay ve Neptün'ün karşıtlığı, kişinin kendi duygusal gerçekliği ile başkalarını idealleştirme arasında bir denge kurma ihtiyacını gösterir. İlişkilerde hayal kırıklığına uğramaya açıktır. Duygusal sınırlamaları ve gerçekliği öğrenmelidir.",
+    "Parallel": "Ay ve Neptün Paralel açısı, duygusal doğa ve hayal gücünü birleştirir. Tıpkı bir kavuşum gibi, bu açı kişiye aşırı bir hassasiyet, güçlü sezgiler ve sanatsal bir ilham verir. Sınırlarını belirlemekte zorlanabilir.",
+    "Contra-Parallel": "Ay ve Neptün Kontra-Paralel açısı, duygusal ihtiyaçlar ile ruhsal idealler veya yanılsamalar arasında bir denge kurma temasını işler. Tıpkı bir karşıt açı gibi, kişi ilişkilerde ve hayatta gerçekçi olmayı ve hayal kırıklıklarıyla başa çıkmayı öğrenir."
+  },
+  "Moon-Pluto": {
+    "Conjunction": "Ay ve Plüton'un kavuşumu, duygular ile gücü ve dönüşümü birleştirir. Duygular son derece yoğun, derin ve tutkuludur. Kişi güçlü sezgilere sahiptir ve gizli olanı hissetme yeteneği vardır. Ancak duygusal manipülasyon, kıskançlık ve takıntılar da görülebilir.",
+    "Sextile": "Ay ve Plüton arasındaki sekstil açı, duygusal derinlik ile kişisel güç arasında yapıcı bir fırsat sunar. Kişi duygusal olarak dayanıklıdır ve kriz anlarında güçlü kalabilir. Psikolojik anlama ve iyileştirme yeteneği vardır.",
+    "Square": "Ay ve Plüton arasındaki kare açı, duygusal ihtiyaçlar ile güç savaşları arasında yoğun bir çatışma yaratır. Kişi derin duygusal korkular, kontrol takıntısı ve kıskançlık yaşayabilir. Aile içi güç mücadeleleri ve travmalar görülebilir.",
+    "Trine": "Ay ve Plüton arasındaki üçgen açı, duygusal doğa ile kişisel güç arasında doğal bir uyum sağlar. Kişi duygusal olarak cesur, kararlı ve derin bir anlayışa sahiptir. Krizleri fırsata çevirme ve kendini dönüştürme yeteneği vardır.",
+    "Opposition": "Ay ve Plüton'un karşıtlığı, kişinin kendi duygusal ihtiyaçları ile başkalarının güç ve kontrol mekanizmaları arasında bir çatışma yaratır. İlişkilerde yoğun güç savaşları ve duygusal manipülasyonlar yaşanabilir. Duygusal gücünü yapıcı kullanmayı öğrenmelidir.",
+    "Parallel": "Ay ve Plüton Paralel açısı, duygusal doğa ve dönüşümsel gücü birleştirir. Tıpkı bir kavuşum gibi, bu açı kişiye yoğun duygular, güçlü sezgiler ve psikolojik derinlik verir. Duygusal kontrol ve takıntı potansiyeli taşır.",
+    "Contra-Parallel": "Ay ve Plüton Kontra-Paralel açısı, duygusal güvenlik ihtiyacı ile dış güçler veya kontrol dinamikleri arasında bir denge kurma zorunluluğunu gösterir. Tıpkı bir karşıt açı gibi, kişi yoğun duygusal krizler yoluyla güçlenmeyi ve arınmayı öğrenir."
+  },
+  "Mercury-Venus": {
+    "Conjunction": "Merkür ve Venüs'ün kavuşumu, zihin ile sevgiyi birleştirir. Kişiye nazik, diplomatik ve hoş bir iletişim tarzı verir. Güzellikten ve sanattan bahsetmeyi sever. Düşüncelerinde uyum ve denge arar.",
+    "Sextile": "Merkür ve Venüs arasındaki sekstil açı, iletişim ile sosyal beceriler arasında uyumlu bir fırsat yaratır. Kişi düşüncelerini zarif bir şekilde ifade eder ve sosyal ortamlarda popülerdir. Yazma ve konuşma konusunda sanatsal bir yeteneğe sahiptir.",
+    "Square": "Merkür ve Venüs arasındaki kare açı, düşünce tarzı ile sosyal değerler arasında bir sürtüşme yaratır. Kişi sevgisini ifade etmekte zorlanabilir veya düşüncesizce konuşarak başkalarını incitebilir. Sosyal konularda kararsızlık yaşayabilir.",
+    "Trine": "Merkür ve Venüs arasındaki üçgen açı, zihin ile sevgi doğası arasında doğal bir uyum sağlar. Kişi doğuştan diplomatik, çekici ve nazik bir konuşmacıdır. Edebiyat ve sanat alanlarında yeteneklidir.",
+    "Opposition": "Merkür ve Venüs'ün karşıtlığı, kişinin kendi fikirleri ile başkalarının değerleri arasında bir denge kurma ihtiyacını gösterir. İlişkiler hakkında çok düşünür ve konuşur. Karar vermekte zorlanabilir çünkü her zaman uyum arar.",
+    "Parallel": "Merkür ve Venüs Paralel açısı, zihin ve sevgi prensibini bir araya getirir. Tıpkı bir kavuşum gibi, bu açı kişiye zarif bir iletişim tarzı, diplomatik yetenekler ve sanatsal bir zihin verir. İletişimde güzellik ve uyum arar.",
+    "Contra-Parallel": "Merkür ve Venüs Kontra-Paralel açısı, mantıksal düşünce ile sosyal veya romantik değerler arasında bir denge kurma temasını işler. Tıpkı bir karşıt açı gibi, kişi ilişkilerde adil ve dengeli bir iletişim kurmayı öğrenmelidir."
+  },
+  "Mercury-Mars": {
+    "Conjunction": "Merkür ve Mars'ın kavuşumu, zihin ile eylemi birleştirir. Zihin hızlı, keskin ve iddialıdır. Kişi düşüncelerini direkt ve cesurca ifade eder. Tartışmalarda yeteneklidir ancak bazen düşünmeden konuşarak kırıcı olabilir.",
+    "Sextile": "Merkür ve Mars arasındaki sekstil açı, zihin ile eylem arasında dinamik bir işbirliği sağlar. Kişi fikirlerini hayata geçirme konusunda hızlı ve etkilidir. Zihinsel olarak enerjik ve kararlıdır.",
+    "Square": "Merkür ve Mars arasındaki kare açı, düşünceler ile arzular arasında bir çatışma yaratır. Kişi sözleriyle kavgacı, alaycı ve agresif olabilir. Zihinsel olarak huzursuzdur ve kolayca sinirlenir. Tartışmalara eğilimlidir.",
+    "Trine": "Merkür ve Mars arasındaki üçgen açı, zihin ile eylem arasında doğal bir uyum sağlar. Kişi zeki, hazırcevap ve ikna edicidir. Fikirlerini savunma ve uygulama konusunda doğuştan yeteneklidir.",
+    "Opposition": "Merkür ve Mars'ın karşıtlığı, kişinin kendi fikirleri ile başkalarının eylemleri veya fikirleri arasında bir rekabet ortamı yaratır. Zihinsel düellolara ve hararetli tartışmalara girmeye eğilimlidir. Başkalarını dinlemeyi ve daha az savunmacı olmayı öğrenmelidir.",
+    "Parallel": "Merkür ve Mars Paralel açısı, zihin ve enerjiyi birleştirir. Tıpkı bir kavuşum gibi, bu açı kişiye keskin bir zeka, hızlı düşünme yeteneği ve iddialı bir iletişim tarzı verir. Zihinsel olarak çok aktiftir.",
+    "Contra-Parallel": "Merkür ve Mars Kontra-Paralel açısı, sözler ve eylemler arasında bir denge kurma zorunluluğunu gösterir. Tıpkı bir karşıt açı gibi, kişi hararetli tartışmalardan kaçınmayı ve zihinsel enerjisini yapıcı bir şekilde kullanmayı öğrenmelidir."
+  },
+  "Mercury-Jupiter": {
+    "Conjunction": "Merkür ve Jüpiter'in kavuşumu, zihin ile büyümeyi ve felsefeyi birleştirir. Zihin geniş, iyimser ve öğrenmeye açıktır. Kişi büyük resmi görmeyi sever ve vizyoner fikirlere sahiptir. Ancak detayları gözden kaçırabilir ve abartılı konuşabilir.",
+    "Sextile": "Merkür ve Jüpiter arasındaki sekstil açı, zihin ile büyüme fırsatları arasında uyumlu bir bağ kurar. Kişi eğitim, yayıncılık ve seyahat konularında başarılıdır. Öğrenmeye ve öğretmeye heveslidir.",
+    "Square": "Merkür ve Jüpiter arasındaki kare açı, düşünceler ile abartı arasında bir gerilim yaratır. Kişi gerçekçi olmayan planlar yapabilir, sözlerini tutmakta zorlanabilir ve entelektüel kibir gösterebilir. Detaylara dikkat etmesi gerekir.",
+    "Trine": "Merkür ve Jüpiter arasındaki üçgen açı, zihin ile felsefe arasında doğal bir uyum sağlar. Kişi doğuştan iyimser, bilge ve geniş görüşlü bir düşünürdür. Eğitim ve iletişim alanlarında doğal bir yeteneği vardır.",
+    "Opposition": "Merkür ve Jüpiter'in karşıtlığı, kişinin kendi fikirleri ile başkalarının inançları arasında bir denge kurma ihtiyacını gösterir. Felsefi ve ahlaki konularda tartışmalara girebilir. Farklı bakış açılarını sentezlemeyi öğrenmelidir.",
+    "Parallel": "Merkür ve Jüpiter Paralel açısı, zihin ve genişleme prensibini birleştirir. Tıpkı bir kavuşum gibi, bu açı kişiye geniş bir bakış açısı, öğrenme sevgisi ve felsefi bir zihin verir. İletişimde iyimser ve vizyonerdir.",
+    "Contra-Parallel": "Merkür ve Jüpiter Kontra-Paralel açısı, pratik detaylar ile büyük vizyonlar arasında bir denge kurma temasını işler. Tıpkı bir karşıt açı gibi, kişi abartılı vaatlerden kaçınmayı ve fikirlerini sağlam bir temele oturtmayı öğrenmelidir."
+  },
+  "Mercury-Saturn": {
+    "Conjunction": "Merkür ve Satürn'ün kavuşumu, zihin ile yapıyı ve disiplini birleştirir. Zihin ciddi, derin ve metodiktir. Kişi düşüncelerini organize etme ve konsantre olma konusunda yeteneklidir. Ancak karamsar, şüpheci ve zihinsel olarak katı olabilir.",
+    "Sextile": "Merkür ve Satürn arasındaki sekstil açı, zihin ile disiplin arasında pratik bir işbirliği sağlar. Kişi mantıklı, planlı ve dikkatlidir. Karmaşık konuları anlama ve organize etme yeteneği vardır.",
+    "Square": "Merkür ve Satürn arasındaki kare açı, düşünceler ile korkular ve engeller arasında bir gerilim yaratır. Kişi kendini ifade etmekten çekinebilir, zihinsel olarak engellenmiş hissedebilir ve karamsarlığa kapılabilir. Öğrenme güçlükleri veya iletişimde soğukluk görülebilir.",
+    "Trine": "Merkür ve Satürn arasındaki üçgen açı, zihin ile yapı arasında doğal bir uyum sağlar. Kişi doğuştan mantıklı, disiplinli ve pratik bir düşünürdür. Konsantrasyonu güçlüdür ve zihinsel olarak çok dayanıklıdır.",
+    "Opposition": "Merkür ve Satürn'ün karşıtlığı, kişinin kendi fikirleri ile başkalarının veya toplumun kuralları arasında bir denge kurma ihtiyacını gösterir. Otorite figürleriyle zihinsel çatışmalar yaşayabilir. Fikirlerinde esneklik kazanmalıdır.",
+    "Parallel": "Merkür ve Satürn Paralel açısı, zihin ve disiplini birleştirir. Tıpkı bir kavuşum gibi, bu açı kişiye ciddi, metodik ve derin bir düşünce yapısı verir. Konsantrasyonu güçlüdür ancak zihinsel olarak karamsar olabilir.",
+    "Contra-Parallel": "Merkür ve Satürn Kontra-Paralel açısı, özgür düşünce ile kurallar veya kısıtlamalar arasında bir denge kurma zorunluluğunu gösterir. Tıpkı bir karşıt açı gibi, kişi zihinsel katılığı ve olumsuz düşünce kalıplarını aşmayı öğrenmelidir."
+  },
+  "Mercury-Uranus": {
+    "Conjunction": "Merkür ve Uranüs'ün kavuşumu, zihin ile özgünlüğü ve deha'yı birleştirir. Zihin son derece hızlı, orijinal ve sezgiseldir. Kişi yenilikçi fikirlere sahiptir ve geleneksel düşünce kalıplarını yıkar. Sinirsel gerginlik ve ani konuşmalar görülebilir.",
+    "Sextile": "Merkür ve Uranüs arasındaki sekstil açı, zihin ile yenilik arasında heyecan verici fırsatlar yaratır. Kişi orijinal fikirler üretme ve bunları ifade etme konusunda yeteneklidir. Teknoloji ve bilim alanlarında başarılı olabilir.",
+    "Square": "Merkür ve Uranüs arasındaki kare açı, düşünce tarzı ile isyan arasında bir gerilim yaratır. Kişi aniden ve düşüncesizce konuşarak şok edici olabilir. Fikirleri radikal ve istikrarsızdır. Sinir sistemi gergindir.",
+    "Trine": "Merkür ve Uranüs arasındaki üçgen açı, zihin ile özgünlük arasında doğal bir uyum sağlar. Kişi doğuştan dahi, sezgisel ve ilerici bir düşünürdür. Yeni fikirleri ve teknolojileri kolayca anlar ve kullanır.",
+    "Opposition": "Merkür ve Uranüs'ün karşıtlığı, kişinin kendi radikal fikirleri ile başkalarının daha geleneksel görüşleri arasında bir çatışma yaratır. Fikirleri nedeniyle başkalarıyla anlaşmazlığa düşebilir. Zihinsel esneklik kazanmalıdır.",
+    "Parallel": "Merkür ve Uranüs Paralel açısı, zihin ve ani aydınlanmaları birleştirir. Tıpkı bir kavuşum gibi, bu açı kişiye dahi bir zihin, orijinal fikirler ve sezgisel bir kavrayış verir. Düşünceleri hızlı ve öngörülemezdir.",
+    "Contra-Parallel": "Merkür ve Uranüs Kontra-Paralel açısı, orijinal fikirler ile pratik iletişim arasında bir denge kurma zorunluluğunu gösterir. Tıpkı bir karşıt açı gibi, kişi radikal fikirlerini başkalarının anlayabileceği bir şekilde ifade etmeyi öğrenmelidir."
+  },
+  "Mercury-Neptune": {
+    "Conjunction": "Merkür ve Neptün'ün kavuşumu, zihin ile hayalleri ve ilhamı birleştirir. Zihin son derece yaratıcı, sezgisel ve şiirseldir. Kişi sanatsal ve ruhsal konulara ilgi duyar. Ancak zihinsel karışıklık, aldanma ve gerçeklerden kaçma potansiyeli de vardır.",
+    "Sextile": "Merkür ve Neptün arasındaki sekstil açı, zihin ile ilham arasında uyumlu bir akış sağlar. Yaratıcı yazarlık, müzik ve görsel sanatlar için büyük bir potansiyel sunar. Sezgileri güçlü ve hayal gücü zengindir.",
+    "Square": "Merkür ve Neptün arasındaki kare açı, mantık ile yanılsamalar arasında bir gerilim yaratır. Kişi zihinsel olarak kafa karışıklığı yaşayabilir, yalan söylemeye veya aldanmaya meyilli olabilir. Konsantre olmakta zorlanır ve dalgındır.",
+    "Trine": "Merkür ve Neptün arasındaki üçgen açı, zihin ile hayal gücü arasında doğal bir uyum sağlar. Kişi doğuştan sezgisel, sanatsal ve empatik bir düşünürdür. Başkalarının düşüncelerini ve hislerini kolayca anlar.",
+    "Opposition": "Merkür ve Neptün'ün karşıtlığı, kişinin kendi mantıksal düşüncesi ile başkalarının hayalleri veya aldatmacaları arasında bir denge kurma ihtiyacını gösterir. İletişimde yanlış anlaşılmalara ve belirsizliklere açıktır. Gerçek ile hayali ayırt etmeyi öğrenmelidir.",
+    "Parallel": "Merkür ve Neptün Paralel açısı, zihin ve hayal gücünü birleştirir. Tıpkı bir kavuşum gibi, bu açı kişiye sanatsal bir ilham, güçlü sezgiler ve yaratıcı bir zihin verir. Ancak, zihinsel dağınıklık ve aldanmaya açıklık potansiyeli de taşır.",
+    "Contra-Parallel": "Merkür ve Neptün Kontra-Paralel açısı, mantıksal düşünce ile sezgisel veya ruhsal kavrayış arasında bir denge kurma temasını işler. Tıpkı bir karşıt açı gibi, kişi hayal gücünü pratik ve gerçekçi bir şekilde kullanmayı öğrenmelidir."
+  },
+  "Mercury-Pluto": {
+    "Conjunction": "Merkür ve Plüton'un kavuşumu, zihin ile gücü ve derinliği birleştirir. Zihin son derece araştırmacı, delici ve analitiktir. Kişi sırları ortaya çıkarma ve yüzeyin altını görme yeteneğine sahiptir. Ancak düşünceleri takıntılı ve şüpheci olabilir.",
+    "Sextile": "Merkür ve Plüton arasındaki sekstil açı, zihin ile psikolojik kavrayış arasında yapıcı bir fırsat sunar. Kişi araştırma, dedektiflik ve terapi gibi konularda başarılıdır. İkna gücü yüksektir.",
+    "Square": "Merkür ve Plüton arasındaki kare açı, düşünceler ile güç savaşları arasında yoğun bir gerilim yaratır. Kişi sözleriyle manipülatif, şüpheci ve takıntılı olabilir. Zihinsel olarak karanlık ve yıkıcı düşüncelere kapılabilir.",
+    "Trine": "Merkür ve Plüton arasındaki üçgen açı, zihin ile derinlik arasında doğal bir uyum sağlar. Kişi doğuştan güçlü bir konsantrasyona, keskin bir zekaya ve derin bir anlayışa sahiptir. Gizli olanı anlama konusunda doğal bir yeteneği vardır.",
+    "Opposition": "Merkür ve Plüton'ün karşıtlığı, kişinin kendi fikirleri ile başkalarının gizli gündemleri arasında bir çatışma yaratır. Zihinsel güç savaşlarına ve manipülatif tartışmalara çekilebilir. Fikirlerini başkalarına zorla kabul ettirmemeyi öğrenmelidir.",
+    "Parallel": "Merkür ve Plüton Paralel açısı, zihin ve dönüşümsel gücü birleştirir. Tıpkı bir kavuşum gibi, bu açı kişiye derin bir araştırma yeteneği, keskin bir zeka ve ikna gücü verir. Düşünceleri yoğun ve odaklıdır.",
+    "Contra-Parallel": "Merkür ve Plüton Kontra-Paralel açısı, yüzeysel bilgi ile derin gerçekler arasında bir denge kurma zorunluluğunu gösterir. Tıpkı bir karşıt açı gibi, kişi sözlerinin gücünü ve sorumluluğunu öğrenir ve manipülasyondan kaçınmalıdır."
+  },
+  "Venus-Mars": {
+    "Conjunction": "Venüs ve Mars'ın kavuşumu, sevgi ile arzuyu birleştirir. Kişiye büyük bir tutku, karizma ve çekicilik verir. İlişkilerde direkt ve enerjiktir. Sanatsal ifadede güçlü bir dürtü vardır.",
+    "Sextile": "Venüs ve Mars arasındaki sekstil açı, sosyal çekicilik ile eylem arasında dinamik bir işbirliği sağlar. Kişi flört etme ve ilişki başlatma konusunda yeteneklidir. Sosyal ve romantik hayatı canlıdır.",
+    "Square": "Venüs ve Mars arasındaki kare açı, sevgi ihtiyacı ile cinsel arzular arasında bir çatışma yaratır. İlişkilerde gerilim ve tatminsizlik yaşanabilir. Aşk ve para konularında dürtüsel ve aceleci davranabilir.",
+    "Trine": "Venüs ve Mars arasındaki üçgen açı, sevgi ile arzu arasında doğal bir uyum sağlar. Kişi doğuştan tutkulu, çekici ve romantiktir. İlişkilerinde uyum ve heyecanı kolayca birleştirir.",
+    "Opposition": "Venüs ve Mars'ın karşıtlığı, ilişki ihtiyacı ile kişisel arzular arasında bir denge kurma ihtiyacını gösterir. İlişkilerde 'çekme-itme' dinamiği yaşanabilir. Uzlaşma ve işbirliği yoluyla tatmin bulmayı öğrenmelidir.",
+    "Parallel": "Venüs ve Mars Paralel açısı, sevgi doğası ile arzu doğası arasında güçlü bir birleşme ve uyum yaratır. Tıpkı bir kavuşum gibi, bu açı da kişiye doğal bir karizma, tutku ve çekicilik verir. İlişkilerde ve sanatsal ifadede enerjik ve iddialıdır.",
+    "Contra-Parallel": "Venüs ve Mars Kontra-Paralel açısı, ilişki kurma tarzı ile kişisel arzular arasında bir denge bulma ihtiyacını gösterir. 'Aşk-nefret' dinamikleri veya ilişkilerde çekim ve itme gücü belirgin olabilir. Bir karşıt açı gibi çalışır."
+  },
+  "Venus-Jupiter": {
+    "Conjunction": "Venüs ve Jüpiter'in kavuşumu, sevgi ile büyümeyi ve şansı birleştirir. Kişiye büyük bir popülerlik, cömertlik ve neşe verir. İlişkilerde ve finansta şanslıdır. Hayattan zevk almayı sever.",
+    "Sextile": "Venüs ve Jüpiter arasındaki sekstil açı, sosyal uyum ile büyüme fırsatları arasında bir bağ kurar. Kişi cömert ve iyimserdir, bu da ona sosyal ve finansal fırsatlar getirir. İlişkiler yoluyla ufkunu genişletir.",
+    "Square": "Venüs ve Jüpiter arasındaki kare açı, zevkler ile abartı arasında bir gerilim yaratır. Kişi aşırı harcama yapabilir, tembelliğe ve zevk düşkünlüğüne kapılabilir. İlişkilerde gerçekçi olmayan beklentilere sahip olabilir.",
+    "Trine": "Venüs ve Jüpiter arasındaki üçgen açı, sevgi ile şans arasında doğal bir uyum sağlar. Kişi doğuştan neşeli, cömert ve sevilen biridir. Sosyal ve finansal konularda genellikle şanslıdır.",
+    "Opposition": "Venüs ve Jüpiter'in karşıtlığı, kişinin kendi değerleri ile başkalarının felsefeleri veya ahlaki görüşleri arasında bir denge kurma ihtiyacını gösterir. İlişkilerde ve finansta abartıya kaçmamayı öğrenmelidir.",
+    "Parallel": "Venüs ve Jüpiter Paralel açısı, sevgi ve genişleme prensibini bir araya getirir. Tıpkı bir kavuşum gibi, bu açı kişiye büyük bir neşe, cömertlik ve popülerlik verir. Sosyal ve finansal konularda doğal bir şansı vardır.",
+    "Contra-Parallel": "Venüs ve Jüpiter Kontra-Paralel açısı, kişisel zevkler ile ahlaki veya toplumsal değerler arasında bir denge kurma temasını işler. Tıpkı bir karşıt açı gibi, kişi aşırıya kaçmaktan ve tembellikten sakınmayı öğrenmelidir."
+  },
+  "Venus-Saturn": {
+    "Conjunction": "Venüs ve Satürn'ün kavuşumu, sevgi ile yapıyı ve sorumluluğu birleştirir. İlişkilerde sadakat, ciddiyet ve dayanıklılık arar. Ancak sevgisini göstermekte zorlanabilir, soğuk veya mesafeli görünebilir. Finansal konularda tutumludur.",
+    "Sextile": "Venüs ve Satürn arasındaki sekstil açı, sevgi ile disiplin arasında pratik bir işbirliği sağlar. Kişi sadık ve güvenilir bir partnerdir. Uzun süreli ilişkiler kurma ve finansal güvenlik sağlama yeteneği vardır.",
+    "Square": "Venüs ve Satürn arasındaki kare açı, sevgi ihtiyacı ile korkular ve engeller arasında bir çatışma yaratır. Kişi sevilmediğini veya reddedildiğini hissedebilir. İlişkilerde ve finansta zorluklar ve gecikmeler yaşayabilir.",
+    "Trine": "Venüs ve Satürn arasındaki üçgen açı, sevgi ile sorumluluk arasında doğal bir uyum sağlar. Kişi doğuştan sadık, olgun ve güvenilirdir. İlişkilerinde ve finansal hayatında istikrar ve güvenlik yaratır.",
+    "Opposition": "Venüs ve Satürn'ün karşıtlığı, kişinin kendi sevgi ihtiyacı ile partnerinin veya toplumun beklentileri arasında bir denge kurma zorunluluğunu gösterir. İlişkilerde görev ve zevk arasında bölünmüş hissedebilir.",
+    "Parallel": "Venüs ve Satürn Paralel açısı, sevgi ve disiplini birleştirir. Tıpkı bir kavuşum gibi, bu açı kişiye ilişkilerde ciddiyet, sadakat ve sorumluluk duygusu verir. Sevgisini pratik yollarla gösterir ancak duygusal olarak mesafeli olabilir.",
+    "Contra-Parallel": "Venüs ve Satürn Kontra-Paralel açısı, sevgi ve zevk arzusu ile görevler veya korkular arasında bir denge kurma temasını işler. Tıpkı bir karşıt açı gibi, kişi ilişkilerde reddedilme korkusunu aşmayı ve sevgiyi kabul etmeyi öğrenir."
+  },
+  "Venus-Uranus": {
+    "Conjunction": "Venüs ve Uranüs'ün kavuşumu, sevgi ile özgünlüğü ve ani değişimleri birleştirir. İlişki anlayışı sıradışı ve geleneklere aykırıdır. Ani aşklara ve beklenmedik ilişkilere çekilir. Özgürlük, sevginin önemli bir parçasıdır.",
+    "Sextile": "Venüs ve Uranüs arasındaki sekstil açı, sosyal hayat ile heyecan arasında uyumlu bir fırsat yaratır. Kişi farklı ve ilginç insanlara çekilir. Sosyal çevresi canlı ve dinamiktir.",
+    "Square": "Venüs ve Uranüs arasındaki kare açı, sevgi ihtiyacı ile özgürlük arzusu arasında bir gerilim yaratır. İlişkilerinde istikrarsızlık, ani kopuşlar ve duygusal dalgalanmalar yaşayabilir. Bağlanma konusunda zorluk çekebilir.",
+    "Trine": "Venüs ve Uranüs arasındaki üçgen açı, sevgi ile özgünlük arasında doğal bir uyum sağlar. Kişi doğuştan heyecan verici, özgür ruhlu ve manyetik bir çekiciliğe sahiptir. İlişkilerine canlılık ve yenilik getirir.",
+    "Opposition": "Venüs ve Uranüs'ün karşıtlığı, kişinin kendi yakınlık ihtiyacı ile partnerinin özgürlük arzusu arasında bir denge kurma ihtiyacını gösterir. İlişkilerde ani ve beklenmedik olaylar yaşanabilir. Bağlılık ve bağımsızlığı birleştirmeyi öğrenmelidir.",
+    "Parallel": "Venüs ve Uranüs Paralel açısı, sevgi ve özgürlük arzusunu birleştirir. Tıpkı bir kavuşum gibi, bu açı kişiye manyetik bir çekicilik, sıradışı bir ilişki anlayışı ve ani romantik maceralara eğilim verir.",
+    "Contra-Parallel": "Venüs ve Uranüs Kontra-Paralel açısı, yakınlık ihtiyacı ile kişisel özgürlük arzusu arasında bir denge kurma zorunluluğunu gösterir. Tıpkı bir karşıt açı gibi, kişi ilişkilerde hem istikrarı hem de heyecanı nasıl bir arada tutacağını öğrenmelidir."
+  },
+  "Venus-Neptune": {
+    "Conjunction": "Venüs ve Neptün'ün kavuşumu, sevgi ile hayalleri ve idealleri birleştirir. Kişi son derece romantik, fedakar ve sanatsaldır. Aşkta ruh eşini arar ve partnerini idealleştirir. Ancak hayal kırıklığına ve aldanmaya açıktır.",
+    "Sextile": "Venüs ve Neptün arasındaki sekstil açı, sevgi ile ilham arasında uyumlu bir akış sağlar. Sanatsal ve müzikal yetenekler için büyük potansiyel sunar. Romantik ve şefkatli bir doğası vardır.",
+    "Square": "Venüs ve Neptün arasındaki kare açı, sevgi anlayışı ile yanılsamalar arasında bir gerilim yaratır. Kişi ilişkilerde ve finansta kendini kandırabilir, gerçekçi olmayan beklentilere kapılabilir ve hayal kırıklığına uğrayabilir. Sınır koymakta zorlanır.",
+    "Trine": "Venüs ve Neptün arasındaki üçgen açı, sevgi ile maneviyat arasında doğal bir uyum sağlar. Kişi doğuştan romantik, şefkatli ve sanatsal bir ruha sahiptir. Koşulsuz sevgi potansiyeli yüksektir.",
+    "Opposition": "Venüs ve Neptün'ün karşıtlığı, kişinin kendi romantik idealleri ile partnerinin gerçekliği arasında bir denge kurma ihtiyacını gösterir. İlişkilerde kurtarıcı veya kurban rolüne bürünebilir. Gerçekçi sevgi anlayışı geliştirmelidir.",
+    "Parallel": "Venüs ve Neptün Paralel açısı, sevgi ve hayal gücünü birleştirir. Tıpkı bir kavuşum gibi, bu açı kişiye yüksek bir romantizm, sanatsal ilham ve fedakar bir sevgi anlayışı verir. İlişkilerde sınırlarını belirlemekte zorlanabilir.",
+    "Contra-Parallel": "Venüs ve Neptün Kontra-Paralel açısı, romantik idealler ile günlük hayatın gerçekleri arasında bir denge kurma temasını işler. Tıpkı bir karşıt açı gibi, kişi hayal kırıklıkları yoluyla gerçekçi ve sağlıklı sevgi ilişkileri kurmayı öğrenir."
+  },
+  "Venus-Pluto": {
+    "Conjunction": "Venüs ve Plüton'un kavuşumu, sevgi ile gücü ve tutkuyu birleştirir. İlişkiler son derece derin, yoğun ve dönüştürücüdür. Kişi manyetik bir çekiciliğe sahiptir. Ancak kıskançlık, takıntı ve güç savaşları potansiyeli de vardır.",
+    "Sextile": "Venüs ve Plüton arasındaki sekstil açı, sevgi ile psikolojik derinlik arasında yapıcı bir fırsat sunar. Kişi ilişkilerde derin bağlar kurma ve iyileştirici bir etki yaratma yeteneğine sahiptir. Finansal konularda sezgiseldir.",
+    "Square": "Venüs ve Plüton arasındaki kare açı, sevgi ihtiyacı ile güç savaşları arasında yoğun bir çatışma yaratır. İlişkilerde manipülasyon, kıskançlık ve takıntılı davranışlar görülebilir. Aşk ve para yoluyla derin krizler yaşayabilir.",
+    "Trine": "Venüs ve Plüton arasındaki üçgen açı, sevgi ile kişisel güç arasında doğal bir uyum sağlar. Kişi doğuştan karizmatik, tutkulu ve manyetiktir. İlişkilerinde derin bir bağ ve dönüştürücü bir sevgi potansiyeli vardır.",
+    "Opposition": "Venüs ve Plüton'ün karşıtlığı, kişinin kendi sevgi anlayışı ile başkalarının güç ve kontrol mekanizmaları arasında bir çatışma yaratır. İlişkilerde yoğun güç mücadeleleri ve takıntılar yaşanabilir. Sevginin karanlık tarafıyla yüzleşmeyi öğrenmelidir.",
+    "Parallel": "Venüs ve Plüton Paralel açısı, sevgi ve dönüşümsel gücü birleştirir. Tıpkı bir kavuşum gibi, bu açı kişiye manyetik bir çekicilik, yoğun tutkular ve derin bir sevgi anlayışı verir. İlişkilerde takıntı ve kontrol potansiyeli taşır.",
+    "Contra-Parallel": "Venüs ve Plüton Kontra-Paralel açısı, sevgi ve yakınlık arzusu ile güç dinamikleri veya korkular arasında bir denge kurma zorunluluğunu gösterir. Tıpkı bir karşıt açı gibi, kişi kıskançlık ve kontrol arzusunu aşarak sağlıklı ilişkiler kurmayı öğrenir."
+  },
+  "Mars-Jupiter": {
+    "Conjunction": "Mars ve Jüpiter'in kavuşumu, eylem ile büyümeyi ve iyimserliği birleştirir. Kişiye muazzam bir enerji, macera ruhu ve cesaret verir. Büyük hedeflere ulaşmak için harekete geçer. Ancak aceleci, abartılı ve risk almaya aşırı hevesli olabilir.",
+    "Sextile": "Mars ve Jüpiter arasındaki sekstil açı, eylem ile büyüme fırsatları arasında dinamik bir işbirliği sağlar. Kişi enerjisini yapıcı ve genişletici bir şekilde kullanır. Spor, seyahat ve macera için harika bir potansiyel sunar.",
+    "Square": "Mars ve Jüpiter arasındaki kare açı, eylem ile abartı arasında bir gerilim yaratır. Kişi gereksiz riskler alabilir, enerjisini boşa harcayabilir ve fanatik inançlar uğruna savaşabilir. Sabırsızlık ve düşüncesizlik sorun yaratabilir.",
+    "Trine": "Mars ve Jüpiter arasındaki üçgen açı, eylem ile şans arasında doğal bir uyum sağlar. Kişi doğuştan enerjik, cesur ve başarılıdır. Girişimleri genellikle başarıyla sonuçlanır ve hayata karşı coşkulu bir yaklaşımı vardır.",
+    "Opposition": "Mars ve Jüpiter'in karşıtlığı, kişinin kendi eylemleri ile başkalarının inançları veya ahlaki görüşleri arasında bir çatışma yaratır. Enerjisini doğru hedeflere yönlendirmeyi ve abartıdan kaçınmayı öğrenmelidir.",
+    "Parallel": "Mars ve Jüpiter Paralel açısı, enerji ve genişlemeyi bir araya getirir. Tıpkı bir kavuşum gibi, bu açı kişiye büyük bir girişimcilik ruhu, cesaret ve macera sevgisi verir. Enerjisini büyük bir coşkuyla kullanır.",
+    "Contra-Parallel": "Mars ve Jüpiter Kontra-Paralel açısı, kişisel eylem ve arzular ile ahlaki veya toplumsal sınırlar arasında bir denge kurma temasını işler. Tıpkı bir karşıt açı gibi, kişi enerjisini akıllıca ve sorumlu bir şekilde kullanmayı öğrenmelidir."
+  },
+  "Mars-Saturn": {
+    "Conjunction": "Mars ve Satürn'ün kavuşumu, eylem ile yapıyı ve disiplini birleştirir. Kişiye muazzam bir dayanıklılık, sabır ve stratejik hareket etme yeteneği verir. Ancak enerjisi engellenmiş hissedebilir ve hayal kırıklığı yaşayabilir. 'Gaz ve fren' aynı anda basılıdır.",
+    "Sextile": "Mars ve Satürn arasındaki sekstil açı, eylem ile disiplin arasında pratik bir işbirliği sağlar. Kişi enerjisini sabırla ve metodik bir şekilde hedeflerine yönlendirir. Dayanıklı ve kararlıdır.",
+    "Square": "Mars ve Satürn arasındaki kare açı, eylem arzusu ile engeller ve korkular arasında yoğun bir çatışma yaratır. Kişi hayal kırıklığı, öfke ve kendini sabote etme eğilimi yaşayabilir. Bu, karakteri çelik gibi sertleştiren bir açıdır.",
+    "Trine": "Mars ve Satürn arasındaki üçgen açı, eylem ile disiplin arasında doğal bir uyum sağlar. Kişi doğuştan stratejik, dayanıklı ve kararlıdır. Enerjisini en verimli şekilde kullanır ve başladığı işi bitirir.",
+    "Opposition": "Mars ve Satürn'ün karşıtlığı, kişinin kendi eylem arzusu ile başkalarının veya toplumun kısıtlamaları arasında bir denge kurma zorunluluğunu gösterir. Otorite figürleriyle çatışabilir. Sabretmeyi ve doğru zamanı beklemeyi öğrenmelidir.",
+    "Parallel": "Mars ve Satürn Paralel açısı, enerji ve disiplin arasında güçlü bir birleşme yaratır. Tıpkı bir kavuşum gibi, kişiye muazzam bir dayanıklılık, sabır ve hedeflerine ulaşma konusunda durdurulamaz bir irade gücü verir.",
+    "Contra-Parallel": "Mars ve Satürn Kontra-Paralel açısı, 'gaz ve fren' dinamiğini simgeler. Kişinin eyleme geçme arzusu (Mars) sürekli olarak engeller, korkular veya sorumluluklarla (Satürn) yüzleşir. Bir karşıt açı gibi çalışır."
+  },
+  "Mars-Uranus": {
+    "Conjunction": "Mars ve Uranüs'ün kavuşumu, eylem ile özgünlüğü ve ani değişimleri birleştirir. Eylemler ani, beklenmedik ve isyankardır. Kişi özgürlüğü için savaşır ve risk almaktan çekinmez. Kaza yapmaya ve patlayıcı öfkeye eğilimli olabilir.",
+    "Sextile": "Mars ve Uranüs arasındaki sekstil açı, eylem ile yenilik arasında heyecan verici fırsatlar yaratır. Kişi enerjisini orijinal ve ilerici projelerde kullanır. Hızlı ve kararlı hareket eder.",
+    "Square": "Mars ve Uranüs arasındaki kare açı, eylem arzusu ile isyan arasında bir gerilim yaratır. Kişi aşırı derecede sabırsız, dürtüsel ve kural tanımaz olabilir. Ani öfke patlamaları ve kazalar riski yüksektir.",
+    "Trine": "Mars ve Uranüs arasındaki üçgen açı, eylem ile özgünlük arasında doğal bir uyum sağlar. Kişi doğuştan cesur, yenilikçi ve kararlıdır. Enerjisini deha ve icat için kullanma potansiyeli vardır.",
+    "Opposition": "Mars ve Uranüs'ün karşıtlığı, kişinin kendi eylem tarzı ile başkalarının beklenmedik tepkileri arasında bir çatışma yaratır. Başkaları tarafından kışkırtılabilir. Enerjisini daha yapıcı ve daha az yıkıcı kullanmayı öğrenmelidir.",
+    "Parallel": "Mars ve Uranüs Paralel açısı, enerji ve ani eylemi birleştirir. Tıpkı bir kavuşum gibi, bu açı kişiye devrimci bir ruh, ani enerji patlamaları ve özgürlük için savaşma güdüsü verir. Eylemleri öngörülemezdir.",
+    "Contra-Parallel": "Mars ve Uranüs Kontra-Paralel açısı, kişisel eylem arzusu ile ani ve beklenmedik engeller veya özgürlük ihtiyacı arasında bir denge kurma temasını işler. Tıpkı bir karşıt açı gibi, kişi sabırsızlığını kontrol etmeyi ve enerjisini odaklamayı öğrenir."
+  },
+  "Mars-Neptune": {
+    "Conjunction": "Mars ve Neptün'ün kavuşumu, eylem ile hayalleri ve ilhamı birleştirir. Enerji, idealler ve hayaller uğruna harcanır. Kişi ruhsal bir savaşçı veya sanatsal ilhamla hareket eden biri olabilir. Ancak enerji dağınıklığı, gizli düşmanlıklar ve kendini kandırma potansiyeli de vardır.",
+    "Sextile": "Mars ve Neptün arasındaki sekstil açı, eylem ile ilham arasında uyumlu bir akış sağlar. Kişi hayallerini gerçekleştirmek için sezgisel bir şekilde hareket eder. Şifa, sanat ve maneviyat alanlarında başarılı olabilir.",
+    "Square": "Mars ve Neptün arasındaki kare açı, eylem arzusu ile yanılsamalar arasında bir gerilim yaratır. Kişinin enerjisi kolayca dağılabilir, hedefleri belirsiz olabilir ve kendini kandırmaya meyilli olabilir. Bağışıklık sistemi zayıf olabilir.",
+    "Trine": "Mars ve Neptün arasındaki üçgen açı, eylem ile ilham arasında doğal bir uyum sağlar. Kişi doğuştan sezgisel, şefkatli ve idealleri için hareket eden biridir. Sanatsal ve ruhsal eylemlerde başarılıdır.",
+    "Opposition": "Mars ve Neptün'ün karşıtlığı, kişinin kendi eylemleri ile başkalarının aldatmacaları veya pasif direnişi arasında bir denge kurma ihtiyacını gösterir. Enerjisi başkaları tarafından sömürülebilir. Hedeflerini netleştirmeyi öğrenmelidir.",
+    "Parallel": "Mars ve Neptün Paralel açısı, enerji ve hayal gücünü birleştirir. Tıpkı bir kavuşum gibi, bu açı kişiye idealleri için savaşma güdüsü, sanatsal bir ilham ve sezgisel bir eylem tarzı verir. Enerjinin yönü belirsiz olabilir.",
+    "Contra-Parallel": "Mars ve Neptün Kontra-Paralel açısı, doğrudan eylem ile pasiflik veya belirsizlik arasında bir denge kurma temasını işler. Tıpkı bir karşıt açı gibi, kişi hayallerini gerçeğe dönüştürmek için somut adımlar atmayı ve aldanmaktan kaçınmayı öğrenir."
+  },
+  "Mars-Pluto": {
+    "Conjunction": "Mars ve Plüton'un kavuşumu, eylem ile gücü ve dönüşümü birleştirir. Kişiye muazzam bir dayanıklılık, irade gücü ve acımasız bir kararlılık verir. Hedeflerine ulaşmak için her şeyi yapabilir. Ancak yıkıcı öfke ve güç takıntısı potansiyeli vardır.",
+    "Sextile": "Mars ve Plüton arasındaki sekstil açı, eylem ile kişisel güç arasında yapıcı bir fırsat sunar. Kişi enerjisini odaklama ve dönüştürücü projelerde kullanma konusunda yeteneklidir. Stratejik ve kararlıdır.",
+    "Square": "Mars ve Plüton arasındaki kare açı, arzu ile güç savaşları arasında yoğun bir çatışma yaratır. Kişi acımasız, zorba ve tehlikeli durumlara çekilen biri olabilir. Öfkesi yıkıcı olabilir. Hayatında derin krizler yaşayabilir.",
+    "Trine": "Mars ve Plüton arasındaki üçgen açı, eylem ile kişisel güç arasında doğal bir uyum sağlar. Kişi doğuştan cesur, dayanıklı ve yenilmez bir iradeye sahiptir. En zorlu görevlerin üstesinden gelme potansiyeli vardır.",
+    "Opposition": "Mars ve Plüton'ün karşıtlığı, kişinin kendi eylem arzusu ile başkalarının güç ve kontrol mekanizmaları arasında bir çatışma yaratır. Tehlikeli düşmanlıklara ve acımasız güç savaşlarına çekilebilir. Gücünü yapıcı kullanmayı öğrenmelidir.",
+    "Parallel": "Mars ve Plüton Paralel açısı, enerji ve dönüşümsel gücü birleştirir. Tıpkı bir kavuşum gibi, bu açı kişiye süper-insan bir dayanıklılık, odaklanma yeteneği ve durdurulamaz bir irade gücü verir. Güçlü bir hayatta kalma içgüdüsüne sahiptir.",
+    "Contra-Parallel": "Mars ve Plüton Kontra-Paralel açısı, kişisel eylem arzusu ile dış güçler veya kontrol dinamikleri arasında bir denge kurma zorunluluğunu gösterir. Tıpkı bir karşıt açı gibi, kişi öfkesini ve gücünü yapıcı bir şekilde yönetmeyi öğrenmelidir."
+  },
+  "Jupiter-Saturn": {
+    "Conjunction": "Jüpiter ve Satürn'ün kavuşumu, büyüme ile yapıyı birleştirir. Yeni bir sosyal ve kişisel döngünün başlangıcını işaret eder. Kişi, vizyonunu sabır ve disiplinle hayata geçirme potansiyeline sahiptir. Büyüme, dikkatli ve planlı bir şekilde gerçekleşir.",
+    "Sextile": "Jüpiter ve Satürn arasındaki sekstil açı, büyüme fırsatları ile pratik planlama arasında bir işbirliği sağlar. Kişi, vizyonunu gerçekleştirmek için sağlam adımlar atma konusunda yeteneklidir. Genişleme ve istikrar dengededir.",
+    "Square": "Jüpiter ve Satürn arasındaki kare açı, büyüme arzusu ile kısıtlamalar ve gerçekler arasında bir gerilim yaratır. Kişi, hedeflerine ulaşmada engellerle ve gecikmelerle karşılaşabilir. İyimserlik ile karamsarlık arasında gidip gelir.",
+    "Trine": "Jüpiter ve Satürn arasındaki üçgen açı, büyüme ile yapı arasında doğal bir uyum sağlar. Kişi doğuştan bilge, pratik ve başarılı bir liderdir. Vizyonunu sağlam temeller üzerine kurma yeteneği vardır.",
+    "Opposition": "Jüpiter ve Satürn'ün karşıtlığı, kişinin kendi büyüme arzusu ile toplumun veya başkalarının kuralları arasında bir denge kurma ihtiyacını gösterir. Felsefeleri ile pratik gerçekler arasında bir denge bulmalıdır.",
+    "Parallel": "Jüpiter ve Satürn Paralel açısı, genişleme ve daralma prensiplerini bir araya getirir. Tıpkı bir kavuşum gibi, bu açı kişiye sorumlu bir büyüme, ölçülü bir iyimserlik ve hedeflerini gerçekleştirmek için sabırlı bir strateji verir.",
+    "Contra-Parallel": "Jüpiter ve Satürn Kontra-Paralel açısı, iyimserlik ve karamsarlık, özgürlük ve kısıtlama arasında bir denge kurma temasını işler. Tıpkı bir karşıt açı gibi, kişi hayallerini gerçekçi planlarla desteklemeyi öğrenir."
+  },
+  "Jupiter-Uranus": {
+    "Conjunction": "Jüpiter ve Uranüs'ün kavuşumu, büyüme ile ani değişimleri ve özgürlüğü birleştirir. Kişiye beklenmedik fırsatlar, ani şans ve felsefi aydınlanmalar getirir. Özgürlüğüne düşkündür ve yenilikçi fikirlere sahiptir.",
+    "Sextile": "Jüpiter ve Uranüs arasındaki sekstil açı, büyüme fırsatları ile yenilik arasında heyecan verici bir bağ kurar. Kişi teknoloji, eğitim ve seyahat yoluyla ufkunu genişletir. İlerici ve orijinaldir.",
+    "Square": "Jüpiter ve Uranüs arasındaki kare açı, büyüme arzusu ile isyan arasında bir gerilim yaratır. Kişi ani ve düşüncesizce riskler alabilir, sorumsuz olabilir ve fanatik inançlara kapılabilir. Özgürlük arayışı, istikrarını bozabilir.",
+    "Trine": "Jüpiter ve Uranüs arasındaki üçgen açı, büyüme ile özgünlük arasında doğal bir uyum sağlar. Kişi doğuştan şanslı, yenilikçi ve vizyonerdir. Beklenmedik fırsatları değerlendirme konusunda doğal bir yeteneği vardır.",
+    "Opposition": "Jüpiter ve Uranüs'ün karşıtlığı, kişinin kendi felsefesi ile başkalarının radikal veya şok edici fikirleri arasında bir denge kurma ihtiyacını gösterir. İnançları aniden değişebilir. Özgürlük ve sorumluluk arasında bir denge bulmalıdır.",
+    "Parallel": "Jüpiter ve Uranüs Paralel açısı, genişleme ve ani aydınlanmayı birleştirir. Tıpkı bir kavuşum gibi, bu açı kişiye beklenmedik şans, devrimci fikirler ve özgür bir ruh verir. Geleceğe yönelik iyimser bir bakış açısı vardır.",
+    "Contra-Parallel": "Jüpiter ve Uranüs Kontra-Paralel açısı, büyüme arzusu ile istikrarı bozan ani değişimler arasında bir denge kurma temasını işler. Tıpkı bir karşıt açı gibi, kişi özgürlüğünü sorumlu bir şekilde kullanmayı ve ani kararlar vermekten kaçınmayı öğrenir."
+  },
+  "Jupiter-Neptune": {
+    "Conjunction": "Jüpiter ve Neptün'ün kavuşumu, büyümeyi ve felsefeyi hayaller ve maneviyatla birleştirir. Kişiye büyük bir idealizm, şefkat ve sanatsal ilham verir. Ruhsal ve insani konulara derin bir ilgi duyar. Ancak gerçeklerden kaçma ve aşırı idealizm potansiyeli vardır.",
+    "Sextile": "Jüpiter ve Neptün arasındaki sekstil açı, büyüme fırsatları ile ilham arasında uyumlu bir akış sağlar. Kişi sanatsal, ruhsal ve insani yardım alanlarında başarılı olabilir. Hayal gücü ve inancı güçlüdür.",
+    "Square": "Jüpiter ve Neptün arasındaki kare açı, büyüme arzusu ile yanılsamalar arasında bir gerilim yaratır. Kişi gerçekçi olmayan hayallere kapılabilir, kendini kandırabilir ve finansal konularda aldanabilir. İnançları kafa karıştırıcı olabilir.",
+    "Trine": "Jüpiter ve Neptün arasındaki üçgen açı, felsefe ile maneviyat arasında doğal bir uyum sağlar. Kişi doğuştan bilge, şefkatli ve ilham vericidir. Güçlü bir inanca ve evrensel bir sevgi anlayışına sahiptir.",
+    "Opposition": "Jüpiter ve Neptün'ün karşıtlığı, kişinin kendi inançları ile başkalarının hayalleri veya aldatmacaları arasında bir denge kurma ihtiyacını gösterir. İdealleri ile gerçek dünya arasında bir denge bulmalıdır. Aşırı fedakarlıktan kaçınmalıdır.",
+    "Parallel": "Jüpiter ve Neptün Paralel açısı, genişleme ve hayal gücünü birleştirir. Tıpkı bir kavuşum gibi, bu açı kişiye büyük bir idealizm, ruhsal bir arayış ve sanatsal bir ilham verir. İnançları ve hayalleri sınırsızdır.",
+    "Contra-Parallel": "Jüpiter ve Neptün Kontra-Paralel açısı, felsefi inançlar ile pratik gerçeklik veya yanılsamalar arasında bir denge kurma temasını işler. Tıpkı bir karşıt açı gibi, kişi ideallerini sağlam bir zemine oturtmayı ve hayal kırıklıklarından ders çıkarmayı öğrenir."
+  },
+  "Jupiter-Pluto": {
+    "Conjunction": "Jüpiter ve Plüton'un kavuşumu, büyümeyi ve felsefeyi güç ve dönüşümle birleştirir. Kişiye muazzam bir hırs, etki gücü ve zenginlik potansiyeli verir. Toplumsal ve finansal alanda büyük bir güç elde etme arzusu vardır. Ancak güç takıntısı ve fanatizm riski taşır.",
+    "Sextile": "Jüpiter ve Plüton arasındaki sekstil açı, büyüme fırsatları ile kişisel güç arasında yapıcı bir bağ kurar. Kişi, kaynaklarını ve etkisini artırma konusunda stratejik ve başarılıdır. Liderlik potansiyeli yüksektir.",
+    "Square": "Jüpiter ve Plüton arasındaki kare açı, büyüme arzusu ile güç savaşları arasında bir gerilim yaratır. Kişi inançları uğruna acımasız olabilir, finansal ve yasal konularda büyük krizler yaşayabilir. Güç ve ahlak arasında bir çatışma yaşar.",
+    "Trine": "Jüpiter ve Plüton arasındaki üçgen açı, büyüme ile kişisel güç arasında doğal bir uyum sağlar. Kişi doğuştan karizmatik, etkili ve başarılı bir liderdir. Hayatını ve çevresini dönüştürme konusunda büyük bir potansiyele sahiptir.",
+    "Opposition": "Jüpiter ve Plüton'ün karşıtlığı, kişinin kendi inançları ile başkalarının güç ve kontrol mekanizmaları arasında bir çatışma yaratır. Felsefi ve ahlaki konularda dogmatik olabilir. Gücünü yapıcı bir şekilde kullanmayı öğrenmelidir.",
+    "Parallel": "Jüpiter ve Plüton Paralel açısı, genişleme ve dönüşümsel gücü birleştirir. Tıpkı bir kavuşum gibi, bu açı kişiye büyük bir hırs, liderlik kapasitesi ve hayatını kökten değiştirme gücü verir. Güç ve zenginlik arayışı belirgindir.",
+    "Contra-Parallel": "Jüpiter ve Plüton Kontra-Paralel açısı, ahlaki inançlar ile güç ve kontrol arzusu arasında bir denge kurma temasını işler. Tıpkı bir karşıt açı gibi, kişi gücünü etik ve sorumlu bir şekilde kullanmayı öğrenmelidir."
+  },
+  "Saturn-Uranus": {
+    "Conjunction": "Satürn ve Uranüs'ün kavuşumu, yapı ile ani değişimi birleştirir. Eski ile yeninin çatışmasını ve sentezini temsil eder. Kişi, devrimci fikirlerini pratik ve somut bir yapıya oturtma potansiyeline sahiptir. Ancak içsel bir gerilim ve stres yaşar.",
+    "Sextile": "Satürn ve Uranüs arasındaki sekstil açı, disiplin ile yenilik arasında pratik bir işbirliği sağlar. Kişi, eski yöntemleri yeni teknolojilerle birleştirerek ilerleme kaydeder. Orijinal fikirlerini sabırla hayata geçirir.",
+    "Square": "Satürn ve Uranüs arasındaki kare açı, yapı ile isyan arasında yoğun bir gerilim yaratır. Kişi, kurallar ve özgürlük arasında sıkışmış hisseder. Otoriteye karşı ani başkaldırılar ve hayatında beklenmedik krizler yaşayabilir.",
+    "Trine": "Satürn ve Uranüs arasındaki üçgen açı, yapı ile özgünlük arasında doğal bir uyum sağlar. Kişi doğuştan pratik bir dahi, disiplinli bir yenilikçidir. Yeni sistemler ve yapılar kurma konusunda yeteneklidir.",
+    "Opposition": "Satürn ve Uranüs'ün karşıtlığı, kişinin kendi kuralları ile başkalarının özgürlük arzusu arasında bir çatışma yaratır. Eski ve yeni arasında bir denge bulmalıdır. Toplumsal değişimlere direnç gösterebilir veya bu değişimlere öncülük edebilir.",
+    "Parallel": "Satürn ve Uranüs Paralel açısı, disiplin ve ani değişimi birleştirir. Tıpkı bir kavuşum gibi, bu açı kişiye devrimci fikirleri somut formlara dönüştürme yeteneği verir. Kontrollü bir isyan veya planlı bir değişim güdüsü vardır.",
+    "Contra-Parallel": "Satürn ve Uranüs Kontra-Paralel açısı, güvenlik ve istikrar ihtiyacı ile özgürlük ve değişim arzusu arasında bir denge kurma temasını işler. Tıpkı bir karşıt açı gibi, bu açı nesiller arası çatışmayı veya eski ile yeni arasındaki mücadeleyi simgeler."
+  },
+  "Saturn-Neptune": {
+    "Conjunction": "Satürn ve Neptün'ün kavuşumu, yapıyı ve gerçekliği hayaller ve ideallerle birleştirir. Kişi, hayallerini somutlaştırma veya gerçekliğin yavaşça çözülmesini deneyimleme potansiyeline sahiptir. İdealler uğruna fedakarlık ve sorumluluk verir.",
+    "Sextile": "Satürn ve Neptün arasındaki sekstil açı, disiplin ile ilham arasında uyumlu bir akış sağlar. Kişi, sanatsal veya ruhsal vizyonunu pratik adımlarla hayata geçirme konusunda yeteneklidir. Sezgilerini pratik bir şekilde kullanır.",
+    "Square": "Satürn ve Neptün arasındaki kare açı, gerçeklik ile yanılsamalar arasında bir gerilim yaratır. Kişi korkular, endişeler ve belirsizliklerle mücadele edebilir. Sorumluluklar altında ezilirken hayalleri suya düşebilir. Hayal kırıklığı yaygındır.",
+    "Trine": "Satürn ve Neptün arasındaki üçgen açı, yapı ile maneviyat arasında doğal bir uyum sağlar. Kişi doğuştan pratik bir idealisttir. Hayallerini gerçekleştirmek için gerekli sabır ve disipline sahiptir.",
+    "Opposition": "Satürn ve Neptün'ün karşıtlığı, kişinin kendi somut gerçekliği ile başkalarının hayalleri veya aldatmacaları arasında bir denge kurma ihtiyacını gösterir. Sorumluluklar ile fedakarlık arasında bir denge bulmalıdır.",
+    "Parallel": "Satürn ve Neptün Paralel açısı, disiplin ve hayal gücünü birleştirir. Tıpkı bir kavuşum gibi, bu açı kişiye hayallerini somutlaştırma yeteneği verir, ancak aynı zamanda korku ve belirsizliklerle de yüzleşmesini gerektirir.",
+    "Contra-Parallel": "Satürn ve Neptün Kontra-Paralel açısı, somut gerçekler ile idealler veya yanılsamalar arasında bir denge kurma temasını işler. Tıpkı bir karşıt açı gibi, kişi hayal kırıklıklarıyla yüzleşerek daha sağlam ve gerçekçi hayaller kurmayı öğrenir."
+  },
+  "Saturn-Pluto": {
+    "Conjunction": "Satürn ve Plüton'un kavuşumu, yapıyı ve kontrolü güç ve dönüşümle birleştirir. Bu, son derece güçlü ve zorlayıcı bir enerjidir. Kişi, toplumsal yapıları yıkma ve yeniden inşa etme potansiyeline sahiptir. Muazzam bir dayanıklılık ve acımasız bir kararlılık verir.",
+    "Sextile": "Satürn ve Plüton arasındaki sekstil açı, disiplin ile kişisel güç arasında yapıcı bir fırsat sunar. Kişi, kaynaklarını ve enerjisini odaklama konusunda son derece yeteneklidir. Stratejik ve dayanıklıdır.",
+    "Square": "Satürn ve Plüton arasındaki kare açı, kısıtlamalar ile güç savaşları arasında yoğun bir çatışma yaratır. Kişi, hayatında büyük kayıplar ve zorluklarla karşılaşabilir. Otoriteyle ve kaderle acımasız bir mücadele içindedir.",
+    "Trine": "Satürn ve Plüton arasındaki üçgen açı, yapı ile kişisel güç arasında doğal bir uyum sağlar. Kişi doğuştan stratejik, dayanıklı ve kararlıdır. En zorlu koşullarda bile ayakta kalma ve başarılı olma gücüne sahiptir.",
+    "Opposition": "Satürn ve Plüton'ün karşıtlığı, kişinin kendi yapıları ile dış dünyanın yıkıcı güçleri arasında bir çatışma yaratır. Otorite figürleriyle ve toplumsal sistemlerle acımasız bir mücadeleye girebilir. Güç ve sorumluluk arasında bir denge bulmalıdır.",
+    "Parallel": "Satürn ve Plüton Paralel açısı, disiplin ve dönüşümsel gücü birleştirir. Tıpkı bir kavuşum gibi, bu açı kişiye muazzam bir dayanıklılık, stratejik zeka ve zorluklar karşısında yılmama gücü verir. Hayata karşı ciddi ve kontrollüdür.",
+    "Contra-Parallel": "Satürn ve Plüton Kontra-Paralel açısı, kişisel kontrol ve yapılar ile kaçınılmaz dönüşüm ve dış güçler arasında bir denge kurma temasını işler. Tıpkı bir karşıt açı gibi, kişi kontrol edemediği şeyleri kabul etmeyi ve krizler yoluyla güçlenmeyi öğrenir."
+  },
+  "Uranus-Neptune": {
+    "Conjunction": "Uranüs ve Neptün'ün kavuşumu, ani aydınlanmaları ve devrimleri maneviyat ve kolektif hayallerle birleştirir. Bu, bir neslin ruhsal ve teknolojik uyanışını simgeler. Sanatta, teknolojide ve maneviyatta yeni ve devrimci akımlar yaratır.",
+    "Sextile": "Uranüs ve Neptün arasındaki sekstil açı, yenilik ile ilham arasında uyumlu bir akış sağlar. Bu nesil, teknoloji ve sanatı birleştirerek yeni formlar yaratma potansiyeline sahiptir. Sezgisel ve ilerici bir vizyonları vardır.",
+    "Square": "Uranüs ve Neptün arasındaki kare açı, ani değişimler ile toplumsal karmaşa ve belirsizlik arasında bir gerilim yaratır. Bu nesil, toplumsal idealler ve pratik gerçekler arasında bir çatışma yaşar. Radikal ideolojiler ve toplumsal aldanmalar görülebilir.",
+    "Trine": "Uranüs ve Neptün arasındaki üçgen açı, özgünlük ile maneviyat arasında doğal bir uyum sağlar. Bu nesil, ruhsal ve teknolojik devrimi uyumlu bir şekilde birleştirme potansiyeline sahiptir. İnsancıl ve ilerici idealleri vardır.",
+    "Opposition": "Uranüs ve Neptün'ün karşıtlığı, bireysel özgürlük arzusu ile kolektif fedakarlık veya yanılsamalar arasında bir denge kurma ihtiyacını gösterir. Bu, nadir bir jenerasyonel açıdır ve toplumsal düzeyde büyük bir ideolojik çatışmayı simgeler.",
+    "Parallel": "Uranüs ve Neptün Paralel açısı, devrimci ruh ve kolektif hayalleri birleştirir. Tıpkı bir kavuşum gibi, bu jenerasyonel açı, maneviyat, teknoloji ve sanatta ani ve ilham verici atılımlara işaret eder.",
+    "Contra-Parallel": "Uranüs ve Neptün Kontra-Paralel açısı, teknolojik ilerleme veya bireysel özgürlük ile toplumsal idealler veya manevi değerler arasında bir denge kurma temasını işler. Tıpkı bir karşıt açı gibi, bu jenerasyonel açı, ideolojik çatışmaları ve toplumsal yeniden yapılanmayı simgeler."
+  },
+  "Uranus-Pluto": {
+    "Conjunction": "Uranüs ve Plüton'un kavuşumu, devrimi ve ani değişimi güç ve dönüşümle birleştirir. Bu, mevcut düzeni kökten yıkan ve yeni bir düzen kuran en güçlü jenerasyonel açılardan biridir. Toplumsal, politik ve teknolojik devrimleri tetikler.",
+    "Sextile": "Uranüs ve Plüton arasındaki sekstil açı, yenilik ile kişisel güç arasında yapıcı bir fırsat sunar. Bu nesil, teknolojiyi ve psikolojik anlayışı kullanarak hayatlarını ve toplumu dönüştürme potansiyeline sahiptir.",
+    "Square": "Uranüs ve Plüton arasındaki kare açı, isyan ile güç savaşları arasında yoğun bir çatışma yaratır. Bu nesil, otoriteye ve mevcut sisteme karşı şiddetli bir mücadele verir. Toplumsal krizler ve devrimci patlamalar bu döneme damgasını vurur.",
+    "Trine": "Uranüs ve Plüton arasındaki üçgen açı, özgünlük ile kişisel güç arasında doğal bir uyum sağlar. Bu nesil, toplumu ve teknolojiyi dönüştürme konusunda büyük bir potansiyele sahiptir. Güçlü ve yenilikçi liderler çıkarır.",
+    "Opposition": "Uranüs ve Plüton'ün karşıtlığı, bireysel özgürlük ve isyan ile toplumsal güç yapıları arasında bir çatışma yaratır. Bu, toplumsal düzenin temelden sarsıldığı ve devrimci güçlerle kurulu düzen arasında açık bir savaşın yaşandığı bir dönemi simgeler.",
+    "Parallel": "Uranüs ve Plüton Paralel açısı, devrimci enerji ve dönüşümsel gücü birleştirir. Tıpkı bir kavuşum gibi, bu jenerasyonel açı, kurulu düzeni kökten sarsan ve yeni bir çağ başlatan yoğun toplumsal ve teknolojik devrimlere işaret eder.",
+    "Contra-Parallel": "Uranüs ve Plüton Kontra-Paralel açısı, bireysel özgürlük ve değişim arzusu ile toplumsal kontrol ve güç dinamikleri arasında bir denge kurma temasını işler. Tıpkı bir karşıt açı gibi, bu jenerasyonel açı, otoriteye karşı mücadeleyi ve toplumsal yeniden yapılanmayı simgeler."
+  },
+  "Neptune-Pluto": {
+    "Conjunction": "Neptün ve Plüton'un kavuşumu, kolektif hayalleri ve maneviyatı derin dönüşüm ve güçle birleştirir. Bu, yaklaşık 500 yılda bir gerçekleşen ve bir çağın kapanıp yenisinin başladığı en önemli jenerasyonel açıdır. Kolektif bilinçaltını kökten dönüştürür.",
+    "Sextile": "Neptün ve Plüton arasındaki sekstil açı, manevi ilham ile kişisel güç arasında uyumlu bir akış sağlar. Bu nesil, ruhsal ve psikolojik anlayışı birleştirerek toplumu ve bireyi iyileştirme potansiyeline sahiptir. Sezgileri ve dönüşüm gücü yüksektir.",
+    "Square": "Neptün ve Plüton arasındaki kare açı, kolektif yanılsamalar ile toplumsal krizler arasında bir gerilim yaratır. Bu dönemde ideolojik savaşlar, gizli komplolar ve toplumsal çürüme görülebilir. İnançlar ve güç arasında bir çatışma yaşanır.",
+    "Trine": "Neptün ve Plüton arasındaki üçgen açı, maneviyat ile kişisel güç arasında doğal bir uyum sağlar. Bu nesil, ruhsal ve materyal dünyayı birleştirme konusunda büyük bir potansiyele sahiptir. Derin bir bilgelik ve dönüşüm gücü taşır.",
+    "Opposition": "Neptün ve Plüton'ün karşıtlığı, kolektif idealler ile toplumsal güç yapıları arasında bir çatışma yaratır. Bu, inanç sistemlerinin ve politik güçlerin temelden sorgulandığı, büyük bir ideolojik savaş dönemini simgeler.",
+    "Parallel": "Neptün ve Plüton Paralel açısı, kolektif bilinçaltı ve dönüşümsel gücü birleştirir. Tıpkı bir kavuşum gibi, bu uzun süreli jenerasyonel açı, insanlığın manevi ve psikolojik yapısında derin ve yavaş bir dönüşüme işaret eder.",
+    "Contra-Parallel": "Neptün ve Plüton Kontra-Paralel açısı, kolektif hayaller ve idealler ile somut güç dinamikleri ve krizler arasında bir denge kurma temasını işler. Tıpkı bir karşıt açı gibi, bu jenerasyonel açı, inançların gücünü ve gücün inançları nasıl şekillendirdiğini sorgulatır."
+  },
+  "Ascendant-Sun": {
+    "Conjunction": "Güneş'in Yükselen ile kavuşumu, kişiye güçlü bir varlık, canlılık ve özgüven verir. Kişilik, irade ile doğrudan bağlantılıdır. Kişi ne istediğini bilir ve bunu açıkça gösterir. Doğal bir liderdir.",
+    "Sextile": "Güneş ve Yükselen arasındaki sekstil açı, kimlik ile dış dünyaya yansıtılan kişilik arasında uyumlu bir fırsat yaratır. Kişi kendini rahatça ifade eder ve sosyal ortamlarda parlar.",
+    "Square": "Güneş ve Yükselen arasındaki kare açı, içsel kimlik ile dış dünyaya gösterilen maske arasında bir gerilim yaratır. Kişi, gerçekte kim olduğu ile başkalarının onu nasıl gördüğü arasında bir çatışma yaşayabilir.",
+    "Trine": "Güneş ve Yükselen arasındaki üçgen açı, kimlik ile kişilik arasında doğal bir uyum sağlar. Kişi doğuştan özgüvenli, karizmatik ve kendini rahatça ifade eden biridir. İç ve dış dünyası denge içindedir.",
+    "Opposition": "Güneş'in Alçalan ile kavuşumu, kimliğin ilişkiler ve ortaklıklar aracılığıyla tanımlandığını gösterir. Kişi, kendini bir partner aracılığıyla bulur ve ilişkiler hayatının merkezindedir.",
+    "Parallel": "Güneş ve Yükselen Paralel açısı, irade ve kişiliği bir araya getirir. Tıpkı bir kavuşum gibi, kişiye güçlü bir varlık, canlılık ve doğal bir liderlik yeteneği verir. Görünüşü ve kimliği birbiriyle tutarlıdır.",
+    "Contra-Parallel": "Güneş ve Yükselen Kontra-Paralel açısı, içsel kimlik ile dış dünyaya yansıtılan kişilik arasında bir denge kurma temasını işler. Tıpkı bir karşıt açı gibi, kişi kimliğini ilişkiler yoluyla anlar ve dengeler."
+  },
+  "Ascendant-Moon": {
+    "Conjunction": "Ay'ın Yükselen ile kavuşumu, kişiye son derece duyarlı, empatik ve alıcı bir kişilik verir. Duygular anında dışa yansır ve ruh hali değişkendir. Başkalarının duygularından kolayca etkilenir.",
+    "Sextile": "Ay ve Yükselen arasındaki sekstil açı, duygusal doğa ile kişilik arasında uyumlu bir akış sağlar. Kişi duygularını rahatça ifade eder ve başkalarıyla kolayca empati kurar. Şefkatli bir imaj çizer.",
+    "Square": "Ay ve Yükselen arasındaki kare açı, duygusal ihtiyaçlar ile dış dünyaya gösterilen kişilik arasında bir gerilim yaratır. Kişi utangaç olabilir veya duygularını saklamaya çalışabilir. İçsel güvensizlik dış davranışlara yansır.",
+    "Trine": "Ay ve Yükselen arasındaki üçgen açı, duygusal doğa ile kişilik arasında doğal bir uyum sağlar. Kişi doğuştan şefkatli, koruyucu ve popülerdir. Duygularını ve kişiliğini uyumlu bir şekilde birleştirir.",
+    "Opposition": "Ay'ın Alçalan ile kavuşumu, duygusal tatminin ilişkiler ve ortaklıklar yoluyla arandığını gösterir. Kişi, ihtiyaçlarını karşılayacak duyarlı ve koruyucu bir partner arar.",
+    "Parallel": "Ay ve Yükselen Paralel açısı, duygular ve kişiliği birleştirir. Tıpkı bir kavuşum gibi, kişiye son derece duyarlı, sezgisel ve değişken bir kişilik verir. Duygularını gizleyemez.",
+    "Contra-Parallel": "Ay ve Yükselen Kontra-Paralel açısı, kişisel duygusal ihtiyaçlar ile ilişkilerde aranan denge arasında bir farkındalık yaratır. Tıpkı bir karşıt açı gibi, kişi duygusal güvenliği bir partner aracılığıyla bulmaya çalışır."
+  },
+  "Ascendant-Mercury": {
+    "Conjunction": "Merkür'ün Yükselen ile kavuşumu, kişiye son derece konuşkan, meraklı ve zihinsel bir kişilik verir. İlk izlenimi zeki ve iletişimcidir. Düşündüklerini anında ifade eder.",
+    "Sextile": "Merkür ve Yükselen arasındaki sekstil açı, zihin ile kişilik arasında akıcı bir iletişim sağlar. Kişi kendini zekice ve esprili bir şekilde ifade eder. Sosyal olarak meraklı ve uyumludur.",
+    "Square": "Merkür ve Yükselen arasındaki kare açı, düşünce tarzı ile dış dünyaya yansıtılan kişilik arasında bir gerilim yaratır. Kişi sinirli, aceleci konuşan veya yanlış anlaşılan biri olarak görülebilir.",
+    "Trine": "Merkür ve Yükselen arasındaki üçgen açı, zihin ile kişilik arasında doğal bir uyum sağlar. Kişi doğuştan akıllı, iletişimci ve öğrenmeye heveslidir. Kendini açık ve net bir şekilde ifade eder.",
+    "Opposition": "Merkür'ün Alçalan ile kavuşumu, zihinsel uyarımın ilişkiler yoluyla arandığını gösterir. Kişi, zeki ve konuşkan partnerlere çekilir. İlişkilerde iletişim çok önemlidir.",
+    "Parallel": "Merkür ve Yükselen Paralel açısı, zihin ve kişiliği birleştirir. Tıpkı bir kavuşum gibi, kişiye konuşkan, meraklı ve entelektüel bir görünüm verir. İletişim, kişiliğinin merkezindedir.",
+    "Contra-Parallel": "Merkür ve Yükselen Kontra-Paralel açısı, kişisel düşünceler ile başkalarıyla kurulan iletişim arasında bir denge kurma temasını işler. Tıpkı bir karşıt açı gibi, kişi ilişkiler yoluyla zihinsel bir denge ve objektiflik arar."
+  },
+  "Ascendant-Venus": {
+    "Conjunction": "Venüs'ün Yükselen ile kavuşumu, kişiye büyük bir çekicilik, zarafet ve diplomatik bir kişilik verir. İlk izlenimi sevimli, barışçıl ve sanatsaldır. Uyum ve güzellik arar.",
+    "Sextile": "Venüs ve Yükselen arasındaki sekstil açı, sevgi doğası ile kişilik arasında uyumlu bir fırsat yaratır. Kişi sosyal olarak popüler, nazik ve diplomatiktir. İlişkilerde başarılıdır.",
+    "Square": "Venüs ve Yükselen arasındaki kare açı, değerler ile dış dünyaya gösterilen kişilik arasında bir sürtüşme yaratır. Kişi kendini beğenmiş görünebilir veya sosyal onay için kendi değerlerinden ödün verebilir.",
+    "Trine": "Venüs ve Yükselen arasındaki üçgen açı, sevgi doğası ile kişilik arasında doğal bir uyum sağlar. Kişi doğuştan çekici, sevecen ve sanatsaldır. Sosyal ortamlarda kolayca sevilir.",
+    "Opposition": "Venüs'ün Alçalan ile kavuşumu, sevgi ve uyumun ilişkiler yoluyla arandığını gösterir. Kişi, hayatını güzelleştirecek ve denge getirecek bir partner arar. Evlilik ve ortaklıklar önemlidir.",
+    "Parallel": "Venüs ve Yükselen Paralel açısı, sevgi prensibi ve kişiliği birleştirir. Tıpkı bir kavuşum gibi, kişiye doğal bir çekicilik, zarafet ve popülerlik verir. Görünüşüne ve uyuma önem verir.",
+    "Contra-Parallel": "Venüs ve Yükselen Kontra-Paralel açısı, kişisel değerler ile ilişkilerde aranan denge arasında bir farkındalık yaratır. Tıpkı bir karşıt açı gibi, kişi ilişkiler yoluyla uyum ve güzellik arayışını dengeler."
+  },
+  "Ascendant-Mars": {
+    "Conjunction": "Mars'ın Yükselen ile kavuşumu, kişiye son derece enerjik, iddialı ve cesur bir kişilik verir. İlk izlenimi direkt, rekabetçi ve bazen agresiftir. Harekete geçmekten çekinmez.",
+    "Sextile": "Mars ve Yükselen arasındaki sekstil açı, eylem ile kişilik arasında dinamik bir işbirliği sağlar. Kişi kendini enerjik ve kendine güvenen bir şekilde ortaya koyar. Fiziksel olarak aktiftir.",
+    "Square": "Mars ve Yükselen arasındaki kare açı, arzular ile dış dünyaya gösterilen kişilik arasında bir çatışma yaratır. Kişi kavgacı, sabırsız ve başkalarına karşı kaba görünebilir. Enerjisini kontrol etmekte zorlanır.",
+    "Trine": "Mars ve Yükselen arasındaki üçgen açı, eylem ile kişilik arasında doğal bir uyum sağlar. Kişi doğuştan cesur, enerjik ve lider ruhludur. Kendini iddialı ve dürüst bir şekilde ortaya koyar.",
+    "Opposition": "Mars'ın Alçalan ile kavuşumu, enerjinin ve çatışmanın ilişkiler yoluyla deneyimlendiğini gösterir. Kişi, dinamik ve iddialı partnerlere çekilir veya ilişkilerde rekabet yaşar.",
+    "Parallel": "Mars ve Yükselen Paralel açısı, enerji ve kişiliği birleştirir. Tıpkı bir kavuşum gibi, kişiye iddialı, enerjik ve doğrudan bir görünüm verir. Fiziksel varlığı güçlüdür.",
+    "Contra-Parallel": "Mars ve Yükselen Kontra-Paralel açısı, kişisel arzular ile ilişkilerdeki denge arasında bir farkındalık yaratır. Tıpkı bir karşıt açı gibi, kişi rekabet ve işbirliği arasında bir denge kurmayı öğrenir."
+  },
+  "Ascendant-Jupiter": {
+    "Conjunction": "Jüpiter'in Yükselen ile kavuşumu, kişiye iyimser, cömert ve neşeli bir kişilik verir. İlk izlenimi bilge, şanslı ve abartılı olabilir. Hayata karşı coşkulu bir yaklaşımı vardır.",
+    "Sextile": "Jüpiter ve Yükselen arasındaki sekstil açı, büyüme arzusu ile kişilik arasında uyumlu bir bağ kurar. Kişi kendini cömert ve bilge bir şekilde ifade eder. Sosyal olarak popülerdir.",
+    "Square": "Jüpiter ve Yükselen arasındaki kare açı, felsefe ile dış dünyaya gösterilen kişilik arasında bir gerilim yaratır. Kişi kendini beğenmiş, sorumsuz veya abartılı görünebilir. Vaatlerini tutmakta zorlanabilir.",
+    "Trine": "Jüpiter ve Yükselen arasındaki üçgen açı, büyüme ile kişilik arasında doğal bir uyum sağlar. Kişi doğuştan iyimser, cömert ve şanslıdır. Genellikle sevilen ve saygı duyulan biridir.",
+    "Opposition": "Jüpiter'in Alçalan ile kavuşumu, büyümenin ve bilgeliğin ilişkiler yoluyla arandığını gösterir. Kişi, ufkunu genişletecek, bilge veya yabancı kökenli partnerlere çekilir.",
+    "Parallel": "Jüpiter ve Yükselen Paralel açısı, genişleme ve kişiliği birleştirir. Tıpkı bir kavuşum gibi, kişiye cömert, iyimser ve büyük bir varlık kazandırır. Hayata karşı coşkulu bir duruş sergiler.",
+    "Contra-Parallel": "Jüpiter ve Yükselen Kontra-Paralel açısı, kişisel felsefe ile ilişkilerde aranan denge arasında bir farkındalık yaratır. Tıpkı bir karşıt açı gibi, kişi büyümesini ve bilgeliğini ilişkiler yoluyla dengeler."
+  },
+  "Ascendant-Saturn": {
+    "Conjunction": "Satürn'ün Yükselen ile kavuşumu, kişiye ciddi, sorumlu ve mesafeli bir kişilik verir. İlk izlenimi olgun, kontrollü ve bazen utangaç veya soğuktur. Hayatı ciddiye alır.",
+    "Sextile": "Satürn ve Yükselen arasındaki sekstil açı, disiplin ile kişilik arasında pratik bir işbirliği sağlar. Kişi kendini olgun ve güvenilir bir şekilde ortaya koyar. Sorumluluklarını ciddiye alır.",
+    "Square": "Satürn ve Yükselen arasındaki kare açı, kısıtlamalar ile dış dünyaya gösterilen kişilik arasında bir gerilim yaratır. Kişi kendini ifade etmekte zorlanabilir, güvensiz olabilir ve hayata karşı karamsar bir duruş sergileyebilir.",
+    "Trine": "Satürn ve Yükselen arasındaki üçgen açı, yapı ile kişilik arasında doğal bir uyum sağlar. Kişi doğuştan olgun, disiplinli ve güvenilirdir. Sakin ve kontrollü bir imaj çizer.",
+    "Opposition": "Satürn'ün Alçalan ile kavuşumu, yapının ve sorumluluğun ilişkiler yoluyla arandığını gösterir. Kişi, kendisinden yaşça büyük, olgun ve güvenilir partnerlere çekilir. İlişkilerde ciddiyet ve sadakat arar.",
+    "Parallel": "Satürn ve Yükselen Paralel açısı, disiplin ve kişiliği birleştirir. Tıpkı bir kavuşum gibi, kişiye ciddi, sorumlu ve kontrollü bir görünüm verir. Hayata karşı temkinli bir duruş sergiler.",
+    "Contra-Parallel": "Satürn ve Yükselen Kontra-Paralel açısı, kişisel engeller ve korkular ile ilişkilerde aranan denge arasında bir farkındalık yaratır. Tıpkı bir karşıt açı gibi, kişi ilişkiler yoluyla ciddiyet ve sorumluluk almayı öğrenir."
+  },
+  "Ascendant-Uranus": {
+    "Conjunction": "Uranüs'ün Yükselen ile kavuşumu, kişiye son derece özgün, bağımsız ve beklenmedik bir kişilik verir. İlk izlenimi farklı, isyankar ve heyecan vericidir. Geleneklere karşıdır.",
+    "Sextile": "Uranüs ve Yükselen arasındaki sekstil açı, yenilik ile kişilik arasında heyecan verici bir bağ kurar. Kişi kendini orijinal ve ilerici bir şekilde ifade eder. Sosyal olarak farklı ve ilginçtir.",
+    "Square": "Uranüs ve Yükselen arasındaki kare açı, özgürlük arzusu ile dış dünyaya gösterilen kişilik arasında bir gerilim yaratır. Kişi istikrarsız, güvenilmez ve isyankar görünebilir. Davranışları şok edici olabilir.",
+    "Trine": "Uranüs ve Yükselen arasındaki üçgen açı, özgünlük ile kişilik arasında doğal bir uyum sağlar. Kişi doğuştan bağımsız, yenilikçi ve manyetiktir. Kendine has bir tarzı vardır.",
+    "Opposition": "Uranüs'ün Alçalan ile kavuşumu, heyecanın ve özgürlüğün ilişkiler yoluyla arandığını gösterir. Kişi, sıradışı, bağımsız ve heyecan verici partnerlere çekilir. İlişkilerde ani başlangıçlar ve bitişler yaşanabilir.",
+    "Parallel": "Uranüs ve Yükselen Paralel açısı, özgürlük arzusu ve kişiliği birleştirir. Tıpkı bir kavuşum gibi, kişiye orijinal, beklenmedik ve bağımsız bir görünüm verir. Farklılığıyla dikkat çeker.",
+    "Contra-Parallel": "Uranüs ve Yükselen Kontra-Paralel açısı, kişisel özgürlük ihtiyacı ile ilişkilerde aranan denge arasında bir farkındalık yaratır. Tıpkı bir karşıt açı gibi, kişi ilişkilerde hem yakınlık hem de bağımsızlık ihtiyacını dengelemeyi öğrenir."
+  },
+  "Ascendant-Neptune": {
+    "Conjunction": "Neptün'ün Yükselen ile kavuşumu, kişiye son derece hassas, hayalperest ve gizemli bir kişilik verir. İlk izlenimi belirsiz, sanatsal ve büyüleyicidir. Sınırları belirsizdir ve bir bukalemun gibi ortama uyum sağlar.",
+    "Sextile": "Neptün ve Yükselen arasındaki sekstil açı, ilham ile kişilik arasında uyumlu bir akış sağlar. Kişi kendini nazik, şefkatli ve sanatsal bir şekilde ifade eder. Sezgileri güçlüdür.",
+    "Square": "Neptün ve Yükselen arasındaki kare açı, yanılsamalar ile dış dünyaya gösterilen kişilik arasında bir gerilim yaratır. Kişi güvenilmez, kafa karıştırıcı veya gerçeklerden kaçan biri olarak görülebilir. Kim olduğu konusunda belirsizlik yaşar.",
+    "Trine": "Neptün ve Yükselen arasındaki üçgen açı, hayal gücü ile kişilik arasında doğal bir uyum sağlar. Kişi doğuştan sezgisel, merhametli ve sanatsal bir ruha sahiptir. Büyüleyici bir aurası vardır.",
+    "Opposition": "Neptün'ün Alçalan ile kavuşumu, ideallerin ve ruhsal bağın ilişkiler yoluyla arandığını gösterir. Kişi, ruh eşini arar ve partnerini idealleştirme eğilimindedir. İlişkilerde hayal kırıklığına açıktır.",
+    "Parallel": "Neptün ve Yükselen Paralel açısı, hayal gücü ve kişiliği birleştirir. Tıpkı bir kavuşum gibi, kişiye gizemli, hassas ve büyüleyici bir görünüm verir. Sınırlarını belirlemekte zorlanabilir.",
+    "Contra-Parallel": "Neptün ve Yükselen Kontra-Paralel açısı, kişisel kimlikteki belirsizlik ile ilişkilerde aranan denge arasında bir farkındalık yaratır. Tıpkı bir karşıt açı gibi, kişi ilişkilerde gerçekçi olmayı ve sınır koymayı öğrenir."
+  },
+  "Ascendant-Pluto": {
+    "Conjunction": "Plüton'un Yükselen ile kavuşumu, kişiye son derece güçlü, yoğun ve karizmatik bir kişilik verir. İlk izlenimi gizemli, kontrollü ve derindir. Güçlü bir varlığı vardır ve insanları etkiler.",
+    "Sextile": "Plüton ve Yükselen arasındaki sekstil açı, kişisel güç ile kişilik arasında yapıcı bir fırsat sunar. Kişi kendini kararlı ve etkili bir şekilde ortaya koyar. Psikolojik anlama yeteneği vardır.",
+    "Square": "Plüton ve Yükselen arasındaki kare açı, güç savaşları ile dış dünyaya gösterilen kişilik arasında bir gerilim yaratır. Kişi manipülatif, takıntılı veya zorba olarak görülebilir. Başkalarıyla güç mücadelelerine girer.",
+    "Trine": "Plüton ve Yükselen arasındaki üçgen açı, kişisel güç ile kişilik arasında doğal bir uyum sağlar. Kişi doğuştan karizmatik, iradeli ve dönüştürücü bir etkiye sahiptir. Güçlü ve etkileyici bir liderdir.",
+    "Opposition": "Plüton'un Alçalan ile kavuşumu, gücün ve dönüşümün ilişkiler yoluyla deneyimlendiğini gösterir. Kişi, güçlü, tutkulu ve dönüştürücü partnerlere çekilir. İlişkilerde yoğun güç dinamikleri yaşanır.",
+    "Parallel": "Plüton ve Yükselen Paralel açısı, dönüşümsel güç ve kişiliği birleştirir. Tıpkı bir kavuşum gibi, kişiye yoğun, karizmatik ve gizemli bir görünüm verir. Güçlü bir kişisel varlığı vardır.",
+    "Contra-Parallel": "Plüton ve Yükselen Kontra-Paralel açısı, kişisel güç ve kontrol ihtiyacı ile ilişkilerdeki denge arasında bir farkındalık yaratır. Tıpkı bir karşıt açı gibi, kişi ilişkilerde güç savaşlarından kaçınmayı ve gücünü yapıcı kullanmayı öğrenir."
+  },
+  "Midheaven-Sun": {
+    "Conjunction": "Güneş'in Tepe Noktası (MC) ile kavuşumu, kariyerde ve toplumsal imajda parlama, tanınma ve liderlik arzusu verir. Kişi, kendi alanında bir otorite olmak ve takdir edilmek ister. Kariyer, kimliğin önemli bir parçasıdır.",
+    "Sextile": "Güneş ve MC arasındaki sekstil açı, kimlik ile kariyer hedefleri arasında uyumlu bir fırsat yaratır. Kişi, doğal yeteneklerini kariyerinde kullanarak başarılı olma potansiyeline sahiptir.",
+    "Square": "Güneş ve MC arasındaki kare açı, kişisel irade ile kariyer ve toplumsal sorumluluklar arasında bir gerilim yaratır. Kişi, otorite figürleriyle çatışabilir veya kariyer hedefleri ile kişisel istekleri arasında bölünmüş hissedebilir.",
+    "Trine": "Güneş ve MC arasındaki üçgen açı, kimlik ile kariyer arasında doğal bir uyum sağlar. Kişi kariyerinde kolayca başarıya ulaşır ve doğal bir lider olarak görülür. Toplumsal statüsü ve itibarı yüksektir.",
+    "Opposition": "Güneş'in Dip Noktası (IC) ile kavuşumu, kimliğin aile, kökler ve özel hayatla derinden bağlantılı olduğunu gösterir. Kişi, kariyer başarısından çok, güçlü bir aile temeli ve içsel güvenlik arar.",
+    "Parallel": "Güneş ve MC Paralel açısı, irade ve kariyer hedeflerini birleştirir. Tıpkı bir kavuşum gibi, kişiye kariyerinde liderlik etme, tanınma ve başarılı olma konusunda güçlü bir dürtü verir.",
+    "Contra-Parallel": "Güneş ve MC Kontra-Paralel açısı, kişisel kimlik ve arzular ile kamuoyu önündeki hayat ve sorumluluklar arasında bir denge kurma temasını işler. Tıpkı bir karşıt açı gibi, kişi özel hayatı ile kariyeri arasında bir denge kurmayı öğrenir."
+  },
+  "Midheaven-Moon": {
+    "Conjunction": "Ay'ın Tepe Noktası (MC) ile kavuşumu, kariyerin halkla, kadınlarla veya yeme-içme, gayrimenkul gibi halkın temel ihtiyaçlarıyla ilgili olabileceğini gösterir. Kariyerde popülerlik ve halkın sevgisini kazanma potansiyeli vardır. Kariyer, duygusal tatmin için önemlidir.",
+    "Sextile": "Ay ve MC arasındaki sekstil açı, duygusal doğa ile kariyer hedefleri arasında uyumlu bir akış sağlar. Kişi, sezgilerini ve şefkatini kariyerinde kullanarak başarılı olabilir.",
+    "Square": "Ay ve MC arasındaki kare açı, duygusal ihtiyaçlar ile kariyer sorumlulukları arasında bir gerilim yaratır. Kişinin özel hayatı ve ailevi sorunları, kariyerini olumsuz etkileyebilir. Kariyerinde duygusal dalgalanmalar yaşar.",
+    "Trine": "Ay ve MC arasındaki üçgen açı, duygusal doğa ile kariyer arasında doğal bir uyum sağlar. Kişi, halk tarafından sevilen ve desteklenen bir kariyere sahip olma potansiyeli taşır. Kariyeri, duygusal olarak tatmin edicidir.",
+    "Opposition": "Ay'ın Dip Noktası (IC) ile kavuşumu, duygusal güvenliğin ve mutluluğun aile ve yuvada bulunduğunu gösterir. Kariyerden çok özel hayata öncelik verme eğilimi vardır. Aile, hayatın temelidir.",
+    "Parallel": "Ay ve MC Paralel açısı, duygular ve kariyer hedeflerini birleştirir. Tıpkı bir kavuşum gibi, kişiye halka yönelik bir kariyerde başarılı olma ve popülerlik kazanma potansiyeli verir. Kariyeri duygusal olarak önemlidir.",
+    "Contra-Parallel": "Ay ve MC Kontra-Paralel açısı, özel hayat ve duygusal ihtiyaçlar ile kamuoyu önündeki kariyer ve sorumluluklar arasında bir denge kurma temasını işler. Tıpkı bir karşıt açı gibi, kişi aile ve iş hayatını dengelemeyi öğrenir."
+  },
+  "Midheaven-Mercury": {
+    "Conjunction": "Merkür'ün Tepe Noktası (MC) ile kavuşumu, kariyerin iletişim, yazma, konuşma, eğitim veya ticaretle ilgili olabileceğini gösterir. Kişi, fikirleri ve zekasıyla tanınmak ister. Kariyerde zihinsel uyarım arar.",
+    "Sextile": "Merkür ve MC arasındaki sekstil açı, zihin ile kariyer hedefleri arasında akıcı bir iletişim sağlar. Kişi, iletişim becerilerini kariyerinde etkili bir şekilde kullanarak başarılı olabilir.",
+    "Square": "Merkür ve MC arasındaki kare açı, düşünce tarzı ile kariyer sorumlulukları arasında bir gerilim yaratır. Kişi, kariyerinde yanlış anlaşılabilir veya fikirleri nedeniyle otoriteyle çatışabilir. Sık sık iş veya kariyer değiştirme eğilimi olabilir.",
+    "Trine": "Merkür ve MC arasındaki üçgen açı, zihin ile kariyer arasında doğal bir uyum sağlar. Kişi, iletişim ve zeka gerektiren bir kariyerde kolayca başarılı olur. Fikirleri toplum tarafından kabul görür.",
+    "Opposition": "Merkür'ün Dip Noktası (IC) ile kavuşumu, zihinsel aktivitenin ve iletişimin ev ve aile hayatında yoğunlaştığını gösterir. Kişi, evden çalışabilir veya ailesiyle sürekli iletişim halinde olabilir.",
+    "Parallel": "Merkür ve MC Paralel açısı, zihin ve kariyer hedeflerini birleştirir. Tıpkı bir kavuşum gibi, kişiye iletişim, yazarlık veya ticaret alanında bir kariyerde başarılı olma potansiyeli verir. Zekasıyla tanınır.",
+    "Contra-Parallel": "Merkür ve MC Kontra-Paralel açısı, özel düşünceler ve aile içi iletişim ile kamuoyu önündeki ifade ve kariyer arasında bir denge kurma temasını işler. Tıpkı bir karşıt açı gibi, kişi iş ve özel hayat iletişimi arasında bir denge kurmayı öğrenir."
+  },
+  "Midheaven-Venus": {
+    "Conjunction": "Venüs'ün Tepe Noktası (MC) ile kavuşumu, kariyerin sanat, güzellik, diplomasi veya sosyal ilişkilerle ilgili olabileceğini gösterir. Kişi, kariyeriyle tanınan, sevilen ve popüler bir figür olmak ister. Kariyerinde uyum ve estetik arar.",
+    "Sextile": "Venüs ve MC arasındaki sekstil açı, sevgi doğası ile kariyer hedefleri arasında uyumlu bir fırsat yaratır. Kişi, sosyal becerilerini ve sanatsal yeteneklerini kariyerinde kullanarak başarılı olabilir.",
+    "Square": "Venüs ve MC arasındaki kare açı, sosyal değerler ile kariyer sorumlulukları arasında bir sürtüşme yaratır. Kişi, kariyerinde tembelliğe veya zevk düşkünlüğüne kapılabilir. Sosyal imajı ile kariyer hedefleri arasında çatışma yaşayabilir.",
+    "Trine": "Venüs ve MC arasındaki üçgen açı, sevgi doğası ile kariyer arasında doğal bir uyum sağlar. Kişi, sanat, güzellik veya diplomasi alanında bir kariyerde kolayca başarılı olur ve toplum tarafından sevilir.",
+    "Opposition": "Venüs'ün Dip Noktası (IC) ile kavuşumu, mutluluğun ve uyumun ev ve aile hayatında arandığını gösterir. Kişi, evini güzelleştirmekten ve aile üyeleriyle uyumlu ilişkiler kurmaktan zevk alır.",
+    "Parallel": "Venüs ve MC Paralel açısı, sevgi prensibi ve kariyer hedeflerini birleştirir. Tıpkı bir kavuşum gibi, kişiye sanat, diplomasi veya halkla ilişkiler alanında bir kariyerde popülerlik ve başarı potansiyeli verir.",
+    "Contra-Parallel": "Venüs ve MC Kontra-Paralel açısı, özel hayattaki zevkler ve değerler ile kamuoyu önündeki kariyer ve sosyal imaj arasında bir denge kurma temasını işler. Tıpkı bir karşıt açı gibi, kişi iş ve özel hayat zevklerini dengelemeyi öğrenir."
+  },
+  "Midheaven-Mars": {
+    "Conjunction": "Mars'ın Tepe Noktası (MC) ile kavuşumu, kariyerde hırs, rekabet ve liderlik arzusu verir. Kişi, kendi işinin patronu olmak veya rekabetçi bir alanda zirveye çıkmak ister. Kariyeri enerjik ve iddialıdır.",
+    "Sextile": "Mars ve MC arasındaki sekstil açı, eylem ile kariyer hedefleri arasında dinamik bir işbirliği sağlar. Kişi, enerjisini ve cesaretini kariyerinde ilerlemek için etkili bir şekilde kullanır.",
+    "Square": "Mars ve MC arasındaki kare açı, kişisel arzular ile kariyer sorumlulukları arasında bir çatışma yaratır. Kişi, kariyerinde otoriteyle çatışabilir, aceleci kararlar alabilir ve itibarına zarar verebilir.",
+    "Trine": "Mars ve MC arasındaki üçgen açı, eylem ile kariyer arasında doğal bir uyum sağlar. Kişi, liderlik ve cesaret gerektiren bir kariyerde kolayca başarılı olur. Kendi alanında bir öncüdür.",
+    "Opposition": "Mars'ın Dip Noktası (IC) ile kavuşumu, enerjinin ve çatışmanın ev ve aile hayatında yoğunlaştığını gösterir. Aile içinde güç mücadeleleri veya evde sürekli bir hareketlilik olabilir.",
+    "Parallel": "Mars ve MC Paralel açısı, enerji ve kariyer hedeflerini birleştirir. Tıpkı bir kavuşum gibi, kişiye kariyerinde hırslı, rekabetçi ve lider olma güdüsü verir. Eylemleriyle tanınır.",
+    "Contra-Parallel": "Mars ve MC Kontra-Paralel açısı, özel hayattaki çatışmalar ve arzular ile kamuoyu önündeki kariyer hedefleri arasında bir denge kurma temasını işler. Tıpkı bir karşıt açı gibi, kişi öfkesini ve enerjisini kariyerinde yapıcı bir şekilde kullanmayı öğrenir."
+  },
+  "Midheaven-Jupiter": {
+    "Conjunction": "Jüpiter'in Tepe Noktası (MC) ile kavuşumu, kariyerde büyük başarı, tanınma ve şans potansiyeli verir. Kişi, kariyeriyle topluma ilham vermek ve ufkunu genişletmek ister. Eğitim, yayıncılık, hukuk veya seyahatle ilgili bir kariyer olabilir.",
+    "Sextile": "Jüpiter ve MC arasındaki sekstil açı, büyüme arzusu ile kariyer hedefleri arasında uyumlu bir bağ kurar. Kişi, felsefesini ve vizyonunu kariyerinde kullanarak başarılı olma potansiyeline sahiptir.",
+    "Square": "Jüpiter ve MC arasındaki kare açı, felsefe ile kariyer sorumlulukları arasında bir gerilim yaratır. Kişi, kariyerinde abartılı vaatlerde bulunabilir, yasal sorunlar yaşayabilir veya itibarını zedeleyecek kadar sorumsuz davranabilir.",
+    "Trine": "Jüpiter ve MC arasındaki üçgen açı, büyüme ile kariyer arasında doğal bir uyum sağlar. Kişi, kariyerinde kolayca başarıya, tanınmaya ve şansa ulaşır. Toplumda saygın bir konuma sahiptir.",
+    "Opposition": "Jüpiter'in Dip Noktası (IC) ile kavuşumu, mutluluğun ve büyümenin aile ve köklerde arandığını gösterir. Geniş bir aileye veya büyük bir eve sahip olma arzusu vardır. Ailesinden büyük destek görür.",
+    "Parallel": "Jüpiter ve MC Paralel açısı, genişleme ve kariyer hedeflerini birleştirir. Tıpkı bir kavuşum gibi, kişiye kariyerinde büyük bir şans, başarı ve tanınma potansiyeli verir. Toplumda bilge bir figür olarak görülür.",
+    "Contra-Parallel": "Jüpiter ve MC Kontra-Paralel açısı, özel hayattaki inançlar ve felsefeler ile kamuoyu önündeki kariyer ve sosyal statü arasında bir denge kurma temasını işler. Tıpkı bir karşıt açı gibi, kişi kariyerinde ahlaki ve etik değerleri korumayı öğrenir."
+  },
+  "Midheaven-Saturn": {
+    "Conjunction": "Satürn'ün Tepe Noktası (MC) ile kavuşumu, kariyerde büyük bir sorumluluk, hırs ve disiplin verir. Kişi, sabır ve sıkı çalışmayla kariyerinin zirvesine ulaşır. Otorite ve saygınlık kazanır, ancak başarı geç gelebilir.",
+    "Sextile": "Satürn ve MC arasındaki sekstil açı, disiplin ile kariyer hedefleri arasında pratik bir işbirliği sağlar. Kişi, sorumluluklarını yerine getirerek ve planlı çalışarak kariyerinde istikrarlı bir şekilde yükselir.",
+    "Square": "Satürn ve MC arasındaki kare açı, kısıtlamalar ile kariyer hedefleri arasında bir gerilim yaratır. Kişi, kariyerinde büyük zorluklar, engeller ve gecikmelerle karşılaşabilir. Otorite figürleriyle (özellikle ebeveynlerle) sorunlar yaşayabilir.",
+    "Trine": "Satürn ve MC arasındaki üçgen açı, yapı ile kariyer arasında doğal bir uyum sağlar. Kişi, disiplinli ve sabırlı çalışmasıyla kariyerinde doğal bir başarı ve saygınlık elde eder. Güvenilir bir liderdir.",
+    "Opposition": "Satürn'ün Dip Noktası (IC) ile kavuşumu, aileden gelen büyük sorumlulukları veya kısıtlayıcı bir aile geçmişini gösterir. Kişi, kariyer hedefleri ile ailevi görevler arasında sıkışmış hissedebilir.",
+    "Parallel": "Satürn ve MC Paralel açısı, disiplin ve kariyer hedeflerini birleştirir. Tıpkı bir kavuşum gibi, kişiye kariyerinde büyük bir sorumluluk, hırs ve eninde sonunda başarı getirme potansiyeli verir. Alanında bir otorite olur.",
+    "Contra-Parallel": "Satürn ve MC Kontra-Paralel açısı, özel hayattaki sorumluluklar ve korkular ile kamuoyu önündeki kariyer hedefleri arasında bir denge kurma temasını işler. Tıpkı bir karşıt açı gibi, kişi aile ve iş hayatı arasındaki dengeyi sağlamak için çok çalışır."
+  },
+  "Midheaven-Uranus": {
+    "Conjunction": "Uranüs'ün Tepe Noktası (MC) ile kavuşumu, kariyerde ani ve beklenmedik değişimler, özgünlük ve bağımsızlık arzusu verir. Kişi, teknoloji, bilim veya reformist alanlarda bir kariyer seçebilir. Kariyeri sıradışıdır ve sık sık yön değiştirebilir.",
+    "Sextile": "Uranüs ve MC arasındaki sekstil açı, yenilik ile kariyer hedefleri arasında heyecan verici bir bağ kurar. Kişi, orijinal fikirlerini kariyerine taşıyarak ani başarılar elde edebilir.",
+    "Square": "Uranüs ve MC arasındaki kare açı, özgürlük arzusu ile kariyer sorumlulukları arasında bir gerilim yaratır. Kişi, otoriteye isyan edebilir, kariyerinde ani ve yıkıcı değişiklikler yaşayabilir ve istikrarsız bir profesyonel hayata sahip olabilir.",
+    "Trine": "Uranüs ve MC arasındaki üçgen açı, özgünlük ile kariyer arasında doğal bir uyum sağlar. Kişi, teknoloji, icat veya reform gerektiren bir kariyerde kolayca başarılı olur. Kendi alanında bir devrimcidir.",
+    "Opposition": "Uranüs'ün Dip Noktası (IC) ile kavuşumu, aile hayatında ve evde ani ve beklenmedik değişimleri gösterir. Aile köklerinden veya geleneklerinden ani bir kopuş yaşanabilir.",
+    "Parallel": "Uranüs ve MC Paralel açısı, özgürlük arzusu ve kariyer hedeflerini birleştirir. Tıpkı bir kavuşum gibi, kişiye sıradışı, yenilikçi ve bağımsız bir kariyer yolu çizer. Kariyerinde ani değişimler normaldir.",
+    "Contra-Parallel": "Uranüs ve MC Kontra-Paralel açısı, özel hayattaki istikrarsızlık veya özgürlük ihtiyacı ile kamuoyu önündeki kariyer hedefleri arasında bir denge kurma temasını işler. Tıpkı bir karşıt açı gibi, kişi kariyerinde istikrar ile yeniliği dengelemeyi öğrenir."
+  },
+  "Midheaven-Neptune": {
+    "Conjunction": "Neptün'ün Tepe Noktası (MC) ile kavuşumu, kariyerin sanat, müzik, sinema, şifa veya maneviyatla ilgili olabileceğini gösterir. Kişi, kariyeriyle insanlara ilham vermek ister. Ancak kariyer yönü belirsiz, kafa karıştırıcı ve idealize edilmiş olabilir.",
+    "Sextile": "Neptün ve MC arasındaki sekstil açı, ilham ile kariyer hedefleri arasında uyumlu bir akış sağlar. Kişi, sezgilerini ve yaratıcılığını kariyerinde kullanarak başarılı olabilir.",
+    "Square": "Neptün ve MC arasındaki kare açı, yanılsamalar ile kariyer sorumlulukları arasında bir gerilim yaratır. Kişi, kariyer hedefleri konusunda kafa karışıklığı yaşayabilir, skandallara karışabilir veya itibarını zedeleyecek aldanmalar yaşayabilir.",
+    "Trine": "Neptün ve MC arasındaki üçgen açı, hayal gücü ile kariyer arasında doğal bir uyum sağlar. Kişi, sanatsal veya ruhsal bir kariyerde kolayca başarılı olur ve toplumda ilham verici bir figür olarak görülür.",
+    "Opposition": "Neptün'ün Dip Noktası (IC) ile kavuşumu, aile geçmişinde belirsizlikler, sırlar veya karmaşık durumlar olabileceğini gösterir. Kişi, idealize ettiği bir aile hayatı arar veya ev hayatında karmaşa yaşar.",
+    "Parallel": "Neptün ve MC Paralel açısı, hayal gücü ve kariyer hedeflerini birleştirir. Tıpkı bir kavuşum gibi, kişiye sanatsal, ruhsal veya şifa ile ilgili bir kariyerde ilham verici olma potansiyeli verir. Kariyer yolu belirsiz olabilir.",
+    "Contra-Parallel": "Neptün ve MC Kontra-Paralel açısı, özel hayattaki belirsizlikler ve hayaller ile kamuoyu önündeki kariyer ve somut hedefler arasında bir denge kurma temasını işler. Tıpkı bir karşıt açı gibi, kişi hayallerini gerçeğe dönüştürmek için somut adımlar atmayı öğrenir."
+  },
+  "Midheaven-Pluto": {
+    "Conjunction": "Plüton'un Tepe Noktası (MC) ile kavuşumu, kariyerde büyük bir güç, etki ve dönüşüm arzusu verir. Kişi, kendi alanında güçlü ve etkili bir figür olmak ister. Kariyeri, krizler ve dönüşümlerle dolu olabilir. Psikoloji, araştırma veya büyük güç yapılarıyla ilgili bir kariyer olabilir.",
+    "Sextile": "Plüton ve MC arasındaki sekstil açı, kişisel güç ile kariyer hedefleri arasında yapıcı bir fırsat sunar. Kişi, stratejik ve kararlı bir şekilde hareket ederek kariyerinde derin bir etki yaratabilir.",
+    "Square": "Plüton ve MC arasındaki kare açı, güç savaşları ile kariyer sorumlulukları arasında yoğun bir çatışma yaratır. Kişi, kariyerinde otoriteyle acımasız mücadelelere girebilir, itibarını sarsacak skandallar yaşayabilir ve kariyerini takıntı haline getirebilir.",
+    "Trine": "Plüton ve MC arasındaki üçgen açı, kişisel güç ile kariyer arasında doğal bir uyum sağlar. Kişi, kariyerinde doğal bir güç ve etkiye sahiptir. Toplumu ve kendi alanını dönüştürme potansiyeli vardır.",
+    "Opposition": "Plüton'un Dip Noktası (IC) ile kavuşumu, aile geçmişinde güçlü, kontrolcü figürlerin veya derin aile sırlarının olduğunu gösterir. Kişi, kariyer hedefleri ile ailedeki güç dinamikleri arasında bir çatışma yaşayabilir.",
+    "Parallel": "Plüton ve MC Paralel açısı, dönüşümsel güç ve kariyer hedeflerini birleştirir. Tıpkı bir kavuşum gibi, kişiye kariyerinde büyük bir güç, etki ve kontrol sahibi olma güdüsü verir. Alanında dönüştürücü bir figürdür.",
+    "Contra-Parallel": "Plüton ve MC Kontra-Paralel açısı, özel hayattaki güç dinamikleri ve sırlar ile kamuoyu önündeki kariyer ve itibar arasında bir denge kurma temasını işler. Tıpkı bir karşıt açı gibi, kişi gücünü ve etkisini sorumlu bir şekilde kullanmayı öğrenir."
+  }
+}

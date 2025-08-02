@@ -1,0 +1,10 @@
+fastapi
+uvicorn[standard]
+pydantic
+pyswisseph
+pytz
+timezonefinder
+matplotlib
+numpy
+fastapi-cache2[redis]
+gunicorn
