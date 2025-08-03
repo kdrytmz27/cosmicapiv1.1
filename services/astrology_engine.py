@@ -12,7 +12,6 @@ from core.config import (
     DECLINATION_ASPECTS
 )
 
-# ... (Bu dosyadaki diğer tüm yardımcı fonksiyonlar, `calculate_natal_data`'ya kadar aynı kalıyor) ...
 def format_declination(dec: float) -> str:
     direction = "N" if dec >= 0 else "S"; dec = abs(dec); degrees = int(dec); minutes = int((dec - degrees) * 60)
     return f"{degrees:02d}° {direction} {minutes:02d}'"
@@ -127,29 +126,17 @@ def calculate_declination_aspects(planets: List[Dict]) -> List[Dict]:
 
 # --- YENİ FONKSİYON ---
 def _calculate_balance(planets_with_details: List[Dict]) -> Dict[str, Any]:
-    """
-    Haritanın element (Ateş, Toprak, Hava, Su) ve nitelik (Öncü, Sabit, Değişken)
-    dengesini hesaplar.
-    """
     elements = {'Fire': 0, 'Earth': 0, 'Air': 0, 'Water': 0}
     modalities = {'Cardinal': 0, 'Fixed': 0, 'Mutable': 0}
-    
-    # Denge hesaplamasına dahil edilmeyecek astrolojik noktalar.
-    # Genellikle sadece 10 ana gezegen (Güneş-Plüton) sayılır.
     planets_for_balance = ['Sun', 'Moon', 'Mercury', 'Venus', 'Mars', 'Jupiter', 'Saturn', 'Uranus', 'Neptune', 'Pluto']
-    
     for p in planets_with_details:
         if p['planet'] in planets_for_balance:
-            if p.get('element'):
-                elements[p['element']] += 1
-            if p.get('modality'):
-                modalities[p['modality']] += 1
-                
+            if p.get('element'): elements[p['element']] += 1
+            if p.get('modality'): modalities[p['modality']] += 1
     return {"elements": elements, "modalities": modalities}
 # --- BİTTİ ---
 
 def calculate_natal_data(birth_data: BirthData) -> Dict[str, Any]:
-    # ... (tüm hesaplamaların başı aynı kalıyor) ...
     tf = TimezoneFinder(); timezone_str = tf.timezone_at(lng=birth_data.lon, lat=birth_data.lat)
     if not timezone_str: return {"error": "Geçersiz koordinatlar için zaman dilimi bulunamadı."}
     local_tz = pytz.timezone(timezone_str); naive_dt = datetime.combine(birth_data.date, birth_data.time)
@@ -185,7 +172,6 @@ def calculate_natal_data(birth_data: BirthData) -> Dict[str, Any]:
         house = _find_planet_in_house(p['longitude'], list(house_cusps_raw))
         planets_with_details.append({**p, **details, "house": house})
 
-    # ... (açı, açı kalıpları, ev yöneticileri hesaplamaları aynı kalıyor) ...
     planet_to_planet_aspects = calculate_aspects(planets_with_details)
     aspect_patterns = recognize_aspect_patterns(planets_with_details, planet_to_planet_aspects)
     all_points_for_aspects = planets_with_details + [{"planet": "Ascendant", "longitude": ascmc[0], "speed": None},{"planet": "Midheaven", "longitude": ascmc[1], "speed": None}]
@@ -194,14 +180,11 @@ def calculate_natal_data(birth_data: BirthData) -> Dict[str, Any]:
     all_aspects = longitude_aspects + declination_aspects
     house_rulers = _find_house_rulers(list(house_cusps_raw), planets_with_details, birth_data.rulership_system.value)
 
-    # --- YENİ: Denge (Insights) verisini hesapla ---
+    # --- GÜNCELLEME: Denge verisini de hesaplayıp ekliyoruz ---
     balance_data = _calculate_balance(planets_with_details)
     
-    # --- GÜNCELLEME: Dönen sonuca `balance` verisini ekle ---
     return {
         "planets": planets_with_details, "house_cusps": list(house_cusps_raw), "ascmc": list(ascmc),
-        "aspects": all_aspects,
-        "aspect_patterns": aspect_patterns,
-        "house_rulers": house_rulers,
-        "balance": balance_data # YENİ VERİ
+        "aspects": all_aspects, "aspect_patterns": aspect_patterns, "house_rulers": house_rulers,
+        "balance": balance_data # <-- YENİ VERİ EKLENDİ
     }
