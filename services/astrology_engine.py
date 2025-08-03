@@ -9,10 +9,10 @@ from models.pydantic_models import BirthData
 from core.config import (
     EPHE_PATH, ZODIAC_SIGNS, ZODIAC_GLYPHS, SIGN_TO_ELEMENT,
     SIGN_TO_MODALITY, SIGN_RULERS, PLANET_NUMBERS, ASPECTS,
-    DECLINATION_ASPECTS # YENİ: Deklinasyon ayarlarını import ediyoruz
+    DECLINATION_ASPECTS
 )
 
-# ... (Bu dosyadaki diğer tüm yardımcı fonksiyonlar `calculate_natal_data` hariç HİÇBİR DEĞİŞİKLİK OLMADAN AYNI KALIYOR) ...
+# ... (Bu dosyadaki diğer tüm yardımcı fonksiyonlar, `calculate_natal_data`'ya kadar aynı kalıyor) ...
 def format_declination(dec: float) -> str:
     direction = "N" if dec >= 0 else "S"; dec = abs(dec); degrees = int(dec); minutes = int((dec - degrees) * 60)
     return f"{degrees:02d}° {direction} {minutes:02d}'"
@@ -110,45 +110,46 @@ def _find_house_rulers(house_cusps: List[float], planets: List[Dict], rulership_
             rulerships.append({"house": house_num, "sign": cusp_sign, "ruler_planet": ruler_planet_name,
                                "ruler_in_house": ruler_in_house, "rulership_system_used": rulership_system})
     return rulerships
-
-# --- YENİ FONKSİYON ---
 def calculate_declination_aspects(planets: List[Dict]) -> List[Dict]:
-    """
-    Gezegenler arasındaki Paralel ve Kontra-Paralel açıları, deklinasyonlarına
-    göre hesaplar.
-    """
-    found_aspects = []
-    orb = DECLINATION_ASPECTS["Parallel"]["orb"] # Orb değeri config'den alınır
-
+    found_aspects = []; orb = DECLINATION_ASPECTS["Parallel"]["orb"]
     for p1, p2 in itertools.combinations(planets, 2):
-        # Deklinasyonu olmayan teorik noktaları atla
-        if 'declination' not in p1 or 'declination' not in p2 or p1['planet'] == 'Part of Fortune' or p2['planet'] == 'Part of Fortune':
-            continue
-            
-        dec1 = p1['declination']
-        dec2 = p2['declination']
-        
-        # Paralel Kontrolü: İki gezegen de aynı yarım kürede mi (işaretleri aynı mı)?
+        if 'declination' not in p1 or 'declination' not in p2 or p1['planet'] == 'Part of Fortune' or p2['planet'] == 'Part of Fortune': continue
+        dec1 = p1['declination']; dec2 = p2['declination']
         if (dec1 >= 0 and dec2 >= 0) or (dec1 < 0 and dec2 < 0):
             if abs(dec1 - dec2) <= orb:
-                found_aspects.append({
-                    "planet1": p1['planet'], "aspect": "Parallel", "planet2": p2['planet'],
-                    "orb": round(abs(dec1 - dec2), 2), "type": "Declination", "nature": "N/A"
-                })
-        
-        # Kontra-Paralel Kontrolü: Gezegenler farklı yarım küredeler mi?
+                found_aspects.append({"planet1": p1['planet'], "aspect": "Parallel", "planet2": p2['planet'],
+                                      "orb": round(abs(dec1 - dec2), 2), "type": "Declination", "nature": "N/A"})
         else:
             if abs(abs(dec1) - abs(dec2)) <= orb:
-                found_aspects.append({
-                    "planet1": p1['planet'], "aspect": "Contra-Parallel", "planet2": p2['planet'],
-                    "orb": round(abs(abs(dec1) - abs(dec2)), 2), "type": "Declination", "nature": "N/A"
-                })
-                
+                found_aspects.append({"planet1": p1['planet'], "aspect": "Contra-Parallel", "planet2": p2['planet'],
+                                      "orb": round(abs(abs(dec1) - abs(dec2)), 2), "type": "Declination", "nature": "N/A"})
     return found_aspects
+
+# --- YENİ FONKSİYON ---
+def _calculate_balance(planets_with_details: List[Dict]) -> Dict[str, Any]:
+    """
+    Haritanın element (Ateş, Toprak, Hava, Su) ve nitelik (Öncü, Sabit, Değişken)
+    dengesini hesaplar.
+    """
+    elements = {'Fire': 0, 'Earth': 0, 'Air': 0, 'Water': 0}
+    modalities = {'Cardinal': 0, 'Fixed': 0, 'Mutable': 0}
+    
+    # Denge hesaplamasına dahil edilmeyecek astrolojik noktalar.
+    # Genellikle sadece 10 ana gezegen (Güneş-Plüton) sayılır.
+    planets_for_balance = ['Sun', 'Moon', 'Mercury', 'Venus', 'Mars', 'Jupiter', 'Saturn', 'Uranus', 'Neptune', 'Pluto']
+    
+    for p in planets_with_details:
+        if p['planet'] in planets_for_balance:
+            if p.get('element'):
+                elements[p['element']] += 1
+            if p.get('modality'):
+                modalities[p['modality']] += 1
+                
+    return {"elements": elements, "modalities": modalities}
 # --- BİTTİ ---
 
 def calculate_natal_data(birth_data: BirthData) -> Dict[str, Any]:
-    # ... (zaman hesaplama ve gezegen döngüsü aynı kalıyor) ...
+    # ... (tüm hesaplamaların başı aynı kalıyor) ...
     tf = TimezoneFinder(); timezone_str = tf.timezone_at(lng=birth_data.lon, lat=birth_data.lat)
     if not timezone_str: return {"error": "Geçersiz koordinatlar için zaman dilimi bulunamadı."}
     local_tz = pytz.timezone(timezone_str); naive_dt = datetime.combine(birth_data.date, birth_data.time)
@@ -184,31 +185,23 @@ def calculate_natal_data(birth_data: BirthData) -> Dict[str, Any]:
         house = _find_planet_in_house(p['longitude'], list(house_cusps_raw))
         planets_with_details.append({**p, **details, "house": house})
 
-    # --- DEĞİŞİKLİK: Deklinasyon açıları da hesaplamaya dahil ediliyor ---
+    # ... (açı, açı kalıpları, ev yöneticileri hesaplamaları aynı kalıyor) ...
     planet_to_planet_aspects = calculate_aspects(planets_with_details)
     aspect_patterns = recognize_aspect_patterns(planets_with_details, planet_to_planet_aspects)
-    
-    all_points_for_aspects = planets_with_details + [
-        {"planet": "Ascendant", "longitude": ascmc[0], "speed": None},
-        {"planet": "Midheaven", "longitude": ascmc[1], "speed": None}
-    ]
-    
-    # Boylam temelli tüm açıları hesapla
+    all_points_for_aspects = planets_with_details + [{"planet": "Ascendant", "longitude": ascmc[0], "speed": None},{"planet": "Midheaven", "longitude": ascmc[1], "speed": None}]
     longitude_aspects = calculate_aspects(all_points_for_aspects)
-    
-    # YENİ: Deklinasyon temelli açıları hesapla
-    # Not: Bu açılar genellikle sadece gezegenler arasında hesaplanır, ASC/MC dahil edilmez.
     declination_aspects = calculate_declination_aspects(planets_with_details)
-    
-    # İki açı listesini birleştir
     all_aspects = longitude_aspects + declination_aspects
-    # --- DEĞİŞİKLİK SONU ---
-
     house_rulers = _find_house_rulers(list(house_cusps_raw), planets_with_details, birth_data.rulership_system.value)
+
+    # --- YENİ: Denge (Insights) verisini hesapla ---
+    balance_data = _calculate_balance(planets_with_details)
     
+    # --- GÜNCELLEME: Dönen sonuca `balance` verisini ekle ---
     return {
         "planets": planets_with_details, "house_cusps": list(house_cusps_raw), "ascmc": list(ascmc),
         "aspects": all_aspects,
         "aspect_patterns": aspect_patterns,
-        "house_rulers": house_rulers
+        "house_rulers": house_rulers,
+        "balance": balance_data # YENİ VERİ
     }

@@ -1,56 +1,34 @@
-# ✨ CosmicAPI - Gelişmiş Astroloji Motoru v2.8
+# ✨ CosmicAPI - Gelişmiş Astroloji Motoru v3.0
 
 Profesyonel, yüksek hassasiyetli ve modern bir astroloji API'si. CosmicAPI, doğum haritası verilerini, sinastri (ilişki) analizlerini, anlık transitleri ve detaylı astrolojik raporları sunmak için tasarlanmıştır.
 
-API, modüler yapısı, **Redis tabanlı önbellekleme** sistemi, **API Anahtarı ile korunan** güvenli yapısı ve kolayca genişletilebilir mimarisi ile öne çıkar.
+**Canlı API Adresi:** `https://cosmicapiv1-1.onrender.com`
 
-## 🚀 Temel Özellikler
+Bu API, **Redis tabanlı önbellekleme** sistemi sayesinde son derece hızlıdır ve **API Anahtarı ile korunan** güvenli bir yapıya sahiptir.
 
-*   **Yüksek Hassasiyetli Hesaplamalar:** Endüstri standardı olan **Swiss Ephemeris** kütüphanesi ile çalışır.
-*   **Kapsamlı Natal Harita Analizi:**
-    *   Tüm gezegenler, asteroitler (Chiron, Ceres, Pallas, Juno, Vesta), Ay Düğümleri ve Lilith'in konumları.
-    *   8 farklı ev sistemi (Placidus, Whole Sign vb.) ve Modern/Geleneksel yönetici seçeneği.
-    *   Boylam temelli tüm Major, Minor ve Creative açılar.
-    *   **Yükselen (ASC) ve Tepe Noktası (MC) ile yapılan açılar.**
-    *   **İleri Seviye Deklinasyon Açıları:** Paralel ve Kontra-Paralel.
-    *   Açı kalıpları (Stellium, T-Kare, Büyük Üçgen).
-*   **Görsel Harita Üretimi:**
-    *   Profesyonel ve estetik **Natal Harita Görseli** (`.png`).
-    *   Detaylı **Sinastri (Bi-Wheel) Harita Görseli** (`.png`).
-*   **Detaylı Raporlama Motoru:**
-    *   Tüm gezegenlerin, Yükselen'in, MC'nin, Ay Düğümleri'nin, Lilith'in ve Chiron'un Burç ve Ev yorumları.
-    *   Tüm açıların (gezegen-gezegen, gezegen-aks, deklinasyon) yorumları.
-    *   Ev yöneticileri ve retro gezegenler için özel raporlar.
-*   **Modern Altyapı:** Hızlı, verimli ve otomatik interaktif dokümantasyon sağlayan **FastAPI** üzerine kurulmuştur.
+## 📚 API Entegrasyon Kılavuzu
 
----
+Bu kılavuz, CosmicAPI'yi kendi web sitenize, mobil uygulamanıza veya bot'unuza nasıl entegre edeceğinizi adım adım açıklar.
 
-## 📚 API Dokümantasyonu ve Kullanımı
+### 1. Temel Bilgiler
 
-Bu bölüm, CosmicAPI'yi kendi uygulamanıza nasıl entegre edeceğinizi adım adım açıklar.
+*   **Ana URL (Base URL):** Tüm istekler bu adrese gönderilmelidir:
+    `https://cosmicapiv1-1.onrender.com/v1`
+*   **Metot:** Tüm endpoint'ler `POST` metodunu kullanır (bilgi almak için bile).
+*   **Veri Formatı:** Tüm istek gövdeleri (`Request Body`) `Content-Type: application/json` formatında olmalıdır.
 
-### 1. Yetkilendirme (Authentication)
+### 2. Yetkilendirme (Authentication)
 
-CosmicAPI, güvenliği sağlamak için API Anahtarı (API Key) kullanır. Her istekte, HTTP başlığı (header) olarak geçerli bir API anahtarı göndermeniz gerekmektedir.
+CosmicAPI'ye yapılan her istekte, HTTP başlığı (header) olarak geçerli bir API anahtarı göndermeniz zorunludur.
 
 *   **Header Adı:** `X-API-Key`
-*   **Varsayılan Anahtar:** `COSMIC_API_SECRET_KEY_12345` (Bu değeri `core/config.py` dosyasından değiştirebilirsiniz.)
+*   **Anahtar Değeri:** `COSMIC_API_SECRET_KEY_12345`
 
-**Örnek (cURL ile):**
-```bash
-curl -X 'POST' \
-  'http://127.0.0.1:8000/v1/natal/full-chart' \
-  -H 'accept: application/json' \
-  -H 'X-API-Key: COSMIC_API_SECRET_KEY_12345' \
-  -H 'Content-Type: application/json' \
-  -d '{ "date": "1990-05-15", "time": "10:30", "lat": 41.0082, "lon": 28.9784 }'
-```
+Eğer anahtar gönderilmez veya yanlış gönderilirse, API `401 Unauthorized` durum kodu ile hata döndürecektir.
 
-### 2. Temel İstek (Request) Yapısı
+### 3. Ana Veri Modeli: `BirthData`
 
-Tüm `POST` istekleri, gövdesinde (body) `application/json` formatında bir veri bekler. Ana veri modeli **`BirthData`**'dır.
-
-#### `BirthData` Modeli
+Tüm natal harita istekleri, aşağıda belirtilen alanları içeren bir JSON nesnesi bekler.
 
 | Alan | Tür | Gerekli mi? | Açıklama | Örnek Değer |
 | :--- | :--- | :--- | :--- | :--- |
@@ -63,59 +41,117 @@ Tüm `POST` istekleri, gövdesinde (body) `application/json` formatında bir ver
 
 **Mevcut Ev Sistemleri:** `P` (Placidus), `K` (Koch), `R` (Regiomontanus), `C` (Campanus), `A` (Equal from ASC), `W` (Whole Sign), `O` (Porphyry), `B` (Alcabitius), `T` (Topocentric).
 
-### 3. API Endpoint'leri
-
-Tüm endpoint'ler `http://127.0.0.1:8000/v1/` adresi altında bulunur.
-
----
-#### **A. Ham Veri ve Görseller**
-##### `POST /natal/full-chart`
-Bir haritanın tüm astrolojik verilerini (gezegenler, evler, açılar, yöneticiler vb.) tek bir JSON nesnesinde döndürür. Bu, en kapsamlı veri çıktısıdır.
-
-##### `POST /natal/wheel-chart`
-Verilen doğum bilgisi için profesyonel bir doğum haritası görseli oluşturur. Dönen cevap bir `image/png` dosyasıdır.
-
----
-#### **B. Raporlar**
-Tüm rapor endpoint'leri, ilgili astrolojik konumun tüm verilerini ve `interpretation` anahtarı altında yorum metnini döndürür.
-
-##### **Ana Noktalar**
-*   `/natal/report/ascendant` - Yükselen burç yorumu.
-*   `/natal/report/mc-sign` - Tepe Noktası (MC) burç yorumu.
-
-##### **Gezegen Yorumları**
-*   `/natal/report/sun-sign` - Güneş burcu yorumu.
-*   `/natal/report/moon-sign` - Ay burcu yorumu.
-*   `/natal/report/planets-in-houses` - Tüm gezegenlerin ev konumlarına göre yorumları (liste döner).
-*   `/natal/report/retrogrades` - Haritadaki tüm retro gezegenlerin yorumları (liste döner).
-
-##### **İleri Seviye Yorumlar**
-*   `/natal/report/aspects` - Tüm açıların (boylam ve deklinasyon) yorumları (liste döner).
-*   `/natal/report/house-rulers-in-houses` - Tüm ev yöneticilerinin konum yorumları (liste döner).
-
-##### **Karmik ve Psikolojik Noktalar**
-*   `/natal/report/north-node-sign` - Kuzey Ay Düğümü'nün burç yorumu.
-*   `/natal/report/north-node-in-house` - Kuzey Ay Düğümü'nün ev yorumu.
-*   `/natal/report/lilith-sign` - Lilith'in burç yorumu.
-*   `/natal/report/lilith-in-house` - Lilith'in ev yorumu.
-*   `/natal/report/chiron-sign` - Chiron'un burç yorumu.
-*   `/natal/report/chiron-in-house` - Chiron'un ev yorumu.
-
----
-#### **C. Sinastri (İlişki) Analizi**
-Bu endpoint'ler, istek gövdesinde `person1` ve `person2` anahtarları altında iki adet `BirthData` nesnesi bekler.
-
-*   `/synastry/house-overlays` - Birinci kişinin gezegenlerinin, ikinci kişinin evlerine nasıl düştüğünü gösterir.
-*   `/synastry/aspects` - İki harita arasındaki açıları listeler.
-*   `/synastry/bi-wheel-chart` - İki haritayı iç içe çizen bir `image/png` görseli döndürür.
-
----
-### 4. İnteraktif Test (`/docs`)
-API'yi canlı olarak denemek ve tüm bu endpoint'leri test etmek için, sunucuyu çalıştırdıktan sonra tarayıcınızda **`http://127.0.0.1:8000/docs`** adresini ziyaret edin. Bu arayüz, API anahtarınızı girmenize ve tüm istekleri kolayca göndermenize olanak tanır.
-
 ---
 
-## ⚙️ Kurulum ve Başlatma
+### 4. Pratik Kullanım Örnekleri
+
+Aşağıda, farklı programlama dilleri için CosmicAPI'nin nasıl kullanılacağına dair pratik örnekler bulunmaktadır.
+
+#### Örnek 1: JavaScript (Fetch API ile Web Sitesi İçin)
+
+Bir web sitesinden tam harita verisini almak için bu kodu kullanabilirsiniz:
+
+```javascript
+const birthData = {
+    date: "1990-05-15",
+    time: "10:30",
+    lat: 41.0082,
+    lon: 28.9784
+};
+
+const apiKey = 'COSMIC_API_SECRET_KEY_12345';
+const apiUrl = 'https://cosmicapiv1-1.onrender.com/v1/natal/full-chart';
+
+fetch(apiUrl, {
+    method: 'POST',
+    headers: {
+        'Content-Type': 'application/json',
+        'X-API-Key': apiKey
+    },
+    body: JSON.stringify(birthData)
+})
+.then(response => {
+    if (!response.ok) {
+        // Hata durumunda, API'den gelen JSON mesajını da logla
+        return response.json().then(err => Promise.reject(err));
+    }
+    return response.json();
+})
+.then(data => {
+    console.log("Harita Verisi:", data);
+    // Gelen 'data'yı web sitenizde gösterebilirsiniz.
+    // Örneğin, Güneş'in burcunu göstermek için:
+    // const sunSign = data.planets.find(p => p.planet === 'Sun').sign;
+    // document.getElementById('sun-sign-element').innerText = `Güneş Burcu: ${sunSign}`;
+})
+.catch(error => {
+    console.error('API isteğinde hata oluştu:', error);
+});
+```
+
+#### Örnek 2: Python (Requests Kütüphanesi ile)
+
+Bir Python script'inden veya başka bir backend servisinden Yükselen Raporu almak için:
+
+```python
+import requests
+import json
+
+api_url = "https://cosmicapiv1-1.onrender.com/v1/natal/report/ascendant"
+api_key = "COSMIC_API_SECRET_KEY_12345"
+
+birth_data = {
+    "date": "1992-11-10",
+    "time": "08:30",
+    "lat": 41.0082,
+    "lon": 28.9784
+}
+
+headers = {
+    "Content-Type": "application/json",
+    "X-API-Key": api_key
+}
+
+try:
+    response = requests.post(api_url, headers=headers, data=json.dumps(birth_data))
+    response.raise_for_status()  # Hata durumunda (4xx veya 5xx) exception fırlatır
+
+    report_data = response.json()
+    print("Yükselen Raporu:")
+    print(f"Burç: {report_data.get('sign')}")
+    print(f"Yorum: {report_data.get('interpretation')}")
+
+except requests.exceptions.HTTPError as http_err:
+    print(f"HTTP Hatası: {http_err}")
+    print(f"Hata Mesajı: {response.json()}")
+except Exception as err:
+    print(f"Bir hata oluştu: {err}")
+```
+
+#### Örnek 3: cURL (Terminalden Hızlı Test İçin)
+
+Bir haritanın görselini (`.png`) doğrudan bir dosyaya kaydetmek için:
+
+```bash
+curl -X 'POST' \
+  'https://cosmicapiv1-1.onrender.com/v1/natal/wheel-chart' \
+  -H 'accept: image/png' \
+  -H 'X-API-Key: COSMIC_API_SECRET_KEY_12345' \
+  -H 'Content-Type: application/json' \
+  -d '{ "date": "1988-03-20", "time": "06:00", "lat": 36.8969, "lon": 30.7133 }' \
+  --output dogum_haritasi.png
+```
+Bu komut, bulunduğunuz klasörde `dogum_haritasi.png` adında bir resim dosyası oluşturacaktır.
+
+---
+## 🚀 API Endpoint'leri Hakkında Detaylı Bilgi
+Tüm endpoint'lerin tam listesi, parametreleri ve döndürdükleri cevap yapıları için lütfen interaktif **Swagger UI dokümantasyonunu** ziyaret edin:
+
+**[https://cosmicapiv1-1.onrender.com/docs](https://cosmicapiv1-1.onrender.com/docs)**
+
+---
+
+## ⚙️ Kurulum ve Başlatma (Yerel Geliştirme İçin)
 
 Projeyi yerel makinenizde çalıştırmak için aşağıdaki adımları izleyin.
 
@@ -128,12 +164,11 @@ Projeyi yerel makinenizde çalıştırmak için aşağıdaki adımları izleyin.
 
 **a. Projeyi Klonlayın (veya İndirin):**
 ```bash
-git clone https://github.com/KULLANICI_ADINIZ/cosmicapi.git
-cd cosmicapi
+git clone https://github.com/kdrytmz27/cosmicapiv1.1.git
+cd cosmicapiv1.1
 ```
 
 **b. Sanal Ortam (Virtual Environment) Oluşturun ve Aktif Edin:**
-Bu, projenin bağımlılıklarını sisteminizdeki diğer projelerden izole etmek için şiddetle tavsiye edilir.
 *   **Windows:**
     ```bash
     python -m venv venv
