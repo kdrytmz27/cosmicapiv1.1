@@ -12,7 +12,6 @@ INTERPRETATION_PATH = BASE_DIR / "data" / "interpretations"
 
 
 # --- GÖRSEL HARİTA SABİTLERİ (CHART CONSTANTS) ---
-# ... (Bu bölümdeki tüm sabitler HİÇBİR DEĞİŞİKLİK OLMADAN AYNI KALIYOR) ...
 PLANET_GLYPHS = {
     'Sun': '☉', 'Moon': '☽', 'Mercury': '☿', 'Venus': '♀', 'Mars': '♂',
     'Jupiter': '♃', 'Saturn': '♄', 'Uranus': '♅', 'Neptune': '♆', 'Pluto': '♇',
@@ -36,7 +35,6 @@ ASPECT_COLORS = {
 
 # --- ASTROLOJİ HESAPLAMA SABİTLERİ (ENGINE CONSTANTS) ---
 ZODIAC_SIGNS = ["Koç", "Boğa", "İkizler", "Yengeç", "Aslan", "Başak", "Terazi", "Akrep", "Yay", "Oğlak", "Kova", "Balık"]
-# ... (SIGN_TO_ELEMENT ve SIGN_TO_MODALITY aynı kalıyor) ...
 SIGN_TO_ELEMENT = {
     'Koç': 'Fire', 'Aslan': 'Fire', 'Yay': 'Fire', 'Boğa': 'Earth', 'Başak': 'Earth', 'Oğlak': 'Earth',
     'İkizler': 'Air', 'Terazi': 'Air', 'Kova': 'Air', 'Yengeç': 'Water', 'Akrep': 'Water', 'Balık': 'Water'
@@ -47,14 +45,19 @@ SIGN_TO_MODALITY = {
     'İkizler': 'Mutable', 'Başak': 'Mutable', 'Yay': 'Mutable', 'Balık': 'Mutable'
 }
 SIGN_RULERS = {
-    "Koç":     {"traditional": "Mars",    "modern": None}, "Boğa":    {"traditional": "Venus",   "modern": None},
-    "İkizler": {"traditional": "Mercury", "modern": None}, "Yengeç":  {"traditional": "Moon",    "modern": None},
-    "Aslan":   {"traditional": "Sun",     "modern": None}, "Başak":   {"traditional": "Mercury", "modern": None},
-    "Terazi":  {"traditional": "Venus",   "modern": None}, "Akrep":   {"traditional": "Mars",    "modern": "Pluto"},
-    "Yay":     {"traditional": "Jupiter", "modern": None}, "Oğlak":   {"traditional": "Saturn",  "modern": None},
-    "Kova":    {"traditional": "Saturn",  "modern": "Uranus"}, "Balık":   {"traditional": "Jupiter", "modern": "Neptune"}
+    "Koç":     {"traditional": "Mars",    "modern": None},
+    "Boğa":    {"traditional": "Venus",   "modern": None},
+    "İkizler": {"traditional": "Mercury", "modern": None},
+    "Yengeç":  {"traditional": "Moon",    "modern": None},
+    "Aslan":   {"traditional": "Sun",     "modern": None},
+    "Başak":   {"traditional": "Mercury", "modern": None},
+    "Terazi":  {"traditional": "Venus",   "modern": None},
+    "Akrep":   {"traditional": "Mars",    "modern": "Pluto"},
+    "Yay":     {"traditional": "Jupiter", "modern": None},
+    "Oğlak":   {"traditional": "Saturn",  "modern": None},
+    "Kova":    {"traditional": "Saturn",  "modern": "Uranus"},
+    "Balık":   {"traditional": "Jupiter", "modern": "Neptune"}
 }
-
 PLANET_NUMBERS = {
     'Sun': swe.SUN, 'Moon': swe.MOON, 'Mercury': swe.MERCURY, 'Venus': swe.VENUS, 'Mars': swe.MARS,
     'Jupiter': swe.JUPITER, 'Saturn': swe.SATURN, 'Uranus': swe.URANUS, 'Neptune': swe.NEPTUNE, 'Pluto': swe.PLUTO,
@@ -62,7 +65,6 @@ PLANET_NUMBERS = {
     'Lilith': swe.OSCU_APOG,
     'Ceres': swe.AST_OFFSET + 1, 'Pallas': swe.AST_OFFSET + 2, 'Juno': swe.AST_OFFSET + 3, 'Vesta': swe.AST_OFFSET + 4
 }
-
 ASPECTS = {
     "Conjunction": {"angle": 0, "orb": 8, "type": "Major"}, "Opposition": {"angle": 180, "orb": 8, "type": "Major"},
     "Trine": {"angle": 120, "orb": 8, "type": "Major"}, "Square": {"angle": 90, "orb": 8, "type": "Major"},
@@ -71,18 +73,24 @@ ASPECTS = {
     "Sesquiquadrate": {"angle": 135, "orb": 2, "type": "Minor"}, "Quintile": {"angle": 72, "orb": 2, "type": "Creative"},
     "Biquintile": {"angle": 144, "orb": 2, "type": "Creative"}
 }
-
 TRANSIT_ASPECTS = {
     "Conjunction": {"angle": 0, "orb": 5}, "Sextile": {"angle": 60, "orb": 4},
     "Square": {"angle": 90, "orb": 5}, "Trine": {"angle": 120, "orb": 5},
     "Opposition": {"angle": 180, "orb": 5}
 }
-
-# --- YENİ: Deklinasyon Açıları İçin Ayarlar ---
-# Paralel ve Kontra-Paralel açıları için kullanılacak orb (tolerans) değeri.
-# Genellikle 1.0 ila 1.2 derece arasında kullanılır.
 DECLINATION_ASPECTS = {
     "Parallel": {"orb": 1.2, "type": "Declination"},
     "Contra-Parallel": {"orb": 1.2, "type": "Declination"}
+}
+
+# --- YENİ: Günlük Yorum Motoru İçin Gezegen İlişkileri ---
+PLANET_ASSOCIATIONS = {
+    "Sun": {"color": "Altın Sarısı", "number": 1, "theme": "kimlik"},
+    "Moon": {"color": "Gümüş", "number": 2, "theme": "duygular"},
+    "Mercury": {"color": "Sarı", "number": 5, "theme": "iletişim"},
+    "Venus": {"color": "Yeşil", "number": 6, "theme": "ilişkiler"},
+    "Mars": {"color": "Kırmızı", "number": 9, "theme": "enerji"},
+    "Jupiter": {"color": "Mor", "number": 3, "theme": "şans"},
+    "Saturn": {"color": "Siyah", "number": 8, "theme": "sorumluluk"}
 }
 # --- BİTTİ ---

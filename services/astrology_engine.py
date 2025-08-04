@@ -1,25 +1,29 @@
 import swisseph as swe
-from datetime import datetime
+from datetime import datetime, timezone
 import pytz
 from timezonefinder import TimezoneFinder
 from typing import Dict, Any, List
 import itertools
+from collections import defaultdict # YENİ: Yorumları gruplamak için
 
 from models.pydantic_models import BirthData
 from core.config import (
     EPHE_PATH, ZODIAC_SIGNS, ZODIAC_GLYPHS, SIGN_TO_ELEMENT,
     SIGN_TO_MODALITY, SIGN_RULERS, PLANET_NUMBERS, ASPECTS,
-    DECLINATION_ASPECTS
+    DECLINATION_ASPECTS, PLANET_ASSOCIATIONS, TRANSIT_ASPECTS
 )
+
 
 def format_declination(dec: float) -> str:
     direction = "N" if dec >= 0 else "S"; dec = abs(dec); degrees = int(dec); minutes = int((dec - degrees) * 60)
     return f"{degrees:02d}° {direction} {minutes:02d}'"
+
 def get_zodiac_sign_details(degree: float) -> Dict[str, Any]:
     sign_index = int(degree / 30); degree_in_sign = degree % 30; sign_name = ZODIAC_SIGNS[sign_index]
     return {"sign": sign_name, "sign_glyph": ZODIAC_GLYPHS[sign_index], "degree": int(degree_in_sign),
             "minute": int((degree_in_sign - int(degree_in_sign)) * 60), "element": SIGN_TO_ELEMENT.get(sign_name),
             "modality": SIGN_TO_MODALITY.get(sign_name)}
+
 def _find_planet_in_house(planet_longitude: float, house_cusps: List[float]) -> int:
     for i in range(12):
         house_start = house_cusps[i]; house_end = house_cusps[i + 1] if i < 11 else house_cusps[0]
@@ -28,6 +32,7 @@ def _find_planet_in_house(planet_longitude: float, house_cusps: List[float]) -> 
         else:
             if house_start <= planet_longitude < house_end: return i + 1
     return 0
+
 def calculate_aspects(planets_and_points: list) -> List[Dict[str, Any]]:
     found_aspects = []
     for p1, p2 in itertools.combinations(planets_and_points, 2):
@@ -50,6 +55,7 @@ def calculate_aspects(planets_and_points: list) -> List[Dict[str, Any]]:
                 found_aspects.append({"planet1": p1['planet'], "aspect": aspect_name, "planet2": p2['planet'], "orb": orb, "type": aspect_info['type'], "nature": nature})
                 break
     return found_aspects
+
 def recognize_aspect_patterns(planets: List[Dict], aspects: List[Dict]) -> List[Dict]:
     patterns, sign_counts, house_counts = [], {}, {}
     for p in planets:
@@ -81,6 +87,7 @@ def recognize_aspect_patterns(planets: List[Dict], aspects: List[Dict]) -> List[
                 if not any(p.get('pattern') == 'T-Square' and set(p.get('planets')) == p_names for p in patterns):
                     patterns.append({"pattern": "T-Square", "planets": sorted(list(p_names)), "apex_planet": p_apex})
     return patterns
+
 def calculate_synastry_aspects(planets1: List[Dict], planets2: List[Dict]) -> List[Dict]:
     SYNASTRY_MAJOR_ASPECTS = {k: v for k, v in ASPECTS.items() if v['type'] == 'Major'}
     synastry_aspects = []
@@ -94,6 +101,7 @@ def calculate_synastry_aspects(planets1: List[Dict], planets2: List[Dict]) -> Li
                     synastry_aspects.append({"planet1": p1['planet'], "aspect": aspect_name, "planet2": p2['planet'], "orb": orb})
                     break
     return synastry_aspects
+
 def _find_house_rulers(house_cusps: List[float], planets: List[Dict], rulership_system: str) -> List[Dict]:
     rulerships = []
     planets_map = {p['planet']: p for p in planets}
@@ -109,6 +117,7 @@ def _find_house_rulers(house_cusps: List[float], planets: List[Dict], rulership_
             rulerships.append({"house": house_num, "sign": cusp_sign, "ruler_planet": ruler_planet_name,
                                "ruler_in_house": ruler_in_house, "rulership_system_used": rulership_system})
     return rulerships
+
 def calculate_declination_aspects(planets: List[Dict]) -> List[Dict]:
     found_aspects = []; orb = DECLINATION_ASPECTS["Parallel"]["orb"]
     for p1, p2 in itertools.combinations(planets, 2):
@@ -124,7 +133,6 @@ def calculate_declination_aspects(planets: List[Dict]) -> List[Dict]:
                                       "orb": round(abs(abs(dec1) - abs(dec2)), 2), "type": "Declination", "nature": "N/A"})
     return found_aspects
 
-# --- YENİ FONKSİYON ---
 def _calculate_balance(planets_with_details: List[Dict]) -> Dict[str, Any]:
     elements = {'Fire': 0, 'Earth': 0, 'Air': 0, 'Water': 0}
     modalities = {'Cardinal': 0, 'Fixed': 0, 'Mutable': 0}
@@ -134,7 +142,6 @@ def _calculate_balance(planets_with_details: List[Dict]) -> Dict[str, Any]:
             if p.get('element'): elements[p['element']] += 1
             if p.get('modality'): modalities[p['modality']] += 1
     return {"elements": elements, "modalities": modalities}
-# --- BİTTİ ---
 
 def calculate_natal_data(birth_data: BirthData) -> Dict[str, Any]:
     tf = TimezoneFinder(); timezone_str = tf.timezone_at(lng=birth_data.lon, lat=birth_data.lat)
@@ -171,7 +178,6 @@ def calculate_natal_data(birth_data: BirthData) -> Dict[str, Any]:
         details = get_zodiac_sign_details(p['longitude'])
         house = _find_planet_in_house(p['longitude'], list(house_cusps_raw))
         planets_with_details.append({**p, **details, "house": house})
-
     planet_to_planet_aspects = calculate_aspects(planets_with_details)
     aspect_patterns = recognize_aspect_patterns(planets_with_details, planet_to_planet_aspects)
     all_points_for_aspects = planets_with_details + [{"planet": "Ascendant", "longitude": ascmc[0], "speed": None},{"planet": "Midheaven", "longitude": ascmc[1], "speed": None}]
@@ -179,12 +185,68 @@ def calculate_natal_data(birth_data: BirthData) -> Dict[str, Any]:
     declination_aspects = calculate_declination_aspects(planets_with_details)
     all_aspects = longitude_aspects + declination_aspects
     house_rulers = _find_house_rulers(list(house_cusps_raw), planets_with_details, birth_data.rulership_system.value)
-
-    # --- GÜNCELLEME: Denge verisini de hesaplayıp ekliyoruz ---
     balance_data = _calculate_balance(planets_with_details)
-    
     return {
         "planets": planets_with_details, "house_cusps": list(house_cusps_raw), "ascmc": list(ascmc),
         "aspects": all_aspects, "aspect_patterns": aspect_patterns, "house_rulers": house_rulers,
-        "balance": balance_data # <-- YENİ VERİ EKLENDİ
+        "balance": balance_data
     }
+
+# --- YENİ "USTA ŞEF" FONKSİYONU ---
+def generate_daily_horoscope(active_transits: List[Dict], interpretations: Dict) -> Dict[str, Any]:
+    """
+    Aktif transitleri ve yorumlarını alarak, bunları kategorilere göre birleştirip
+    bütünsel bir günlük burç yorumu oluşturur.
+    """
+    # 1. Yorumları kategorilere göre toplamak için bir yapı oluştur
+    # defaultdict, bir anahtar yoksa, onun için otomatik olarak boş bir liste oluşturur.
+    horoscope_by_category = defaultdict(list)
+    
+    # 2. Aktif olan her transit için yorumları bul ve kategorilere ekle
+    for transit in active_transits:
+        transit_planet_name = transit['transit_planet'].split(" ")[1] # "Transit Sun" -> "Sun"
+        natal_planet_name = transit['natal_planet']
+        aspect = transit['aspect']
+        
+        # Yorum dosyasındaki anahtarı oluştur (örn: "Transit Sun-Natal Moon")
+        key = f"Transit {transit_planet_name}-Natal {natal_planet_name}"
+        
+        aspect_interpretations = interpretations.get(key, {}).get(aspect)
+        
+        if aspect_interpretations:
+            for category, text in aspect_interpretations.items():
+                if category == 'luck':
+                    horoscope_by_category[category].extend(text)
+                else:
+                    horoscope_by_category[category].append(text)
+
+    # 3. Şanslı renk/sayı gibi dinamik verileri oluştur
+    # O günkü en önemli (en dar orblu) Jüpiter veya Venüs açısını bulalım
+    lucky_aspect = None
+    min_orb = 100
+    for transit in active_transits:
+        transit_planet = transit['transit_planet'].split(" ")[1]
+        aspect = transit['aspect']
+        if transit_planet in ["Jupiter", "Venus"] and aspect in ["Conjunction", "Trine", "Sextile"]:
+            if transit['orb'] < min_orb:
+                min_orb = transit['orb']
+                lucky_aspect = transit
+    
+    if lucky_aspect:
+        lucky_planet_name = lucky_aspect['transit_planet'].split(" ")[1]
+        planet_luck_info = PLANET_ASSOCIATIONS.get(lucky_planet_name)
+        if planet_luck_info:
+            horoscope_by_category['luck'].append(f"Şanslı Renginiz: {planet_luck_info['color']}")
+            horoscope_by_category['luck'].append(f"Şanslı Sayınız: {planet_luck_info['number']}")
+
+    # 4. Kategorileri tek bir metin bloğunda birleştir
+    final_horoscope = {}
+    for category, texts in horoscope_by_category.items():
+        if category == 'luck':
+            # luck listesindeki tekrar eden elemanları temizle
+            final_horoscope[category] = sorted(list(set(texts)))
+        else:
+            final_horoscope[category] = " ".join(texts)
+            
+    return final_horoscope
+# --- BİTTİ ---

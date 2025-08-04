@@ -1,0 +1,301 @@
+{
+  "comment": "Bu, 10 gezegenin birbirine yaptığı transitlerin 5 ana açıya göre temel astrolojik yorumlarını içeren kapsamlı bir veritabanıdır.",
+
+  "Transit Sun (Ego, Canlılık, Odak)": {
+    "Natal Sun (Kimlik, Amaç)": {
+      "Conjunction": { "personal": "Doğum gününüz gibi! Enerjiniz ve özgüveniniz zirvede. Yeni başlangıçlar ve kendinizi ortaya koymak için harika bir gün.", "profession": "Liderlik etme ve projelerinizi sergileme konusunda parlak fırsatlar.", "health": "Canlılığınız ve fiziksel enerjiniz yüksek." },
+      "Sextile": { "personal": "Kendinizi ifade etmek ve sosyal olmak için harika fırsatlar. Enerjiniz akıcı ve insanlar size olumlu yaklaşıyor.", "profession": "İşbirliği yapmak ve fikirlerinizi sunmak için destekleyici bir gün." },
+      "Square": { "personal": "Egonuz ve iradeniz test ediliyor. Engellenmiş hissedebilir ve otorite figürleriyle çatışabilirsiniz.", "challenge": "Güç savaşlarından ve gereksiz risklerden kaçının." },
+      "Trine": { "personal": "Her şey yolunda gidiyor gibi hissedeceğiniz, akıcı ve uyumlu bir gün. Kendinize güveniniz tam.", "profession": "İşleriniz kolaylıkla ilerler. Yeteneklerinizi sergilemek için harika bir zaman." },
+      "Opposition": { "personal": "Başkalarıyla işbirliği yapmak ve uzlaşmak önemli. Ego çatışmaları yaşanabilir.", "relationships": "İlişkilerde 'ben' ve 'sen' arasında denge kurma mücadelesi." }
+    },
+    "Natal Moon (Duygular, İhtiyaçlar)": {
+      "Conjunction": { "personal": "Bilinçli niyetleriniz (Güneş) ve duygusal ihtiyaçlarınız (Ay) uyum içinde. İçgüdülerinize güvenin.", "emotions": "Duygusal olarak dengeli ve kendinizle barışık hissedersiniz." },
+      "Sextile": { "personal": "İç dünyanızla dış dünyanız arasında uyumlu bir akış var. Aile ve arkadaşlarla vakit geçirmek keyifli.", "relationships": "Karşı cinsle ve aile üyeleriyle iletişim kolaylaşır." },
+      "Square": { "personal": "Bilinçli istekleriniz ile duygusal ihtiyaçlarınız arasında bir içsel çekişme. Ev ve iş arasında denge kurmakta zorlanabilirsiniz.", "emotions": "Duygusal olarak huzursuz ve gergin hissedebilirsiniz." },
+      "Trine": { "personal": "Kendinizi duygusal olarak güvende ve rahat hissedersiniz. Aile ilişkileri ve ev hayatı için destekleyici.", "emotions": "Huzurlu, mutlu ve uyumlu bir ruh hali." },
+      "Opposition": { "personal": "İlişkilerde gerilim yaşanabilir. Kendi ihtiyaçlarınızla partnerinizin talepleri arasında kalabilirsiniz.", "emotions": "Duygusal olarak çalkantılı ve kararsız hissedebilirsiniz." }
+    },
+    "Natal Mercury (Zihin, İletişim)": {
+      "Conjunction": { "personal": "Zihinsel olarak çok aktif ve iletişimci bir gün. Önemli konuşmalar yapma zamanı.", "profession": "Anlaşmalar, sunumlar ve yazışmalar için mükemmel." },
+      "Sextile": { "personal": "Yeni şeyler öğrenmek, kısa geziler planlamak ve sosyalleşmek için harika bir gün.", "communication": "Fikirlerinizi ifade etmek ve anlaşılmak kolaydır." },
+      "Square": { "personal": "İletişimde yanlış anlaşılmalar ve zihinsel gerginlik. Tartışmacı bir ruh hali.", "challenge": "Önemli kararlar almadan önce iki kez düşünün." },
+      "Trine": { "personal": "Zihinsel akıcılık ve netlik. Öğrenme ve öğretme için harika bir gün.", "profession": "Zihinsel çaba gerektiren işler kolaylıkla hallolur." },
+      "Opposition": { "personal": "Başkalarıyla fikir alışverişinde objektif olmaya çalışın. Fikirleriniz sorgulanabilir.", "communication": "Zihinsel bir düelloya girmek yerine dinlemeyi tercih edin." }
+    },
+    "Natal Venus (Aşk, Değerler, Para)": {
+      "Conjunction": { "personal": "Aşk, romantizm ve sosyallik için harika bir gün. Kendinizi çekici ve sevgi dolu hissedersiniz.", "finance": "Finansal konularda olumlu adımlar atmak için uygun." },
+      "Sextile": { "personal": "Sosyalleşmek, arkadaşlarla buluşmak ve yeni birileriyle tanışmak için keyifli fırsatlar.", "relationships": "Uyum ve neşe enerjisi hakim." },
+      "Square": { "personal": "İlişkilerde veya sosyal hayatta küçük gerilimler. Harcamalarınızda aşırıya kaçma eğilimi.", "challenge": "Keyif ve sorumluluklar arasında denge kurmak zor olabilir." },
+      "Trine": { "personal": "Aşk, uyum ve güzelliklerle dolu bir gün. İlişkiler sorunsuz akar, kendinizi şımartın.", "luck": ["Beklenmedik bir hediye veya iltifat alabilirsiniz."] },
+      "Opposition": { "personal": "İlişkilerde beklentiler ve gerçekler arasında bir denge kurma ihtiyacı. Aşırı hoşgörülü olmak veya taleplerde bulunmak arasında gidip gelebilirsiniz.", "finance": "Gereksiz lüks harcamalardan kaçının." }
+    },
+    "Natal Mars (Eylem, Enerji)": {
+      "Conjunction": { "personal": "Enerjiniz ve fiziksel gücünüz çok yüksek. Harekete geçme ve iddialı olma zamanı.", "challenge": "Dürtüsel ve sabırsız olmamaya dikkat edin, çatışmaya açıksınız." },
+      "Sextile": { "personal": "Hedeflerinize ulaşmak için enerjik ve motive hissedersiniz. Cesur adımlar atmak için iyi bir fırsat.", "profession": "Projelerinizi ilerletmek için harekete geçin." },
+      "Square": { "personal": "Öfke, sabırsızlık ve çatışma potansiyeli yüksek. Enerjinizi yapıcı bir şekilde yönlendirin.", "health": "Aceleci davranışlardan kaynaklanan kazalara dikkat." },
+      "Trine": { "personal": "Enerjinizi ve iradenizi uyumlu bir şekilde kullanırsınız. Cesaretiniz ve kendinize olan güveniniz tam.", "profession": "Zorlu görevlerin üstesinden gelmek için harika bir gün." },
+      "Opposition": { "personal": "Başkalarıyla açık çatışmalara girme potansiyeli. Güç savaşlarından kaçının.", "relationships": "İlişkilerde rekabet ve meydan okuma." }
+    },
+    "Natal Jupiter (Büyüme, Şans)": {
+        "Conjunction": { "personal": "İyimserlik, güven ve büyüme dolu bir gün. Ufkunuzu genişletmek için harika fırsatlar.", "luck": "Şanslı gelişmeler ve yeni fırsatlar kapınızı çalabilir." },
+        "Sextile": { "personal": "Gelişim için kapılar aralanıyor. Eğitim, seyahat veya yeni insanlarla tanışmak için iyi bir gün.", "profession": "Kariyerde ilerleme fırsatları." },
+        "Square": { "personal": "Aşırıya kaçma eğilimi. Aşırı iyimserlik, abartılı vaatler veya gereksiz riskler.", "challenge": "Gerçekçi olmayan hedeflerden ve savurganlıktan kaçının." },
+        "Trine": { "personal": "Kendine güven ve neşe. Büyüme ve başarı için zahmetsiz bir akış.", "luck": "Her şey yolunda gidecekmiş gibi hissettiğiniz şanslı bir gün." },
+        "Opposition": { "personal": "Abartılı beklentiler ve vaatler. Başkalarıyla ilişkilerde veya yasal konularda dengeyi bulun.", "challenge": "Verdiğiniz sözleri tutmaya özen gösterin." }
+    },
+    "Natal Saturn (Sorumluluk, Sınırlar)": {
+        "Conjunction": { "personal": "Sorumluluklarınızın ve başarılarınızın tanınma zamanı. Olgunluk ve sıkı çalışma ödüllendirilir.", "profession": "Kariyerde zirve veya önemli bir sorumluluk alma." },
+        "Sextile": { "personal": "Pratik ve disiplinli adımlar atmak için bir fırsat. Uzun vadeli planlar yapmak için iyi.", "profession": "Otorite figürlerinden destek alabilirsiniz." },
+        "Square": { "personal": "Engeller, gecikmeler ve hayal kırıklıkları. Otorite figürleriyle veya kurallarla çatışma.", "challenge": "Sabır ve dayanıklılık test ediliyor." },
+        "Trine": { "personal": "Sıkı çalışmanın ve disiplinin meyvelerini toplama zamanı. Hayatınıza düzen ve istikrar gelir.", "profession": "Sağlam ve kalıcı başarılar elde etme." },
+        "Opposition": { "personal": "Başkaları veya dış koşullar tarafından engellendiğinizi hissedebilirsiniz. Hedefleriniz ve sorumluluklarınız çatışır.", "challenge": "Otorite figürleriyle veya ortaklarla mücadele." }
+    },
+    "Natal Uranus (Değişim, Ani Olaylar)": {
+        "Conjunction": { "personal": "Kendinizi özgürleştirme ve bireyselliğinizi ortaya koyma dürtüsü. Ani ve beklenmedik değişiklikler.", "challenge": "İsyankar ve düzensiz davranışlara eğilim." },
+        "Sextile": { "personal": "Yeni ve heyecan verici deneyimlere açık olma fırsatı. Rutinin dışına çıkın.", "profession": "Yenilikçi fikirler ve beklenmedik fırsatlar." },
+        "Square": { "personal": "Planların aniden bozulması. Sinirsel gerginlik ve isyankar bir ruh hali.", "challenge": "Beklenmedik olaylara karşı esnek olun." },
+        "Trine": { "personal": "Olumlu ve heyecan verici değişiklikler. Kendinizi özgürce ifade etme ve yenilenme zamanı.", "luck": "Yaratıcı atılımlar ve beklenmedik iyi haberler." },
+        "Opposition": { "personal": "Başkalarından gelen beklenmedik davranışlar veya meydan okumalar. İlişkilerde ani kopuşlar.", "relationships": "İlişkilerde özgürlük ve bağlılık arasında gerilim." }
+    },
+    "Natal Neptune (Hayaller, Sezgi)": {
+        "Conjunction": { "personal": "Hayal gücünüz ve sezgileriniz artar. Yaratıcılık, maneviyat veya kafa karışıklığı.", "emotions": "Hassas ve etkilere açık bir ruh hali." },
+        "Sextile": { "personal": "Hayal gücünüzü ve şefkatinizi kullanma fırsatı. Sanatsal ve ruhsal arayışlar için iyi.", "profession": "İlham gerektiren projeler için destekleyici." },
+        "Square": { "personal": "Kafa karışıklığı, belirsizlik ve enerji düşüklüğü. Gerçeklerden kaçma eğilimi.", "challenge": "Aldanmalara ve hayal kırıklıklarına dikkat edin." },
+        "Trine": { "personal": "Sezgileriniz ve yaratıcılığınız zirvede. Ruhsal bir farkındalık ve ilham.", "emotions": "Evrenle bir bütünlük ve şefkat hissi." },
+        "Opposition": { "personal": "Başkalarıyla ilişkilerde idealizm ve hayal kırıklığı. Belirsiz veya aldatıcı durumlar.", "relationships": "Kime güvendiğinize dikkat edin, sınırlar bulanıklaşabilir." }
+    },
+    "Natal Pluto (Dönüşüm, Güç)": {
+        "Conjunction": { "personal": "Kişisel gücünüzü ve etkinliğinizi hissetme zamanı. Liderlik etme ve dönüştürme arzusu.", "profession": "Hırslı hedefler ve etki yaratma potansiyeli." },
+        "Sextile": { "personal": "Hayatınızda olumlu değişiklikler yapmak için içsel gücü ve içgörüyü bulma fırsatı.", "profession": "Stratejik hamleler yapmak ve derinlemesine araştırma için iyi." },
+        "Square": { "personal": "Güç mücadeleleri ve kontrol sorunları. Gizli kalmış konular yüzeye çıkabilir.", "challenge": "Manipülasyon ve takıntılı davranışlardan kaçının." },
+        "Trine": { "personal": "Kişisel gücünüzü yapıcı bir şekilde kullanma. Hayatınızın kontrolünü ele alma ve olumlu dönüşümler yapma.", "profession": "Liderlik ve etki gücünüz artar." },
+        "Opposition": { "personal": "Başkalarıyla yoğun güç mücadeleleri. Manipülasyon veya baskıyla karşılaşabilirsiniz.", "relationships": "İlişkilerde kontrol ve teslimiyet temaları." }
+    }
+  },
+
+  "Transit Mars (Eylem, Arzu, Çatışma)": {
+    "Natal Sun (Kimlik, Amaç)": {
+      "Conjunction": { "personal": "Fiziksel enerji ve özgüven patlaması. Harekete geçme ve iddialı olma zamanı.", "challenge": "Ego çatışmalarına ve aceleciliğe dikkat." },
+      "Sextile": { "personal": "Hedeflerinize ulaşmak için enerjik ve motive edici fırsatlar. Cesur adımlar atın.", "profession": "Girişimleriniz desteklenir." },
+      "Square": { "personal": "Engellenmişlik hissi ve öfke. Otorite figürleriyle çatışma potansiyeli.", "challenge": "Hayal kırıklığı ve güç mücadeleleri." },
+      "Trine": { "personal": "Cesaret, kararlılık ve fiziksel dayanıklılık. Hedeflerinize ulaşmak için akıcı bir enerji.", "profession": "Liderlik ve zorlu görevlerin üstesinden gelme." },
+      "Opposition": { "personal": "Başkalarından gelen meydan okumalar ve rekabet. Açık çatışmalara girme riski.", "relationships": "İlişkilerde agresyon ve tartışma." }
+    },
+    "Natal Moon (Duygular, İhtiyaçlar)": {
+      "Conjunction": { "personal": "Duygusal olarak dürtüsel ve sabırsız. Ani tepkiler ve ruh hali dalgalanmaları.", "emotions": "Huzursuz, kolayca sinirlenen bir ruh hali.", "challenge": "Aile içi tartışmalara dikkat." },
+      "Sextile": { "personal": "Duygularınızı dürüstçe ve doğrudan ifade etme fırsatı. İhtiyaçlarınız için harekete geçin.", "emotions": "Canlı ve tutkulu duygular." },
+      "Square": { "personal": "Duygusal patlamalar ve alınganlık. İçsel huzursuzluk ve ailevi anlaşmazlıklar.", "emotions": "Aşırı duyarlılık ve savunmacı bir tavır." },
+      "Trine": { "personal": "Duygusal cesaret. Ne hissettiğinizi bilmek ve bunu eyleme dökmek kolaydır.", "relationships": "Tutkulu ve dürüst duygusal ifadeler." },
+      "Opposition": { "personal": "Başkaları tarafından duygusal olarak kışkırtılma. Ev ve aile hayatında gerginlik.", "relationships": "Partnerinizle veya ailenizle açık tartışmalar." }
+    },
+    "Natal Mercury (Zihin, İletişim)": {
+      "Conjunction": { "personal": "Zihin keskin ama agresif. Hızlı düşünme ve kararlı konuşma.", "communication": "Sözlerinizle savaş açabilirsiniz, dikkatli olun.", "challenge": "Sivri dilli ve tartışmacı olmaya eğilim." },
+      "Sextile": { "personal": "Fikirlerinizi cesurca ve ikna edici bir şekilde sunma fırsatı. Zihinsel enerji yüksek.", "profession": "Müzakereler ve beyin fırtınaları için iyi." },
+      "Square": { "personal": "Sözlü tartışmalar ve zihinsel çatışmalar. Aceleci ve düşüncesizce konuşma riski.", "communication": "Yanlış anlaşılmalar ve hararetli tartışmalar." },
+      "Trine": { "personal": "Hızlı ve etkili karar verme. Zihinsel olarak zorlu işlerin üstesinden gelmek kolaydır.", "profession": "Fikirlerinizi eyleme dökmek için mükemmel bir gün." },
+      "Opposition": { "personal": "Başkalarıyla hararetli fikir ayrılıkları. Fikirlerinizi dayatma eğilimi.", "communication": "Sözlü düellolardan kaçının, dinlemeye çalışın." }
+    },
+    "Natal Venus (Aşk, Değerler, Para)": {
+      "Conjunction": { "personal": "Tutkulu arzular ve romantik enerji. Sosyal ve cinsel olarak aktif bir dönem.", "relationships": "İlişkilerde yoğun bir çekim veya çatışma olabilir.", "finance": "Para için risk alma veya harcama yapma dürtüsü." },
+      "Sextile": { "personal": "Sosyalleşmek ve romantik adımlar atmak için cesaret verici fırsatlar.", "relationships": "İlişkilerde tutkuyu ve heyecanı artırır." },
+      "Square": { "personal": "Aşk ve parada gerilim. İlişkilerde bencil veya talepkar davranışlar.", "challenge": "Dürtüsel harcamalardan ve kıskançlık krizlerinden kaçının." },
+      "Trine": { "personal": "Uyumlu ve tutkulu ilişkiler. Sosyal hayatta aktif olmak ve keyif almak kolaydır.", "relationships": "Romantizm ve cinsel çekim için harika bir zaman." },
+      "Opposition": { "personal": "İlişkilerde çatışma ve rekabet. Kendi arzularınızla partnerinizin arzuları arasında gerilim.", "relationships": "Açık bir güç mücadelesi olabilir." }
+    },
+    "Natal Mars (Eylem, Enerji)": {
+      "Conjunction": { "personal": "Yeni bir enerji döngüsünün başlangıcı. Fiziksel gücünüz, cesaretiniz ve girişimcilik ruhunuz yenileniyor.", "health": "Fiziksel gücünüz zirvede. Spor ve egzersiz için mükemmel. Ancak aşırıya kaçmamaya ve kazalara dikkat edin." },
+      "Sextile": { "personal": "Enerjinizi yapıcı ve etkili bir şekilde kullanma fırsatı. Hedeflerinize doğru ilerlemek için pratik adımlar atabilirsiniz.", "profession": "Ekip çalışması ve ortak hedefler için enerjinizi birleştirmek kolaydır." },
+      "Square": { "personal": "Enerjiniz yüksek ama bir o kadar da gergin olabilir. Engellenmişlik hissine ve sabırsızlığa karşı dikkatli olun.", "challenge": "Tartışmalardan kaçının ve enerjinizi spora yönlendirin.", "health": "Kazalara veya aceleci davranışlardan kaynaklanan yaralanmalara karşı dikkat." },
+      "Trine": { "personal": "Cesur ve kendinden emin eylemler için harika bir gün. Enerjiniz akıcı ve hedeflerinize ulaşmak için doğal bir yeteneğiniz var.", "profession": "İşlerinizi halletmek ve zorlu görevlerin üstesinden gelmek için bolca enerjiniz var." },
+      "Opposition": { "personal": "Başkalarıyla güç mücadeleleri ve çatışmalar yaşanabilir. Enerjiniz, size karşı çalışan insan veya durumlar tarafından tetiklenebilir.", "challenge": "Açık rekabet ve muhalefetle karşılaşabilirsiniz." }
+    },
+    "Natal Jupiter (Büyüme, Şans)": {
+        "Conjunction": { "personal": "Risk almak ve büyük oynamak için cesaret. Enerjik bir iyimserlik ve büyüme arzusu.", "profession": "Yeni ve büyük projelere başlamak için harika bir zaman." },
+        "Sextile": { "personal": "Büyüme ve genişleme için harekete geçme fırsatı. Eğitim, seyahat veya yeni girişimler için iyi.", "luck": "Cesur adımlarınız şanslı sonuçlar getirebilir." },
+        "Square": { "personal": "Aşırı özgüven ve gereksiz riskler. Yasal veya etik sorunlara yol açabilecek aceleci eylemler.", "challenge": "Abartılı eylemlerden ve tutulamayacak sözlerden kaçının." },
+        "Trine": { "personal": "Doğru zamanda doğru eylem. Cesaretiniz ve iyimserliğiniz birleşerek başarıyı getirir.", "profession": "Girişimlerinizde kolay ilerleme ve başarı." },
+        "Opposition": { "personal": "Felsefi, dini veya yasal konularda çatışma. Kendi doğrularınızı başkalarına dayatma eğilimi.", "challenge": "Fanatik davranışlardan kaçının." }
+    },
+    "Natal Saturn (Sorumluluk, Sınırlar)": {
+        "Conjunction": { "personal": "Azim ve dayanıklılık gerektiren bir dönem. Hedeflerinize ulaşmak için çok çalışmanız gerekir.", "challenge": "Enerjinizin kısıtlandığını ve engellendiğinizi hissedebilirsiniz." },
+        "Sextile": { "personal": "Enerjinizi disiplinli ve organize bir şekilde kullanma fırsatı. Uzun vadeli hedefler için sağlam adımlar.", "profession": "Sıkı çalışmanızın karşılığını alırsınız." },
+        "Square": { "personal": "Hayal kırıklığı ve öfke. 'Duvara toslamış' gibi hissedebilirsiniz. Sabır en büyük erdemdir.", "challenge": "Planlarınızda ciddi engeller ve gecikmeler." },
+        "Trine": { "personal": "Stratejik ve disiplinli eylem. Enerjinizi odaklayarak kalıcı ve somut sonuçlar elde edersiniz.", "profession": "Zorlu projeleri tamamlamak için gereken dayanıklılık." },
+        "Opposition": { "personal": "Otorite figürleri veya kurallarla açık bir çatışma. İlerlemeniz dış güçler tarafından engellenebilir.", "challenge": "Sabırlı ve stratejik olmanız gereken bir mücadele." }
+    },
+    "Natal Uranus (Değişim, Ani Olaylar)": {
+        "Conjunction": { "personal": "Dürtüsel, isyankar ve özgürlük arayan bir enerji. Ani ve beklenmedik eylemler.", "challenge": "Kazalara ve fevri davranışların sonuçlarına dikkat." },
+        "Sextile": { "personal": "Yenilikçi ve özgün eylemler için bir fırsat. Rutini kırmak için cesaret.", "profession": "Teknolojik veya sıradışı projelere başlama." },
+        "Square": { "personal": "Ani öfke patlamaları ve isyankar davranışlar. Planların beklenmedik olaylarla bozulması.", "challenge": "Düşüncesizce risk almaktan kaçının." },
+        "Trine": { "personal": "Cesur ve yenilikçi atılımlar. Sorunlara orijinal çözümler bulmak için yaratıcı enerji.", "profession": "Teknoloji veya reform gerektiren alanlarda başarı." },
+        "Opposition": { "personal": "Başkalarının beklenmedik veya kışkırtıcı eylemlerine maruz kalma. Ani çatışmalar.", "relationships": "Özgürlük ihtiyacı nedeniyle ilişkilerde ani gerilimler." }
+    },
+    "Natal Neptune (Hayaller, Sezgi)": {
+        "Conjunction": { "personal": "Enerjiniz belirsiz ve dağınık. Hayalleriniz veya idealleriniz için savaşma arzusu.", "challenge": "Neyin gerçek neyin hayal olduğunu ayırt etmek zor olabilir. Enerji düşüklüğü." },
+        "Sextile": { "personal": "Sezgilerinizi eyleme dökme fırsatı. Yaratıcı, sanatsal veya ruhsal projeler için ilham.", "profession": "Yardımseverlik veya sanatsal faaliyetler için enerji." },
+        "Square": { "personal": "Garip ve açıklanamayan korkular veya yorgunluk. Eylemlerinizde kafa karışıklığı.", "challenge": "Aldanmaya veya enerjinizin suistimal edilmesine karşı dikkatli olun." },
+        "Trine": { "personal": "İdealleriniz ve hayalleriniz için ilhamla dolu eylemler. Sezgisel olarak doğru olanı yapma yeteneği.", "emotions": "Başkalarına yardım etme ve şefkat gösterme arzusu." },
+        "Opposition": { "personal": "Gizli düşmanlıklar veya aldatıcı durumlarla mücadele. Enerjiniz gizemli bir şekilde tükenebilir.", "challenge": "Kurban rolü oynamaktan veya başkalarını idealize etmekten kaçının." }
+    },
+    "Natal Pluto (Dönüşüm, Güç)": {
+        "Conjunction": { "personal": "Muazzam bir irade, dayanıklılık ve hırs. Hedeflerinize ulaşmak için acımasız olabilirsiniz.", "challenge": "Takıntılı ve kontrolcü davranışlara dikkat. Gücü kötüye kullanma riski." },
+        "Sextile": { "personal": "İçsel gücünüzü ve kararlılığınızı yapıcı bir şekilde kullanma fırsatı. Derinlemesine araştırma ve dönüşüm.", "profession": "Stratejik ve güçlü hamleler yapma potansiyeli." },
+        "Square": { "personal": "Yoğun güç mücadeleleri ve tehlikeli durumlar. Bastırılmış öfke yüzeye çıkabilir.", "challenge": "Hayatta kalma mücadelesi hissi. Acımasız rekabet." },
+        "Trine": { "personal": "Muazzam bir odaklanma ve etkinlik. Hedeflerinize ulaşmak için durdurulamaz bir güç.", "profession": "Zorlu koşulları lehinize çevirme yeteneği." },
+        "Opposition": { "personal": "Dışarıdan gelen acımasız bir muhalefet veya güç mücadelesi. Manipülasyon ve baskı.", "challenge": "Tehlikeli düşmanlıklar ve hayatta kalma savaşları." }
+    }
+  },
+
+  "comment_social_planets": "Jüpiter ve Satürn'ün transitleri toplumsal rollerimiz, kariyerimiz ve hayat felsefemiz üzerinde daha uzun süreli ve belirgin etkiler yaratır.",
+
+  "Transit Jupiter (Büyüme, Şans, Felsefe)": {
+      "comment": "Jüpiter'in dokunduğu her şey büyür; iyisi de kötüsü de. Bu transitler genellikle iyimserlik, fırsat ve genişleme getirir.",
+      "Natal Sun": {
+          "Conjunction": { "personal": "Büyüme, şans ve iyimserlik dolu bir dönemin başlangıcı. Kendinize güveniniz artar.", "profession": "Kariyerde yükselme, tanınma ve başarı için önemli bir dönem.", "luck": "Hayatınızın birçok alanında şanslı fırsatlarla karşılaşabilirsiniz." },
+          "Sextile": { "personal": "Gelişim için kapılar aralanıyor. Sosyal çevreniz genişleyebilir.", "profession": "Kariyerinizde ilerleme kaydetmek için fırsatlar." },
+          "Square": { "personal": "Aşırıya kaçma eğilimi. Aşırı iyimserlik, abartılı vaatler veya gereksiz riskler.", "challenge": "Tembellik ve disiplinsizlik görülebilir. Detayları gözden kaçırmayın." },
+          "Trine": { "personal": "Kendine güven ve neşe. Büyüme ve başarı için zahmetsiz bir akış.", "profession": "Otorite figürlerinden destek görebilirsiniz.", "luck": "Zahmetsizce gelen başarılar ve fırsatlar günü." },
+          "Opposition": { "personal": "Abartılı beklentiler ve vaatler. Başkalarıyla ilişkilerde dengeyi bulun.", "challenge": "Kibir ve aşırı özgüven sorun yaratabilir." }
+      },
+      "Natal Moon": {
+          "Conjunction": { "personal": "Duygusal olarak cömert, iyimser ve koruyucu hissedersiniz. Ev ve aile hayatında mutluluk.", "emotions": "Neşeli ve pozitif bir ruh hali." },
+          "Sextile": { "personal": "Aile ve sevdiklerinizle keyifli anlar. Duygusal destek bulmak ve vermek kolaydır.", "relationships": "Sıcak ve samimi ilişkiler için fırsat." },
+          "Square": { "personal": "Duygusal abartılar. Aşırı hassasiyet veya cömertliğin suistimal edilmesi.", "emotions": "Ruh hali dalgalanmaları ve doyumsuzluk hissi." },
+          "Trine": { "personal": "İçsel huzur ve duygusal tatmin. Hayatın iyi yanlarını görme ve şükran duyma zamanı.", "emotions": "Kendiliğinden gelen bir mutluluk ve iyimserlik." },
+          "Opposition": { "personal": "Başkalarının duygusal ihtiyaçları ile kendi ihtiyaçlarınız arasında gerilim. Aşırı verici olma.", "relationships": "İlişkilerde beklentilerin gerçekçi olmaması." }
+      },
+      "Natal Mercury": {
+          "Conjunction": { "personal": "Büyük fikirler ve iyimser bir zihin yapısı. Öğrenmek, öğretmek ve seyahat etmek için harika.", "communication": "Vizyoner bir bakış açısı. İletişimde abartıya kaçmamaya dikkat." },
+          "Sextile": { "personal": "Yeni şeyler öğrenmek ve zihinsel ufkunuzu genişletmek için fırsatlar.", "profession": "Sözleşmeler, anlaşmalar ve eğitimle ilgili konularda şans." },
+          "Square": { "personal": "Zihinsel kibir. Detayları gözden kaçırma ve tutulamayacak sözler verme eğilimi.", "challenge": "Yargı hatalarına ve abartılı ifadelere dikkat." },
+          "Trine": { "personal": "Zihinsel olarak iyimser ve geniş görüşlü. Öğrenme ve iletişimde kolaylık.", "profession": "Eğitim, yayıncılık veya yasal konularda başarı." },
+          "Opposition": { "personal": "Felsefi veya entelektüel konularda başkalarıyla anlaşmazlık. Fikirlerinizi dayatma eğilimi.", "communication": "Başkalarının bakış açılarına da değer verin." }
+      },
+      "Natal Venus": {
+          "Conjunction": { "personal": "Aşk, sosyallik, keyif ve lüks için en şanslı zamanlardan biri!", "finance": "Finansal konularda şans ve bolluk zamanı.", "luck": "Aşkta ve parada şans sizden yana." },
+          "Sextile": { "personal": "Sosyalleşmek, yeni insanlarla tanışmak ve romantik fırsatlar için keyifli bir zaman.", "relationships": "İş ve aşk ilişkilerinde uyum." },
+          "Square": { "personal": "Aşırı harcama, tembellik ve zevke düşkünlük. İlişkilerde abartılı beklentiler.", "challenge": "Finansal konularda savurganlıktan kaçının." },
+          "Trine": { "personal": "Aşk, uyum ve güzelliklerle dolu bir dönem. İlişkiler sorunsuz akar.", "finance": "Finansal kazançlar veya sanatsal başarılar için şanslı.", "luck": "Para ile ilgili şanslı bir haber alabilirsiniz." },
+          "Opposition": { "personal": "İlişkilerde ve sosyal hayatta abartılı davranışlar. Cömertliğiniz suistimal edilebilir.", "challenge": "Gerçekçi olmayan beklentilerden kaçının." }
+      },
+      "Natal Mars": {
+          "Conjunction": { "personal": "Cesur, iyimser ve enerjik eylemler. Büyük projelere başlamak için coşku.", "profession": "Girişimlerinizde başarı ve genişleme şansı." },
+          "Sextile": { "personal": "Hedeflerinize ulaşmak için enerjik ve şanslı fırsatlar.", "profession": "Doğru zamanda doğru hamleyi yapma yeteneği." },
+          "Square": { "personal": "Aceleci, düşüncesiz ve riskli eylemler. Aşırı özgüven başınızı belaya sokabilir.", "challenge": "Yasal sorunlara veya finansal kayıplara yol açabilecek pervasızlık." },
+          "Trine": { "personal": "Başarı getiren cesur ve etkili eylemler. Enerjiniz ve iyimserliğiniz uyum içinde.", "luck": "Girişimlerinizde şans sizden yana." },
+          "Opposition": { "personal": "Başkalarıyla ideolojik veya yasal çatışmalar. Eylemlerinizde aşırıya kaçma.", "challenge": "Fanatizm ve başkalarının özgürlüğüne saygısızlık." }
+      },
+      "Natal Jupiter": {
+          "Conjunction": { "personal": "Jüpiter Dönüşü! Yeni bir 12 yıllık büyüme, şans ve öğrenme döngüsünün başlangıcı.", "luck": "Hayata dair yeni bir vizyon ve bolca fırsat." },
+          "Sextile": { "personal": "Ufkunuzu genişletmek için sosyal ve entelektüel fırsatlar.", "profession": "İlerleme ve tanınma için iyi bir dönem." },
+          "Square": { "personal": "Aşırı iyimserlik ve kaynakları boşa harcama. Büyüme sancıları.", "challenge": "Gerçekçi olmayan planlar ve tembellik eğilimi." },
+          "Trine": { "personal": "Bolluk, bereket ve şansın kolayca aktığı bir dönem. Hayata güven duyarsınız.", "luck": "Fırsatlar ayağınıza gelir." },
+          "Opposition": { "personal": "Abartılı ve gerçekçi olmayan hedefler. Felsefi veya ahlaki ikilemler.", "challenge": "Başkalarıyla olan beklentilerde dengeyi bulma ihtiyacı." }
+      },
+      "Natal Saturn": {
+          "Conjunction": { "personal": "Kısıtlamaların kalktığı ve büyümenin başladığı bir dönem. Sıkı çalışmanın ödüllerini görme.", "profession": "Kariyerde yeni bir başlangıç ve genişleme fırsatı." },
+          "Sextile": { "personal": "Planlı ve istikrarlı büyüme için bir fırsat. Pratik adımlarla genişleme.", "profession": "Kariyer hedeflerinize ulaşmak için somut fırsatlar." },
+          "Square": { "personal": "Büyüme arzusu ile sorumluluklar arasında çatışma. 'İki ileri bir geri' hissi.", "challenge": "Finansal veya yasal konularda dikkatli olunması gereken bir dönem." },
+          "Trine": { "personal": "Dengeli büyüme. Disiplin ve vizyon bir araya gelerek kalıcı başarıyı getirir.", "profession": "Sıkı çalışmanın getirdiği tanınma ve genişleme." },
+          "Opposition": { "personal": "Yapı ve genişleme arasında bir çekişme. Kurallar ve özgürlük arzusu çatışır.", "challenge": "Otoriteyle veya mevcut yapılarla mücadele." }
+      },
+      "Natal Uranus": {
+          "Conjunction": { "personal": "Ani ve beklenmedik şanslar! Özgürleşme ve ani bir aydınlanma yoluyla büyüme.", "luck": "Beklenmedik seyahatler, eğitim fırsatları veya ani başarılar." },
+          "Sextile": { "personal": "Hayatınıza heyecan ve yenilik getiren beklenmedik fırsatlar.", "profession": "Teknoloji veya reformist fikirlerle ilgili şans." },
+          "Square": { "personal": "Ani ve düşüncesizce alınan kararlar nedeniyle istikrarsızlık. Beklenmedik kayıplar.", "challenge": "Ani özgürlük arzusu mevcut düzeni bozabilir." },
+          "Trine": { "personal": "Hayatınızı olumlu yönde değiştirecek beklenmedik fırsatlar. Yaratıcı ve özgün atılımlar.", "luck": "Doğru zamanda doğru yerde olma şansı." },
+          "Opposition": { "personal": "Felsefi veya kişisel özgürlük konularında başkalarıyla ani çatışmalar.", "challenge": "Beklenmedik olaylar planlarınızı alt üst edebilir." }
+      },
+      "Natal Neptune": {
+          "Conjunction": { "personal": "Ruhsal ve manevi bir genişleme. Hayallere ve ideallere olan inanç artar.", "emotions": "Artan şefkat ve sezgi. Gerçeklerden kaçma eğilimi de olabilir." },
+          "Sextile": { "personal": "Yaratıcı ve ruhsal ilham için fırsatlar. Hayallerinizi gerçekleştirmek için destek.", "profession": "Sanatsal veya yardımseverlik projelerinde şans." },
+          "Square": { "personal": "Kafa karışıklığı ve gerçekçi olmayan hayaller. Finansal spekülasyonlardan kaçının.", "challenge": "Aldanma ve hayal kırıklığı riski." },
+          "Trine": { "personal": "Ruhsal büyüme ve ilhamın aktığı bir dönem. Yaratıcılık ve sezgiler güçlü.", "luck": "İdeallerinize ulaşmada evrensel destek." },
+          "Opposition": { "personal": "İdealler ve gerçekler arasında bir çatışma. Aldatıcı gurular veya felsefeler.", "challenge": "İnançlarınızın sorgulandığı bir dönem." }
+      },
+      "Natal Pluto": {
+          "Conjunction": { "personal": "Büyük güç ve etki kazanma fırsatı. Toplumsal veya finansal alanda önemli bir büyüme.", "profession": "Kariyerde zirveye oynama ve büyük başarılar elde etme potansiyeli." },
+          "Sextile": { "personal": "Hayatınızı dönüştürecek olumlu fırsatlar. Finansal veya kişisel gücü artırma şansı.", "profession": "Stratejik hamlelerle büyük kazançlar." },
+          "Square": { "personal": "Güç ve para hırsı nedeniyle yasal veya ahlaki sorunlar. Aşırıya kaçan güç arzusu.", "challenge": "Büyük güç mücadeleleri ve finansal riskler." },
+          "Trine": { "personal": "Finansal ve kişisel gücü artıran olumlu bir dönem. Liderlik yeteneklerinizle başarı.", "luck": "Büyük projeler ve yatırımlar için şanslı bir dönem." },
+          "Opposition": { "personal": "Güçlü rakiplerle felsefi veya finansal çatışmalar. Güç ve ahlak arasında bir savaş.", "challenge": "Aşırı hırs ve dogmatizmden kaçının." }
+      }
+  },
+  
+  "comment_generational_planets": "Satürn, Uranüs, Neptün ve Plüton'un transitleri yavaş hareket eder ve hayatımızda derin, kalıcı ve dönüştürücü etkiler bırakır. Bu yorumlar genellikle yıllara yayılan temaları ifade eder.",
+
+  "Transit Saturn (Yapı, Sorumluluk, Dersler)": {
+      "comment": "Satürn'ün dokunduğu yer test edilir, yeniden yapılandırılır ve olgunlaştırılır. Bu transitler zorlayıcı olabilir ama kalıcı başarı getirir.",
+      "Natal Sun": {
+          "Conjunction": { "personal": "Hayatınızla ilgili ciddi kararlar alma ve olgunlaşma zamanı. Sıkı çalışmanın sonuçlarını görme.", "challenge": "Üzerinizde bir ağırlık ve sorumluluk hissedebilirsiniz. Enerjiniz düşük olabilir.", "health": "Kemikler, dişler ve cilde dikkat. Dinlenmeye özen gösterin." },
+          "Sextile": { "personal": "Disiplinli ve organize bir şekilde hedeflerinize ilerlemek için bir fırsat.", "profession": "Sıkı çalışmanızın karşılığını almak için somut adımlar atabilirsiniz." },
+          "Square": { "personal": "Hayatınızdaki yapılar ve hedefler test ediliyor. Engeller, gecikmeler ve hayal kırıklıkları.", "challenge": "Sabır ve dayanıklılık gerektiren zorlu bir dönem. Otorite figürleriyle sorunlar." },
+          "Trine": { "personal": "Pratik ve disiplinli bir şekilde hayatınızı düzenleme zamanı. Uzun vadeli hedeflere ulaşmak için sağlam temeller.", "profession": "Sıkı ve istikrarlı çalışmanızın meyvelerini toplarsınız." },
+          "Opposition": { "personal": "Başkaları veya dış koşullar tarafından engellendiğinizi hissedebilirsiniz. İradeniz test edilir.", "challenge": "Kariyerinizde veya hedeflerinizde önemli bir engelle karşılaşabilirsiniz." }
+      },
+      "Natal Moon": {
+          "Conjunction": { "personal": "Duygusal bir olgunlaşma ve yalnızlık hissi dönemi. Geçmişle yüzleşme.", "emotions": "Karamsarlık, melankoli ve duygusal kısıtlanma.", "challenge": "Duygusal ihtiyaçlarınızı ihmal etmeyin." },
+          "Sextile": { "personal": "Duygusal olarak daha sorumlu ve olgun davranma fırsatı. Ailevi sorumlulukları yerine getirme.", "relationships": "İlişkilere ciddiyet ve istikrar getirme." },
+          "Square": { "personal": "Duygusal izolasyon, depresif ruh halleri ve ailevi sorunlar. Duygusal ihtiyaçlar karşılanmaz.", "challenge": "Geçmişin yükleri ve korkularla yüzleşme." },
+          "Trine": { "personal": "Duygusal istikrar ve güvenlik. İlişkilerde ve ev hayatında sağlam temeller atma.", "emotions": "Sakin, olgun ve kendine yeterli bir ruh hali." },
+          "Opposition": { "personal": "İlişkilerde soğukluk ve mesafe. Başkalarından duygusal destek görmekte zorlanma.", "relationships": "Partner veya aile tarafından gelen kısıtlamalar." }
+      },
+      "Natal Mercury": {
+          "Conjunction": { "personal": "Ciddi düşünme, planlama ve zihinsel odaklanma zamanı.", "communication": "İletişimde daha dikkatli ve metodik olma. Karamsar düşüncelere eğilim.", "profession": "Zihinsel disiplin gerektiren işlerde başarı." },
+          "Sextile": { "personal": "Zihinsel projelerinizi organize etmek ve somutlaştırmak için bir fırsat.", "profession": "Detaylı planlama ve ciddi çalışmalar için iyi." },
+          "Square": { "personal": "Zihinsel engeller, iletişim sorunları ve karamsar düşünceler. Fikirleriniz reddedilebilir.", "challenge": "Zihinsel depresyon ve öğrenme güçlükleri." },
+          "Trine": { "personal": "Mantıklı, pratik ve disiplinli düşünme. Zihinsel dayanıklılık.", "profession": "Uzun vadeli planlar ve zorlu zihinsel görevler için mükemmel." },
+          "Opposition": { "personal": "Fikirlerinizin başkaları tarafından eleştirilmesi veya engellenmesi. İletişimde zorluklar.", "challenge": "Otorite figürleriyle veya resmi kurumlarla iletişim sorunları." }
+      },
+      "Natal Venus": {
+          "Conjunction": { "personal": "İlişkilerde ve finansal konularda bir gerçeklik testi. Ciddi kararlar zamanı.", "relationships": "Aşkta olgunlaşma, ciddiyet veya zorluklar. Yalnızlık hissi.", "finance": "Finansal kısıtlamalar ve bütçe yapma gerekliliği." },
+          "Sextile": { "personal": "İlişkilere ve finansal konulara istikrar getirme fırsatı. Kalıcı değerler yaratma.", "relationships": "Sadakat ve sorumluluk temelli ilişkiler." },
+          "Square": { "personal": "Aşk hayatında zorluklar, ayrılıklar veya soğukluk. Finansal kayıplar ve zorluklar.", "challenge": "Sevgi ve değer konularında zorlu dersler." },
+          "Trine": { "personal": "Kalıcı ve olgun ilişkiler kurma. Finansal konularda sağduyulu ve başarılı adımlar.", "relationships": "İlişkilerde güven ve istikrar." },
+          "Opposition": { "personal": "İlişkilerde ve sosyal hayatta engeller ve hayal kırıklıkları. Partnerden gelen kısıtlamalar.", "finance": "Finansal ortaklıklarda zorluklar." }
+      },
+      "Natal Mars": {
+          "Conjunction": { "personal": "Enerjinizin ve eylemlerinizin kısıtlandığı, engellendiği bir dönem. Sabır testi.", "challenge": "Yoğun bir hayal kırıklığı ve öfke hissi. 'Frene basarak gaza basmak' gibi." },
+          "Sextile": { "personal": "Enerjinizi disiplinli ve stratejik bir şekilde kullanma fırsatı.", "profession": "Zorlu projelerde sebatla başarı." },
+          "Square": { "personal": "Eylemlerinizde ciddi engeller ve gecikmeler. Otoriteyle çatışma.", "challenge": "Kazalara yol açabilecek öfke ve hayal kırıklığı." },
+          "Trine": { "personal": "Dayanıklılık, sebat ve stratejik eylem. Zorlu hedeflere ulaşmak için gereken enerji ve disiplin.", "profession": "Kalıcı başarı getiren metodik çalışma." },
+          "Opposition": { "personal": "Başkalarının eylemlerinizi engellemesi. Açık bir mücadele ve çatışma.", "challenge": "Yorucu ve uzun süren mücadeleler." }
+      },
+      "Natal Jupiter": {
+          "Conjunction": { "personal": "Kontrollü ve gerçekçi bir büyüme dönemi. Hayallerinizi somutlaştırma zamanı.", "profession": "Fırsatların sıkı çalışma ile gerçeğe dönüştürülmesi." },
+          "Sextile": { "personal": "Planlı ve istikrarlı büyüme için fırsatlar. Yasal veya eğitimsel hedeflerde somut ilerleme.", "profession": "Kariyerde sağlam ve kalıcı bir genişleme." },
+          "Square": { "personal": "Büyüme arzusu ile kısıtlamalar arasında bir çatışma. Finansal veya yasal sorunlar.", "challenge": "Fırsatları değerlendirmekte zorlanma, hayal kırıklığı." },
+          "Trine": { "personal": "Bilgelik ve pratiklikle gelen istikrarlı başarı. Vizyon ve disiplinin uyumu.", "profession": "Uzun vadeli hedeflerde somut ve kalıcı başarı." },
+          "Opposition": { "personal": "Felsefi, yasal veya ahlaki konularda engeller. Büyüme planlarınızın başkaları tarafından durdurulması.", "challenge": "İyimserlik ve karamsarlık arasında gidip gelme." }
+      },
+      "Natal Saturn": {
+          "Conjunction": { "personal": "Satürn Dönüşü! Hayatın yeniden yapılandırıldığı, olgunlaşıldığı ve yeni bir 30 yıllık döngünün başladığı çok önemli bir dönem.", "challenge": "Geçmişin muhasebesi ve geleceğin sorumluluklarını üstlenme." },
+          "Sextile": { "personal": "Hayatınıza düzen ve yapı getirmek için pratik fırsatlar.", "profession": "Mevcut sorumlulukları yerine getirmede başarı." },
+          "Square": { "personal": "Hayatın temel yapılarında zorlu bir test. Kariyer, ilişkiler ve sağlıkta krizler.", "challenge": "Dayanıklılığınızın ve sabrınızın en üst düzeyde test edildiği bir dönem." },
+          "Trine": { "personal": "Hayatınızda istikrar, güvenlik ve düzenin pekiştiği bir dönem. Sıkı çalışmanın ödülleri.", "profession": "Kariyerde sağlam bir konum elde etme." },
+          "Opposition": { "personal": "Hayatınızın gidişatının dış koşullar veya başkaları tarafından engellenmesi. Önemli bir yol ayrımı.", "challenge": "Sorumluluklar ve kişisel özgürlük arasında büyük bir gerilim." }
+      },
+      "Natal Uranus": {
+          "Conjunction": { "personal": "Özgürlük arzusu ile sorumluluklar arasında bir çatışma. Eski ve yeni arasında sıkışma.", "challenge": "Ani gelişen sorumlulukların getirdiği stres." },
+          "Sextile": { "personal": "Yenilikçi fikirleri somut ve pratik projelere dönüştürme fırsatı.", "profession": "Teknoloji ve geleneksel yöntemleri birleştirme." },
+          "Square": { "personal": "Ani ve beklenmedik kısıtlamalar. Özgürlüğünüzün aniden elinizden alınması hissi.", "challenge": "İsyan ve kuralcılık arasında gerilim." },
+          "Trine": { "personal": "Değişimi ve yeniliği istikrarlı ve kalıcı bir şekilde hayata geçirme yeteneği.", "profession": "Orijinal fikirlerle pratik başarı." },
+          "Opposition": { "personal": "Beklenmedik olayların veya başkalarının isyankar tavırlarının planlarınızı bozması.", "challenge": "Özgürlük ve kontrol arasında dışsal bir savaş." }
+      },
+      "Natal Neptune": {
+          "Conjunction": { "personal": "Hayallerin ve ideallerin gerçeklik testinden geçtiği bir dönem. Korkularla yüzleşme.", "challenge": "Kafa karışıklığı, belirsizlik ve hayal kırıklığı. Neyin gerçek olduğunu anlama zorluğu." },
+          "Sextile": { "personal": "Hayalleri ve ilhamı somut bir forma dökme fırsatı. Sanatsal projeleri gerçekleştirme.", "profession": "Yaratıcılık ve disiplini birleştirme." },
+          "Square": { "personal": "Zorlu hayal kırıklıkları, skandallar veya gizli kalmış şeylerin ortaya çıkması.", "challenge": "İnanç sisteminizin çökmesi. Kendini kandırma." },
+          "Trine": { "personal": "Ruhsal ve manevi idealleri pratik hayata uygulama. Bilgelik ve şefkatin birleşimi.", "emotions": "İçsel bir huzur ve manevi olgunluk." },
+          "Opposition": { "personal": "Gerçekler ve hayaller arasında bir çatışma. Başkalarının aldatıcı davranışları nedeniyle sorumluluk almak.", "challenge": "Kurban rolü oynama ve sorumluluktan kaçma eğilimi." }
+      },
+      "Natal Pluto": {
+          "Conjunction": { "personal": "Hayatınızda önemli bir yapının sonu ve yeniden doğuşu. Derin ve zorunlu bir dönüşüm.", "challenge": "Yoğun baskı, kayıp korkusu ve kontrol mücadeleleri." },
+          "Sextile": { "personal": "Hayatınızda kalıcı ve güçlü bir yapı kurmak için stratejik fırsatlar.", "profession": "Güç ve otoriteyi sağlamlaştırma." },
+          "Square": { "personal": "Kariyerde veya hayatın temel yapılarında büyük krizler ve güç mücadeleleri.", "challenge": "Dış güçler tarafından zorla dönüştürülme hissi." },
+          "Trine": { "personal": "Muazzam bir dayanıklılık, odaklanma ve güç. Hayatınızın kontrolünü ele alarak kalıcı bir başarı inşa etme.", "profession": "Liderlik ve otoriteyi sağlamlaştırma." },
+          "Opposition": { "personal": "Güçlü düşmanlar veya dış koşullarla zorlu bir mücadele. Hayatınızın temelden sarsılması.", "challenge": "Hayatta kalma ve kontrolü elde tutma savaşı." }
+      }
+  }
+}
