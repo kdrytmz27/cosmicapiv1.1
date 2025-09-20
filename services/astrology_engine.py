@@ -1,3 +1,9 @@
+# Gerekli yeni importlar
+from fastapi import HTTPException
+import traceback
+import sys
+
+# Mevcut importlarınız
 import swisseph as swe
 from datetime import datetime
 import pytz
@@ -86,25 +92,15 @@ def recognize_aspect_patterns(planets: List[Dict], aspects: List[Dict]) -> List[
                     patterns.append({"pattern": "T-Square", "planets": sorted(list(p_names)), "apex_planet": p_apex})
     return patterns
 
-
-
-
-
-
 def calculate_synastry_aspects(planets1: List[Dict], planets2: List[Dict]) -> List[Dict]:
     SYNASTRY_MAJOR_ASPECTS = {k: v for k, v in ASPECTS.items() if v['type'] == 'Major'}
     synastry_aspects = []
     for p1 in planets1:
         for p2 in planets2:
-            # --- YENİ: Sağlamlık Kontrolü ---
-            # Gezegen verilerinde 'longitude' anahtarının varlığını ve değerinin sayısal olduğunu kontrol et.
             if 'longitude' not in p1 or 'longitude' not in p2 or \
                not isinstance(p1['longitude'], (int, float)) or \
                not isinstance(p2['longitude'], (int, float)):
-                # Eğer veri eksik veya hatalıysa, bu gezegen çiftini atla ve bir sonrakine geç.
                 continue
-            # --- Kontrol Sonu ---
-
             angle = abs(p1['longitude'] - p2['longitude'])
             if angle > 180: angle = 360 - angle
             for aspect_name, aspect_info in SYNASTRY_MAJOR_ASPECTS.items():
@@ -113,18 +109,6 @@ def calculate_synastry_aspects(planets1: List[Dict], planets2: List[Dict]) -> Li
                     synastry_aspects.append({"planet1": p1['planet'], "aspect": aspect_name, "planet2": p2['planet'], "orb": orb})
                     break
     return synastry_aspects
-
-
-
-
-
-
-
-
-
-
-
-
 
 def _find_house_rulers(house_cusps: List[float], planets: List[Dict], rulership_system: str) -> List[Dict]:
     rulerships = []
@@ -167,51 +151,99 @@ def _calculate_balance(planets_with_details: List[Dict]) -> Dict[str, Any]:
             if p.get('modality'): modalities[p['modality']] += 1
     return {"elements": elements, "modalities": modalities}
 
+# --- GÜNCELLENMİŞ VE HATA YAKALAMA EKLENMİŞ FONKSİYON ---
 def calculate_natal_data(birth_data: BirthData) -> Dict[str, Any]:
-    tf = TimezoneFinder(); timezone_str = tf.timezone_at(lng=birth_data.lon, lat=birth_data.lat)
-    if not timezone_str: return {"error": "Geçersiz koordinatlar için zaman dilimi bulunamadı."}
-    local_tz = pytz.timezone(timezone_str); naive_dt = datetime.combine(birth_data.date, birth_data.time)
-    local_dt = local_tz.localize(naive_dt); utc_dt = local_tz.normalize(local_dt).astimezone(pytz.utc)
-    julian_day_utc = swe.utc_to_jd(utc_dt.year, utc_dt.month, utc_dt.day, utc_dt.hour, utc_dt.minute, utc_dt.second, 1)[0]
-    swe.set_ephe_path(str(EPHE_PATH))
-    raw_planets = []; planet_longitudes = {}
-    for name, num in PLANET_NUMBERS.items():
-        pos_data, ret_flag = swe.calc_ut(julian_day_utc, num, 0) if name == 'Lilith' else swe.calc_ut(julian_day_utc, num, swe.FLG_SPEED)
-        if ret_flag < 0: continue
-        longitude = pos_data[0]
-        eq_data, ret_flag_eq = swe.calc_ut(julian_day_utc, num, swe.FLG_EQUATORIAL)
-        declination = eq_data[1] if ret_flag_eq >= 0 else 0.0
-        is_retrograde, speed = False, 0.0
-        if len(pos_data) > 3 and name != 'Lilith':
-            speed = pos_data[3]
-            if name not in ['True Node', 'Sun', 'Moon'] and speed < 0: is_retrograde = True
-        raw_planets.append({"planet": name, "longitude": longitude, "is_retrograde": is_retrograde, "speed": speed,
-                            "declination": declination, "declination_formatted": format_declination(declination)})
-        planet_longitudes[name] = longitude
     try:
-        house_cusps_raw, ascmc = swe.houses(julian_day_utc, birth_data.lat, birth_data.lon, bytes(birth_data.house_system.value, "utf-8"))
-    except swe.Error as e: return {"error": f"Evler hesaplanamadı. Detay: {e}"}
-    asc_longitude = ascmc[0]; sun_longitude = planet_longitudes.get('Sun', 0); moon_longitude = planet_longitudes.get('Moon', 0)
-    horizon_diff = (sun_longitude - asc_longitude + 360) % 360; is_day_chart = 0 <= horizon_diff < 180
-    if is_day_chart: fortune_longitude = (asc_longitude + moon_longitude - sun_longitude + 360) % 360
-    else: fortune_longitude = (asc_longitude + sun_longitude - moon_longitude + 360) % 360
-    raw_planets.append({"planet": "Part of Fortune", "longitude": fortune_longitude, "is_retrograde": False,
-                        "speed": 0.0, "declination": 0.0, "declination_formatted": "N/A"})
-    planets_with_details = []
-    for p in raw_planets:
-        details = get_zodiac_sign_details(p['longitude'])
-        house = _find_planet_in_house(p['longitude'], list(house_cusps_raw))
-        planets_with_details.append({**p, **details, "house": house})
-    planet_to_planet_aspects = calculate_aspects(planets_with_details)
-    aspect_patterns = recognize_aspect_patterns(planets_with_details, planet_to_planet_aspects)
-    all_points_for_aspects = planets_with_details + [{"planet": "Ascendant", "longitude": ascmc[0], "speed": None},{"planet": "Midheaven", "longitude": ascmc[1], "speed": None}]
-    longitude_aspects = calculate_aspects(all_points_for_aspects)
-    declination_aspects = calculate_declination_aspects(planets_with_details)
-    all_aspects = longitude_aspects + declination_aspects
-    house_rulers = _find_house_rulers(list(house_cusps_raw), planets_with_details, birth_data.rulership_system.value)
-    balance_data = _calculate_balance(planets_with_details)
-    return {
-        "planets": planets_with_details, "house_cusps": list(house_cusps_raw), "ascmc": list(ascmc),
-        "aspects": all_aspects, "aspect_patterns": aspect_patterns, "house_rulers": house_rulers,
-        "balance": balance_data
-    }
+        tf = TimezoneFinder()
+        timezone_str = tf.timezone_at(lng=birth_data.lon, lat=birth_data.lat)
+        if not timezone_str:
+            raise ValueError(f"Geçersiz koordinatlar için zaman dilimi bulunamadı: Lat {birth_data.lat}, Lon {birth_data.lon}")
+
+        local_tz = pytz.timezone(timezone_str)
+        naive_dt = datetime.combine(birth_data.date, birth_data.time)
+        local_dt = local_tz.localize(naive_dt)
+        utc_dt = local_tz.normalize(local_dt).astimezone(pytz.utc)
+        
+        julian_day_utc = swe.utc_to_jd(utc_dt.year, utc_dt.month, utc_dt.day, utc_dt.hour, utc_dt.minute, utc_dt.second, 1)[0]
+        swe.set_ephe_path(str(EPHE_PATH))
+        
+        raw_planets = []
+        planet_longitudes = {}
+        for name, num in PLANET_NUMBERS.items():
+            try:
+                pos_data, ret_flag = swe.calc_ut(julian_day_utc, num, 0) if name == 'Lilith' else swe.calc_ut(julian_day_utc, num, swe.FLG_SPEED)
+                if ret_flag < 0:
+                    print(f"UYARI: {name} gezegeni hesaplanamadı, atlanıyor.", file=sys.stderr)
+                    continue
+            except Exception as swe_err:
+                print(f"UYARI: {name} gezegeni hesaplanırken Swisseph hatası oluştu: {swe_err}", file=sys.stderr)
+                continue
+                
+            longitude = pos_data[0]
+            eq_data, ret_flag_eq = swe.calc_ut(julian_day_utc, num, swe.FLG_EQUATORIAL)
+            declination = eq_data[1] if ret_flag_eq >= 0 else 0.0
+            is_retrograde, speed = False, 0.0
+            if len(pos_data) > 3 and name != 'Lilith':
+                speed = pos_data[3]
+                if name not in ['True Node', 'Sun', 'Moon'] and speed < 0:
+                    is_retrograde = True
+            raw_planets.append({"planet": name, "longitude": longitude, "is_retrograde": is_retrograde, "speed": speed,
+                                "declination": declination, "declination_formatted": format_declination(declination)})
+            planet_longitudes[name] = longitude
+        
+        try:
+            house_cusps_raw, ascmc = swe.houses(julian_day_utc, birth_data.lat, birth_data.lon, bytes(birth_data.house_system.value, "utf-8"))
+        except Exception as e:
+            raise ValueError(f"Evler hesaplanamadı. Swisseph hatası: {e}")
+
+        asc_longitude = ascmc[0]
+        sun_longitude = planet_longitudes.get('Sun', 0)
+        moon_longitude = planet_longitudes.get('Moon', 0)
+        
+        horizon_diff = (sun_longitude - asc_longitude + 360) % 360
+        is_day_chart = 0 <= horizon_diff < 180
+        
+        if is_day_chart:
+            fortune_longitude = (asc_longitude + moon_longitude - sun_longitude + 360) % 360
+        else:
+            fortune_longitude = (asc_longitude + sun_longitude - moon_longitude + 360) % 360
+            
+        raw_planets.append({"planet": "Part of Fortune", "longitude": fortune_longitude, "is_retrograde": False,
+                            "speed": 0.0, "declination": 0.0, "declination_formatted": "N/A"})
+        
+        planets_with_details = []
+        for p in raw_planets:
+            details = get_zodiac_sign_details(p['longitude'])
+            house = _find_planet_in_house(p['longitude'], list(house_cusps_raw))
+            planets_with_details.append({**p, **details, "house": house})
+            
+        planet_to_planet_aspects = calculate_aspects(planets_with_details)
+        aspect_patterns = recognize_aspect_patterns(planets_with_details, planet_to_planet_aspects)
+        
+        all_points_for_aspects = planets_with_details + [{"planet": "Ascendant", "longitude": ascmc[0], "speed": None}, {"planet": "Midheaven", "longitude": ascmc[1], "speed": None}]
+        
+        longitude_aspects = calculate_aspects(all_points_for_aspects)
+        declination_aspects = calculate_declination_aspects(planets_with_details)
+        all_aspects = longitude_aspects + declination_aspects
+        
+        house_rulers = _find_house_rulers(list(house_cusps_raw), planets_with_details, birth_data.rulership_system.value)
+        balance_data = _calculate_balance(planets_with_details)
+        
+        return {
+            "planets": planets_with_details, "house_cusps": list(house_cusps_raw), "ascmc": list(ascmc),
+            "aspects": all_aspects, "aspect_patterns": aspect_patterns, "house_rulers": house_rulers,
+            "balance": balance_data
+        }
+    
+    except Exception as e:
+        error_type = type(e).__name__
+        error_message = str(e)
+        error_traceback = traceback.format_exc()
+        
+        print(f"HESAPLAMA HATASI YAKALANDI:\n{error_traceback}", file=sys.stderr)
+        
+        raise HTTPException(
+            status_code=500,
+            detail=f"Natal harita hesaplanırken bir sunucu hatası oluştu. "
+                   f"Hata Tipi: {error_type}, Mesaj: {error_message}"
+        )
