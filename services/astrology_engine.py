@@ -86,11 +86,25 @@ def recognize_aspect_patterns(planets: List[Dict], aspects: List[Dict]) -> List[
                     patterns.append({"pattern": "T-Square", "planets": sorted(list(p_names)), "apex_planet": p_apex})
     return patterns
 
+
+
+
+
+
 def calculate_synastry_aspects(planets1: List[Dict], planets2: List[Dict]) -> List[Dict]:
     SYNASTRY_MAJOR_ASPECTS = {k: v for k, v in ASPECTS.items() if v['type'] == 'Major'}
     synastry_aspects = []
     for p1 in planets1:
         for p2 in planets2:
+            # --- YENİ: Sağlamlık Kontrolü ---
+            # Gezegen verilerinde 'longitude' anahtarının varlığını ve değerinin sayısal olduğunu kontrol et.
+            if 'longitude' not in p1 or 'longitude' not in p2 or \
+               not isinstance(p1['longitude'], (int, float)) or \
+               not isinstance(p2['longitude'], (int, float)):
+                # Eğer veri eksik veya hatalıysa, bu gezegen çiftini atla ve bir sonrakine geç.
+                continue
+            # --- Kontrol Sonu ---
+
             angle = abs(p1['longitude'] - p2['longitude'])
             if angle > 180: angle = 360 - angle
             for aspect_name, aspect_info in SYNASTRY_MAJOR_ASPECTS.items():
@@ -99,6 +113,18 @@ def calculate_synastry_aspects(planets1: List[Dict], planets2: List[Dict]) -> Li
                     synastry_aspects.append({"planet1": p1['planet'], "aspect": aspect_name, "planet2": p2['planet'], "orb": orb})
                     break
     return synastry_aspects
+
+
+
+
+
+
+
+
+
+
+
+
 
 def _find_house_rulers(house_cusps: List[float], planets: List[Dict], rulership_system: str) -> List[Dict]:
     rulerships = []
