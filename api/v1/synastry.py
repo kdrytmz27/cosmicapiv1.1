@@ -13,9 +13,19 @@ router = APIRouter()
 
 # --- DEPENDENCIES (BAĞIMLILIKLAR) ---
 
-# YENİ ve GÜNCELLENMİŞ: Bu fonksiyon, iki kişinin natal haritasını,
-# zaten önbelleğe alınmış olan `get_natal_data_dependency`'yi kullanarak hesaplar.
-def get_synastry_charts_dependency(data: SynastryData) -> Dict[str, Any]:
+
+
+
+
+
+
+
+
+# --- BU FONKSİYONU GÜNCELLEYİN ---
+
+# YENİ ve GÜNCELLENMİŞ: Bu fonksiyon artık ASENKRON (async def)
+# ve içinde çağırdığı görevin bitmesini bekliyor (await).
+async def get_synastry_charts_dependency(data: SynastryData) -> Dict[str, Any]:
     """
     İki kişilik doğum verilerini, ana önbellekli bağımlılığı kullanarak hesaplar.
     Bu, eğer haritalardan biri daha önce hesaplandıysa, sonucun doğrudan
@@ -23,10 +33,28 @@ def get_synastry_charts_dependency(data: SynastryData) -> Dict[str, Any]:
     """
     # Not: Burada doğrudan `raise HTTPException` kullanmıyoruz, çünkü
     # `get_natal_data_dependency` zaten hata durumunda bunu bizim için yapıyor.
-    p1_data = get_natal_data_dependency(birth_data=data.person1)
-    p2_data = get_natal_data_dependency(birth_data=data.person2)
+    
+    # --- DEĞİŞİKLİK: 'await' eklendi ---
+    p1_data = await get_natal_data_dependency(birth_data=data.person1)
+    p2_data = await get_natal_data_dependency(birth_data=data.person2)
 
     return {"p1_data": p1_data, "p2_data": p2_data}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 # YENİ ve GÜNCELLENMİŞ: Bu bağımlılık artık kendisi de önbelleğe alınıyor.
 # Aynı iki kişi için sinastri analizi tekrar istendiğinde, tüm sonuç anında dönecektir.
