@@ -18,9 +18,6 @@ router = APIRouter()
 
 
 
-
-
-
 # --- BU FONKSİYONU GÜNCELLEYİN ---
 
 # YENİ ve GÜNCELLENMİŞ: Bu fonksiyon artık ASENKRON (async def)
@@ -55,11 +52,8 @@ async def get_synastry_charts_dependency(data: SynastryData) -> Dict[str, Any]:
 
 
 
-
-# YENİ ve GÜNCELLENMİŞ: Bu bağımlılık artık kendisi de önbelleğe alınıyor.
-# Aynı iki kişi için sinastri analizi tekrar istendiğinde, tüm sonuç anında dönecektir.
 @cache(expire=600)
-def get_full_synastry_bundle_dependency(charts: Dict[str, Any] = Depends(get_synastry_charts_dependency)) -> Dict[str, Any]:
+async def get_full_synastry_bundle_dependency(charts: Dict[str, Any] = Depends(get_synastry_charts_dependency)) -> Dict[str, Any]:
     """
     Hazır hesaplanmış haritaları alıp üzerine sinastri açılarını ekler.
     Bu fonksiyonun sonucu da 10 dakika boyunca önbellekte tutulur.
@@ -70,6 +64,17 @@ def get_full_synastry_bundle_dependency(charts: Dict[str, Any] = Depends(get_syn
     synastry_aspects = calculate_synastry_aspects(p1_data['planets'], p2_data['planets'])
     
     return {**charts, "aspects": synastry_aspects}
+
+
+
+
+
+
+
+
+
+
+
 
 
 # --- API ENDPOINTS ---
