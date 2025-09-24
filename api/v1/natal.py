@@ -39,7 +39,11 @@ async def get_natal_data_dependency(birth_data: BirthData) -> Dict[str, Any]:
         redis_url = os.getenv("REDIS_URL")
         if redis_url:
             try:
-                redis = await aioredis.from_url(redis_url, encoding="utf8", decode_responses=True)
+                # --- DEĞİŞİKLİK BURADA ---
+                # decode_responses=True parametresi kaldırıldı.
+                redis = await aioredis.from_url(redis_url, encoding="utf8")
+                # --- DEĞİŞİKLİK BİTTİ ---
+                
                 await redis.ping()
                 FastAPICache.init(RedisBackend(redis), prefix="fastapi-cache")
                 print("BAŞARI: Cache, 'get_natal_data_dependency' içinden başarıyla yeniden başlatıldı.")
